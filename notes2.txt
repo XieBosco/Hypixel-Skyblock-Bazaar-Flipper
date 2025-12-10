@@ -1,0 +1,7 @@
+- The Hypixel bazaar container are really just minecraft chest containers
+- minescript_plus's click_slot() function is indistinguishable from external functions
+like pyautogui because they send identical packets to a server. This means click_slot()
+is the ideal choice.
+- There are approximately 20 ticks per second (TPS), meaning that each tick last for
+0.05 seconds or 50 milliseconds.
+- Minescript.execute() executes minecraft commands

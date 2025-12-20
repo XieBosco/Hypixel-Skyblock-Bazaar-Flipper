@@ -1,15 +1,18 @@
 import minescript
+from utils.minescript_plus import Inventory, Screen
 import requests
 import pprint
 from enum import Enum
 from dataclasses import dataclass
 import os
+import sys
 import json
 import time
 from typing import List, Dict
 import re
 import threading
 import queue
+from randomizer import HumanDelay
 
 # debuging
 
@@ -33,22 +36,27 @@ class Order:
     amount: int
     price_per_unit: float
     order_type: OrderType
+    slot: int
     status: str = "SEARCHING"
 
     def __eq__(self, other):
         return (self.product_id == other.product_id and 
                 self.price_per_unit == other.price_per_unit and 
-                self.order_type == other.order_type)
+                self.order_type == other.order_type and
+                self.slot == other.slot)
 
 
 # Global State
 my_orders = []
 bazaar_conversions = {} # API IDs ---> name
 bazaar_conversions_inverse = {} # name ---> API IDs
+outdated_orders = []
+human = HumanDelay()
+orders_lock = threading.RLock()
 
 def load_bazaar_conversions() -> None:
     """
-    Docstring for load_bazaar_conversions
+    Loads bazaarConversions.json into global dictionaries for ID-name mapping.
     """
     global bazaar_conversions, bazaar_conversions_inverse
     
@@ -77,8 +85,7 @@ def fetch_bazaar_data() -> Dict[str, bool | int | Dict[str, str | List[Dict[str,
 
 def get_product_id(name: str) -> str:
     """
-    Returns the API's reference to product name
-    (e.g. "Enchanted Iron" -> "ENCHANTED_IRON")
+    Converts a product name to its corresponding bazaar product ID.
     """
     # Try exact match which in most cases will work
     if name in bazaar_conversions_inverse:
@@ -96,13 +103,13 @@ def get_product_id(name: str) -> str:
 
 def parse_price(price_str: str) -> float:
     """
-    Parses a in-chat price_str into its float representation
+    Parses a in-chat price_str into its float representation.
     """
     return float(price_str.replace(",", ""))
 
 def parse_amount(amount_str: str) -> int:
     """
-    Parses a in-chat amount_str into its int representation
+    Parses a in-chat amount_str into its int representation.
     """
     return int(amount_str.replace(",", ""))
 
@@ -136,6 +143,7 @@ def parse_nbt_tooltip(nbt_str: str) -> Dict:
         price_str = price_match.group(1)
         return {
             "order_type": OrderType.BUY if o_type_str == "BUY" else OrderType.SELL,
+            "product_id": get_product_id(p_name),
             "product_name": p_name,
             "amount": parse_amount(amount_str),
             "price_per_unit": parse_price(price_str)
@@ -143,6 +151,9 @@ def parse_nbt_tooltip(nbt_str: str) -> Dict:
     return None
 
 def parse_personal_orders() -> None:
+    """
+    Parses the player's personal bazaar orders from the "Your Bazaar Orders" screen.
+    """
     global my_orders
     found_orders = []
     if minescript.screen_name() == "Your Bazaar Orders":
@@ -158,192 +169,394 @@ def parse_personal_orders() -> None:
             if hasattr(itemstack, 'nbt'):
                 data = parse_nbt_tooltip(itemstack.nbt)
                 if data:
-                    p_id = get_product_id(data['product_name'])
                     order = Order(
-                        product_id=p_id,
+                        product_id=data['product_id'],
                         product_name=data['product_name'],
                         amount=data['amount'],
                         price_per_unit=data['price_per_unit'],
                         order_type=data['order_type'],
+                        slot=itemstack.slot
                     )
                     found_orders.append(order)
         my_orders = found_orders
 
 def update_orders_from_api() -> None:
     """
-    Docstring for update_orders_from_api
+    Updates the status of tracked orders based on the latest bazaar data from the API.
+    1. Fetches the latest bazaar data.
+    2. Compares each tracked order with the current market data.
+    3. Updates the order status accordingly.
     """
-    global my_orders
+    global my_orders, outdated_orders
 
-    data = fetch_bazaar_data()
-    if not data:
-        return
+    with orders_lock:
+        data = fetch_bazaar_data()
+        if not data:
+            return
 
-    products = data['products']
-    
-    # continue if product does not exist in the bazaar
-    for order in my_orders:
-        if order.product_id not in products:
-            minescript.echo(order.product_id + "is not recognized") # debuger
-            continue
-
-        product_data = products[order.product_id]
+        products = data['products']
         
-        # Logic from Java Mod:
-        # BUY Order -> Compare with sell_summary (Buy Orders)
-        # SELL Offer -> Compare with buy_summary (Sell Offers)
-        # These unusual names exists due to the API's naming of these fields
-        
-        market_list = []
-        if order.order_type == OrderType.BUY:
-            # Buy Orders
-            market_list = product_data['sell_summary']
-        elif order.order_type == OrderType.SELL:
-            # Sell Orders
-            market_list = product_data['buy_summary']
+        # continue if product does not exist in the bazaar
+        for order in my_orders:
+            if order.product_id not in products:
+                minescript.echo(order.product_id + " is not recognized") # for debugging
+                continue
 
-        if not market_list:
-            continue
-        
-        # Top orders are the first item in the list
-        top_market_order = market_list[0]
-        top_price: float = top_market_order['pricePerUnit']
-        
-        new_status = order.status
-
-        if order.order_type == OrderType.BUY: # BUY
-            if order.price_per_unit < top_price:
-                new_status = "OUTDATED"
-            elif order.price_per_unit == top_price:
-                # Check if we are the only one or matched
-                if top_market_order['orders'] == 1:
-                        new_status = "BEST"
-                else:
-                        new_status = "MATCHED"
-            else:
-                new_status = "BEST" # We are overpaying, so we are top
-        elif order.order_type == OrderType.SELL: # SELL
-            if order.price_per_unit > top_price:
-                new_status = "OUTDATED"
-            elif order.price_per_unit == top_price:
-                if top_market_order['orders'] == 1:
-                        new_status = "BEST"
-                else:
-                        new_status = "MATCHED"
-            else:
-                new_status = "BEST" # We are undercutting, so we are top
-
-        if new_status != order.status:
-            if new_status == "OUTDATED":
-                minescript.echo(f"&c[BN] {order.order_type.value} for {order.product_name} is OUTDATED!")
-            elif new_status == "MATCHED":
-                minescript.echo(f"&e[BN] {order.order_type.value} for {order.product_name} is MATCHED.")
-            elif new_status == "BEST" and order.status == "OUTDATED":
-                minescript.echo(f"&a[BN] {order.order_type.value} for {order.product_name} is BEST again.")
+            product_data = products[order.product_id]
             
-            order.status = new_status
+            # Logic from Java Mod:
+            # BUY Order -> Compare with sell_summary (Buy Orders)
+            # SELL Offer -> Compare with buy_summary (Sell Offers)
+            # These unusual names exists due to the API's naming of these fields
+            
+            market_list = []
+            if order.order_type == OrderType.BUY:
+                # Buy Orders
+                market_list = product_data['sell_summary']
+            elif order.order_type == OrderType.SELL:
+                # Sell Orders
+                market_list = product_data['buy_summary']
 
+            if not market_list:
+                continue
+            
+            # Top orders are the first item in the list
+            top_market_order = market_list[0]
+            top_price: float = top_market_order['pricePerUnit']
+            
+            new_status = order.status
+
+            if order.order_type == OrderType.BUY: # BUY
+                if order.price_per_unit < top_price:
+                    new_status = "OUTDATED"
+                elif order.price_per_unit == top_price:
+                    # Check if we are the only one or matched
+                    if top_market_order['orders'] == 1:
+                            new_status = "BEST"
+                    else:
+                            new_status = "MATCHED"
+                else:
+                    new_status = "BEST" # We are overpaying, so we are top
+            elif order.order_type == OrderType.SELL: # SELL
+                if order.price_per_unit > top_price:
+                    new_status = "OUTDATED"
+                elif order.price_per_unit == top_price:
+                    if top_market_order['orders'] == 1:
+                            new_status = "BEST"
+                    else:
+                            new_status = "MATCHED"
+                else:
+                    new_status = "BEST" # We are undercutting, so we are top
+
+            if new_status != order.status:
+                if new_status == "OUTDATED":
+                    minescript.echo(f"&c[BN] {order.order_type.value} for {order.product_name} is OUTDATED!")
+                    add_outdated(order)
+                elif new_status == "MATCHED":
+                    minescript.echo(f"&e[BN] {order.order_type.value} for {order.product_name} is MATCHED.")
+                    add_outdated(order)
+                elif new_status == "BEST" and (order.status == "OUTDATED" or order.status == "MATCHED"):
+                    minescript.echo(f"&a[BN] {order.order_type.value} for {order.product_name} is BEST again.")
+                    outdated_orders.remove(order)
+                
+                order.status = new_status
 
 def api_loop():
     """
-    Updates orders from new API calls every CHECK_INTERVAL seconds.
+    Background thread to periodically update orders from the API.
+    1. Runs indefinitely, sleeping for CHECK_INTERVAL between updates.
     """
     while True:
         update_orders_from_api()
         time.sleep(CHECK_INTERVAL)
 
-
-def process_chat(message: str) -> None:
-    # Clean color codes if necessary (Minescript usually gives clean text or with codes)
-    # Regex patterns
+def add_outdated(order) -> None:
+    """
+    Docstring for add_outdated
     
-    # 1. Setup
-    # "[Bazaar] Buy Order Setup! 64x Enchanted Iron for 100,000 coins."
-    setup_pattern = r"\[Bazaar\] (Buy Order|Sell Offer) Setup! ([\d,]+)x (.+) for ([\d,.]+) coins\."
-    match = re.search(setup_pattern, message)
-    if match:
-        o_type_str = match.group(1) # Order Type
-        amount_str = match.group(2) # Product Amount
-        p_name = match.group(3) # Product Name
-        price_str = match.group(4) # Total Price
+    :param order: Description
+    """
+    global outdated_orders
+
+    if order in outdated_orders:
+        return
+    outdated_orders.append(order)
+
+def seek_manage_orders() -> None | int:
+    """
+    Finds the slot number of the "Manage Orders" item in the Bazaar screen.
+    Returns the slot number if found, else None.
+    """
+    screen_name = minescript.screen_name()
+    if screen_name == None:
+        return
+    if "Bazaar" in screen_name:
+        container = minescript.container_get_items()
+
+        for itemstack in container:
+            item_name = None
+            if hasattr(itemstack, 'nbt') and itemstack.nbt:
+                # Robust regex to handle both quoted "text" and unquoted text keys
+                match = re.search(r'"minecraft:custom_name":.*?"?text"?:?"(.*?)"', itemstack.nbt)
+                if match:
+                    item_name = match.group(1)
+
+            if item_name == "Manage Orders":
+                return itemstack.slot
         
-        o_type = OrderType.BUY if "Buy" in o_type_str else OrderType.SELL
-        amount = parse_amount(amount_str)
-        price_total = parse_price(price_str)
-        price_unit = price_total / amount # Price per unit
+        return 
+
+
+def wait_for_screen(screen_keyword: str | None, timeout: float = 5.0) -> None:
+    """
+    Waits until the current screen name contains the keyword.
+    Returns True if successful, False if timed out.
+    """
+    start_time = time.time()
+
+    # Handles when scrreen_keyword is None / when no container is opened
+    if screen_keyword == None:
+        while time.time() - start_time < timeout:
+            current_screen = minescript.screen_name()
+            if current_screen == None:
+                return 
+            time.sleep(0.1)
         
-        p_id = get_product_id(p_name)
+        # Stop the program
+        minescript.echo(f"Did not exit container in time")
+        sys.exit()
+
+    
+    while time.time() - start_time < timeout:
+        current_screen = minescript.screen_name()
+        if current_screen and screen_keyword in current_screen: # If current_screen is None, it evaluates as false
+            return 
+        time.sleep(0.1)
+
+    # Stop the program
+    minescript.echo(f"{screen_keyword} did not load")
+    sys.exit()
+
+def open_bazaar_orders() -> None:
+    human.typing_delay("/bz", wpm=100)
+
+    minescript.execute("/bz")
+    
+    # Wait for server response (Lag handling)
+    wait_for_screen("Bazaar", timeout=8.0)
+
+    # Human reaction time AFTER the menu appears
+    human.wait(min_seconds=0.8, max_seconds=1.2, skew=0.4, momentum=0.5)
+
+    manage_orders_slot = seek_manage_orders()
+    if manage_orders_slot == None:
+        return
+    Inventory.click_slot(manage_orders_slot)
+    
+    # Wait for "Your Bazaar Orders"
+    wait_for_screen("Your Bazaar Orders", timeout=5.0)
+
+    human.wait(min_seconds=1.5, max_seconds=3, skew=0.4, momentum=0.5)
+
+def claim_orders() -> None:
+    """
+    Iteratively finds and claims orders until no more claimable orders exist.
+    Handles slot shifting and partial claims by re-scanning after each click.
+    """
+    while True:
+        claim_slots = []
+        if minescript.screen_name() == "Your Bazaar Orders":
+            container = minescript.container_get_items()
+
+            for itemstack in container:
+                if itemstack is None:
+                    continue
+                
+                nbt = itemstack.nbt
+                if not nbt:
+                    continue
+
+                # Check for SELL or BUY in custom_name
+                is_order = re.search(r'text:"(SELL |BUY )"', nbt)
+                
+                # Check for "Click to claim!" in lore
+                has_claim = re.search(r'text:"Click to claim!"', nbt)
+                
+                if is_order and has_claim:
+                    claim_slots.append(itemstack.slot)
+        else:
+            wait_for_screen("Your Bazaar Orders", timeout=5.0)
         
-        new_order = Order(p_id, p_name, amount, price_unit, o_type)
-        my_orders.append(new_order)
-        minescript.echo(f"&a[BN] Tracking new {o_type.value}: {p_name} at {price_unit:.1f}")
+        if not claim_slots:
+            break
+
+        # Click the first available claim slot
+        slot = claim_slots[0]
+        Inventory.click_slot(slot)
+        human.wait(min_seconds=1, max_seconds=2, skew=0.4, momentum=0.5)
+
+
+def renew_order() -> None:
+    global outdated_orders
+    cancel_button_slot_buy = 11
+    cancel_button_slot_sell = 13
+    buy_order_slot = 15
+    buy_small_amount = 10
+    buy_medium_amount = 12
+    buy_large_amount = 14
+    top_order_p01 = 12
+    confirm_buy = 13
+
+    sell_order_slot = 16
+    sell_order_m01 = 12
+    confirm_sell = 13
+
+    if minescript.screen_name() != "Your Bazaar Orders":
+        return
+    if not outdated_orders:
         return
 
-    # 2. Filled (Fully)
-    # "[Bazaar] Your Sell Offer for 64x Enchanted Iron was filled!"
-    filled_pattern = r"\[Bazaar\] Your (Buy Order|Sell Offer) for ([\d,]+)x (.+) was filled!"
-    match = re.search(filled_pattern, message)
-    if match:
-        o_type_str = match.group(1)
-        amount_str = match.group(2)
-        p_name = match.group(3)
+    parse_personal_orders()
+    update_orders_from_api()
+
+    order = outdated_orders[0]
+
+    slot = order.slot
+
+    # Clicks on the first outdated order
+    Inventory.click_slot(slot)
+    wait_for_screen("Order options", timeout=5.0)
+    human.wait(min_seconds=1, max_seconds=2, skew=0.4, momentum=0.5)
+
+    if order.order_type == OrderType.BUY:
+        Inventory.click_slot(cancel_button_slot_buy)
+        wait_for_screen("Your Bazaar Orders", timeout=5.0)
+        human.wait(min_seconds=1, max_seconds=2, skew=0.4, momentum=0.5)
+    
+    elif order.order_type == OrderType.SELL:
+        Inventory.click_slot(cancel_button_slot_sell)
+        wait_for_screen("Your Bazaar Orders", timeout=5.0)
+        human.wait(min_seconds=1, max_seconds=2, skew=0.4, momentum=0.5)
+    
+    leave_container()
+    wait_for_screen(None, timeout=5.0)
+    human.wait(min_seconds=0.6, max_seconds=0.8, skew=0.4, momentum=0.5)
+
+    # Search for product
+    human.typing_delay(f"/bz {order.product_name}", wpm=120)
+    minescript.execute(f"/bz {order.product_name}")
+    wait_for_screen(order.product_name[:20], timeout=8.0)
+    human.wait(min_seconds=0.8, max_seconds=1.5, skew=0.4, momentum=0.5)
+
+    # Click the product
+    product_slot = seek_product(order.product_name)
+    Inventory.click_slot(product_slot)
+    wait_for_screen(order.product_name[:20], timeout=8.0)
+    human.wait(min_seconds=1, max_seconds=2, skew=0.4, momentum=0.5)
+
+    if order.order_type == OrderType.BUY:
+        Inventory.click_slot(buy_order_slot)
+        wait_for_screen("How many do you want?", timeout=8.0)
+        human.wait(min_seconds=0.8, max_seconds=1.5, skew=0.4, momentum=0.5)
+
+        # Chooses amount to buy
+        if 2 * order.price_per_unit > 50000000: # When price per unit is above 50m
+            Inventory.click_slot(buy_small_amount)
+            wait_for_screen("How much do you want to pay?", timeout=8.0)
+            human.wait(min_seconds=0.8, max_seconds=1.5, skew=0.4, momentum=0.5)
+        else:
+            Inventory.click_slot(buy_medium_amount)
+            wait_for_screen("How much do you want to pay?", timeout=8.0)
+            human.wait(min_seconds=0.8, max_seconds=1.5, skew=0.4, momentum=0.5)
+
+        # Place top order
+        Inventory.click_slot(top_order_p01)
+        wait_for_screen("Confirm Buy Order", timeout=8.0)
+        human.wait(min_seconds=0.8, max_seconds=1.5, skew=0.4, momentum=0.5)
+
+        # Confirm buy order
+        Inventory.click_slot(confirm_buy)
+        wait_for_screen(None, timeout=8.0)
+        human.wait(min_seconds=0.6, max_seconds=0.8, skew=0.4, momentum=0.5)
+
+    elif order.order_type == OrderType.SELL:
+        Inventory.click_slot(sell_order_slot)
+        wait_for_screen("At what price are you selling?", timeout=8.0)
+        human.wait(min_seconds=0.8, max_seconds=1.5, skew=0.4, momentum=0.5)
+
+        # Place sell order
+        Inventory.click_slot(sell_order_m01)
+        wait_for_screen("Confirm Sell Offer", timeout=8.0)
+        human.wait(min_seconds=0.8, max_seconds=1.5, skew=0.4, momentum=0.5)
+
+        # Confirm sell order
+        Inventory.click_slot(confirm_sell)
+        wait_for_screen(None, timeout=8.0)
+        human.wait(min_seconds=0.6, max_seconds=0.8, skew=0.4, momentum=0.5)
+
+    # Remove the processed order to prevent infinite loops
+    if order in outdated_orders:
+        outdated_orders.remove(order)
         
-        o_type = OrderType.BUY if "Buy" in o_type_str else OrderType.SELL
-        amount = parse_amount(amount_str)
-        p_id = get_product_id(p_name)
-        
-        # Find and remove order
-        # We might have multiple orders for same item, remove the one that matches best or just first
-        
-        filled_order_idx = None
-        for i, order in enumerate(my_orders):
-            if order.product_id == p_id and order.order_type == o_type and order.amount == amount:
-                # Ideally check amount, but amount changes as it fills. 
-                # For simplicity, remove the first matching one.
 
-                other_buy_price_unit = 0
-                other_sell_price_unit = float('inf')
+def leave_container() -> None:
+    if minescript.screen_name() is not None:
+        Screen.close_screen()
 
-                if order.order_type == OrderType.BUY and order.price_per_unit > other_buy_price_unit:
-                    other_buy_price_unit = order.price_per_unit
-                    filled_order_idx = i
 
-                elif order.order_type == OrderType.SELL and order.price_per_unit < other_sell_price_unit:
-                    other_sell_price_unit = order.price_per_unit
-                    filled_order_idx = i
-
-        if filled_order_idx is not None:
-            del my_orders[filled_order_idx]
-            minescript.echo(f"&a[BN] Order filled and removed: {p_name}")
-
+def seek_product(product_name) -> int:
+    screen_name = minescript.screen_name()
+    if screen_name == None:
         return
-
-    # 3. Cancelled
-    # "[Bazaar] Cancelled! Refunded 12.8 coins from cancelling Buy Order!"
-    cancelled_pattern = r"\[Bazaar\] Cancelled! Refunded ([\d,.]+) coins from cancelling (Buy Order|Sell Offer)!"
-    match = re.search(cancelled_pattern, message)
-    if match:
-        refund_amount = parse_price(match.group(1))
-        o_type_str = match.group(2)
-        o_type = OrderType.BUY if "Buy" in o_type_str else OrderType.SELL
+    if "Bazaar" in screen_name:
+        container = minescript.container_get_items()
+        pattern = r'text:"' + re.escape(product_name) + r'"'
         
-        # Try to find matching order by price
-        for i, order in enumerate(my_orders):
-            if order.order_type == o_type:
-                total_price = order.amount * order.price_per_unit
-                # Check if total price matches refund amount (with small tolerance for float errors)
-                if abs(total_price - refund_amount) < 0.1:
-                    del my_orders[i]
-                    minescript.echo(f"&c[BN] Order cancelled and removed: {order.product_name}")
-                    break
-        return
+        for itemstack in container:
+            if itemstack is None:
+                continue
+            
+            if itemstack.nbt and re.search(pattern, itemstack.nbt):
+                return itemstack.slot
+            
+    return None
+
+def refresh_orders() -> None:
+    global outdated_orders
+
+    with orders_lock:
+        while outdated_orders:
+            open_bazaar_orders()
+
+            claim_orders()
+
+            renew_order()
+        
+        minescript.echo("All orders renewed")
+
+        # TODO
+        # seek for the outdated order
+
+        # if there are items to claim, run a for loop to claim all
+
+        # if there are no items to claim, then cancel order with a click on the outdated 
+        # and then the cancel button
+
+        # Press "E" to leave the container
+
+        # Then execute \bz [product_name]
+
+        # Click on the target product
+
+        # Create new buy or sell order
+
+        # Choose amount
+
+        # Choose "Top Order +0.1"
+
+        # Click "submit order"
 
 if __name__ == "__main__":
-    # api_loop()
-    # load_bazaar_conversions()
-    # minescript.echo(bazaar_conversions)
-    # minescript.echo(bazaar_conversions_inverse)
-    
     minescript.echo("&e[BN] Starting Bazaar Notifier...")
 
     # Load bazaarConversions.json
@@ -353,35 +566,19 @@ if __name__ == "__main__":
     api_thread = threading.Thread(target=api_loop, daemon=True)
     api_thread.start()
     
-    # For Debugging
+    # Key Event Handler
     def on_key_event(event):
-        if event.name == "c" and event.event_type == keyboard.KEY_DOWN:
-            minescript.echo(str(my_orders))
+        if event.event_type == keyboard.KEY_DOWN:
+            if event.name == "c":
+                minescript.echo(str(my_orders))
+            elif event.name == "x":
+                minescript.echo("&c[BN] Emergency Stop Activated! Exiting...")
+                os._exit(0)
 
     # Hook key events once
     keyboard.on_press(on_key_event)
-    
-    # Main Event Loop
-    # with minescript.EventQueue() as event_queue:
-    #     event_queue.register_chat_listener()
-    #     minescript.echo("&a[BN] Listening for Bazaar chat messages...")
 
-    #     previous_screen = None
-        
-    #     while True:
-    #         try:
-    #             event = event_queue.get(timeout=1.0)
-    #             if event.type == minescript.EventType.CHAT:
-    #                 process_chat(event.message)
-    #         except queue.Empty:
-    #             pass
-            
-    #         current_screen = minescript.screen_name()
-            
-    #         if previous_screen != current_screen and current_screen == "Your Bazaar Orders":
-    #             parse_personal_orders()
-
-    #         previous_screen = minescript.screen_name()
+    # Main Loop
 
     previous_screen = minescript.screen_name()
     while True:
@@ -392,6 +589,9 @@ if __name__ == "__main__":
             parse_personal_orders()
 
         previous_screen = current_screen
+
+        if outdated_orders:
+            refresh_orders()
 
             
             

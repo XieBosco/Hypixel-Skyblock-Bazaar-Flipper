@@ -1,0 +1,7346 @@
+{
+    "ENCHANTMENT_TURBO_ROSE_5": {
+        "buy_score": 1.0,
+        "sell_score": 0.9836
+    },
+    "ENCHANTMENT_CORRUPTION_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_CORRUPTION_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9992
+    },
+    "ENCHANTMENT_CORRUPTION_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CAYENNE_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9934
+    },
+    "X": {
+        "buy_score": 1.0,
+        "sell_score": 0.9916
+    },
+    "Y": {
+        "buy_score": 1.0,
+        "sell_score": 0.9958
+    },
+    "ENCHANTMENT_CAYENNE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CAYENNE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CAYENNE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ENDER_SLAYER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRE_ASPECT_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRE_ASPECT_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ENDER_SLAYER_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ENDER_SLAYER_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ENDER_SLAYER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ENDER_SLAYER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ENDER_SLAYER_7": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "DUNGEON_DECOY": {
+        "buy_score": 1.0,
+        "sell_score": 0.9718
+    },
+    "ENCHANTED_CARROT_ON_A_STICK": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERLORD_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERLORD_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERLORD_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERLORD_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERLORD_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "PUMPKIN_BOMB": {
+        "buy_score": 1.0,
+        "sell_score": 0.9901
+    },
+    "PET_ITEM_TOY_JERRY": {
+        "buy_score": 1.0,
+        "sell_score": 0.9859
+    },
+    "ENCHANTMENT_TURBO_WARTS_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_TURBO_WARTS_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9951
+    },
+    "SNOOZLING": {
+        "buy_score": 1.0,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_EXPERIENCE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERIENCE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERIENCE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROSECUTE_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROSECUTE_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROSECUTE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROSECUTE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROSECUTE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ALL_IN_ALOE": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "STARTLEVINE": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "TOIL_LOG": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_RESPITE_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_RESPITE_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9971
+    },
+    "TIMESTALK": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HARDENED_MANA_10": {
+        "buy_score": 1.0,
+        "sell_score": 0.9978
+    },
+    "ENCHANTMENT_SCUBA_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_ULTIMATE_JERRY_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9906
+    },
+    "ENCHANTMENT_ULTIMATE_REND_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_SCUBA_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_ULTIMATE_JERRY_5": {
+        "buy_score": 1.0,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_ULTIMATE_JERRY_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_JERRY_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9937
+    },
+    "BAZAAR_COOKIE": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HARVESTING_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HARVESTING_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HARVESTING_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HARVESTING_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HARVESTING_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "RARE_DIAMOND": {
+        "buy_score": 1.0,
+        "sell_score": 0.9928
+    },
+    "ENCHANTMENT_LUCK_OF_THE_SEA_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LUCK_OF_THE_SEA_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMARTY_PANTS_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9978
+    },
+    "ENCHANTMENT_LUCK_OF_THE_SEA_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LUCK_OF_THE_SEA_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LUCK_OF_THE_SEA_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "PET_ITEM_CHOCOLATE_SYRINGE": {
+        "buy_score": 1.0,
+        "sell_score": 0.9789
+    },
+    "ENCHANTMENT_LURE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LURE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LURE_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LURE_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LURE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_8": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_9": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9951
+    },
+    "ENCHANTMENT_MAGNET_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_MAGNET_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_MAGNET_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_7": {
+        "buy_score": 1.0,
+        "sell_score": 0.9857
+    },
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9958
+    },
+    "ENCHANTMENT_MAGNET_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_MAGNET_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_PROJECTILE_PROTECTION_7": {
+        "buy_score": 1.0,
+        "sell_score": 0.9908
+    },
+    "ENCHANTMENT_PROJECTILE_PROTECTION_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROJECTILE_PROTECTION_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROJECTILE_PROTECTION_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROJECTILE_PROTECTION_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROJECTILE_PROTECTION_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMALL_BRAIN_5": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_SMALL_BRAIN_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_DRAGON_HUNTER_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_DRAGON_HUNTER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_DRAGON_HUNTER_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_DRAGON_HUNTER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_DRAGON_HUNTER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_IMPALING_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_IMPALING_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_IMPALING_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "JERRY_STONE": {
+        "buy_score": 1.0,
+        "sell_score": 0.9951
+    },
+    "ENCHANTED_HAY_BLOCK": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GROWTH_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GROWTH_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GROWTH_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GROWTH_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GROWTH_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "RED_NOSE": {
+        "buy_score": 1.0,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_QUICK_BITE_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9986
+    },
+    "ENCHANTMENT_QUICK_BITE_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_QUICK_BITE_5": {
+        "buy_score": 1.0,
+        "sell_score": 0.9886
+    },
+    "ENCHANTMENT_EFFICIENCY_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EFFICIENCY_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EFFICIENCY_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EFFICIENCY_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EFFICIENCY_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EFFICIENCY_9": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EFFICIENCY_8": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EFFICIENCY_7": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EFFICIENCY_6": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CRITICAL_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CRITICAL_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CRITICAL_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CRITICAL_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CRITICAL_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FROST_WALKER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERBOLT_6": {
+        "buy_score": 1.0,
+        "sell_score": 0.9824
+    },
+    "ENCHANTMENT_FROST_WALKER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ICE_COLD_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERBOLT_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERBOLT_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERBOLT_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERBOLT_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THUNDERBOLT_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_REITERATE_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_COMPACT_10": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VENOMOUS_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VENOMOUS_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VENOMOUS_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VENOMOUS_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VENOMOUS_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CURSE_OF_VANISHING_0": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_COMPACT_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_COMPACT_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_COMPACT_6": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_COMPACT_7": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_COMPACT_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_COMPACT_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_COMPACT_8": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_COMPACT_9": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LIFE_STEAL_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LIFE_STEAL_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LIFE_STEAL_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "PHANTOMLEAF": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_6": {
+        "buy_score": 1.0,
+        "sell_score": 0.9839
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_8": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_7": {
+        "buy_score": 1.0,
+        "sell_score": 0.9915
+    },
+    "ENCHANTMENT_PIERCING_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_THE_ONE_5": {
+        "buy_score": 1.0,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_POWER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_POWER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_POWER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_POWER_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_POWER_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ZOMBUD": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VAMPIRISM_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VAMPIRISM_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VAMPIRISM_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CULTIVATING_9": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CULTIVATING_7": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CULTIVATING_8": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CULTIVATING_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CULTIVATING_6": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CULTIVATING_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CULTIVATING_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VAMPIRISM_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VAMPIRISM_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CULTIVATING_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "STOPLIGHT_PETAL": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_KNOCKBACK_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_KNOCKBACK_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_FLASH_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRST_STRIKE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRST_STRIKE_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRST_STRIKE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRST_STRIKE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_DEPTH_STRIDER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLESSING_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_DEPTH_STRIDER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLESSING_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLESSING_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLESSING_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLESSING_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_DEPTH_STRIDER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "THUNDERLING": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TRIPLE_STRIKE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TRIPLE_STRIKE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TRIPLE_STRIKE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "TIGHTLY_TIED_HAY_BALE": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_WITHER_HUNTER_0": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SPIKED_HOOK_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SPIKED_HOOK_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SPIKED_HOOK_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LETHALITY_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LETHALITY_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LETHALITY_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LETHALITY_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LETHALITY_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CLEAVE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CLEAVE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CLEAVE_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CLEAVE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CLEAVE_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SPIKED_HOOK_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SPIKED_HOOK_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GIANT_KILLER_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GIANT_KILLER_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GIANT_KILLER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GIANT_KILLER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TRIPLE_STRIKE_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_AQUA_AFFINITY_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TURBO_CARROT_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9957
+    },
+    "NETHERRACK": {
+        "buy_score": 1.0,
+        "sell_score": 0.9972
+    },
+    "DARK_QUEENS_SOUL_DROP": {
+        "buy_score": 1.0,
+        "sell_score": 0.9879
+    },
+    "ENCHANTMENT_FORTUNE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FORTUNE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FORTUNE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ARCANE_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ARCANE_6": {
+        "buy_score": 1.0,
+        "sell_score": 0.9654
+    },
+    "ENCHANTMENT_ARCANE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ARCANE_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ARCANE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ARCANE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GIANT_KILLER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FRAIL_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FRAIL_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FRAIL_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FRAIL_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FRAIL_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "CHEESEBITE": {
+        "buy_score": 1.0,
+        "sell_score": 0.9929
+    },
+    "ENCHANTMENT_EXECUTE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXECUTE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXECUTE_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXECUTE_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMITE_7": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LOOTING_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXECUTE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LOOTING_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LOOTING_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CUBISM_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CUBISM_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CUBISM_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CUBISM_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMITE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CUBISM_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMITE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMITE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMITE_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMITE_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HECATOMB_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HECATOMB_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HECATOMB_6": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HECATOMB_7": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HECATOMB_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HECATOMB_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HECATOMB_8": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HECATOMB_9": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "LAPIS_CRYSTAL": {
+        "buy_score": 1.0,
+        "sell_score": 0.981
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_9": {
+        "buy_score": 1.0,
+        "sell_score": 0.9978
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_7": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1": {
+        "buy_score": 1.0,
+        "sell_score": 0.9986
+    },
+    "DUNGEON_TRAP": {
+        "buy_score": 1.0,
+        "sell_score": 0.9958
+    },
+    "ENCHANTMENT_PROTECTION_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROTECTION_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROTECTION_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROTECTION_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROTECTION_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TURBO_COCO_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9972
+    },
+    "MAGMAG": {
+        "buy_score": 1.0,
+        "sell_score": 0.9886
+    },
+    "ENCHANTMENT_TURBO_CACTUS_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9963
+    },
+    "ENCHANTMENT_TURBO_CACTUS_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9965
+    },
+    "ENCHANTMENT_SHARPNESS_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SHARPNESS_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SHARPNESS_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SHARPNESS_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SHARPNESS_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_STRONG_MANA_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9839
+    },
+    "HAY_BLOCK": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_COMBO_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9724
+    },
+    "ENCHANTMENT_ULTIMATE_COMBO_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_HARDENED_MANA_7": {
+        "buy_score": 1.0,
+        "sell_score": 0.9943
+    },
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9986
+    },
+    "ENCHANTMENT_HARDENED_MANA_9": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_5": {
+        "buy_score": 1.0,
+        "sell_score": 0.9979
+    },
+    "ENDSTONE_GEODE": {
+        "buy_score": 1.0,
+        "sell_score": 0.99
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_10": {
+        "buy_score": 1.0,
+        "sell_score": 0.9893
+    },
+    "ENCHANTMENT_PALEONTOLOGIST_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9986
+    },
+    "ENCHANTMENT_CASTER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CASTER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CASTER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CASTER_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CASTER_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "AMALGAMATED_CRIMSONITE": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRE_PROTECTION_6": {
+        "buy_score": 1.0,
+        "sell_score": 0.9895
+    },
+    "ENCHANTMENT_FIRE_PROTECTION_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRE_PROTECTION_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRE_PROTECTION_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRE_PROTECTION_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FIRE_PROTECTION_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "RUSTY_ANCHOR": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "SHARD_BULLFROG": {
+        "buy_score": 1.0,
+        "sell_score": 0.988
+    },
+    "PLANTBOY_ADVANCE": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "GODSEED": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHAMPION_10": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHARM_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "DEVOURER": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_QUANTUM_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.993
+    },
+    "ENCHANTMENT_SILK_TOUCH_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_SWARM_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_ULTIMATE_SWARM_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9923
+    },
+    "POTATO_SPREADING": {
+        "buy_score": 1.0,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_ULTIMATE_MISSILE_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.995
+    },
+    "PUFFERCLOUD": {
+        "buy_score": 1.0,
+        "sell_score": 0.9992
+    },
+    "ENCHANTMENT_ULTIMATE_MISSILE_5": {
+        "buy_score": 1.0,
+        "sell_score": 0.9909
+    },
+    "ENCHANTMENT_ULTIMATE_MISSILE_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9951
+    },
+    "ENCHANTMENT_ULTIMATE_MISSILE_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_ULTIMATE_CHIMERA_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_CHIMERA_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9986
+    },
+    "ENCHANTMENT_ULTIMATE_CHIMERA_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEATHER_FALLING_20": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_AIMING_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_AIMING_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_AIMING_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_AIMING_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_AIMING_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEATHER_FALLING_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEATHER_FALLING_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEATHER_FALLING_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEATHER_FALLING_7": {
+        "buy_score": 1.0,
+        "sell_score": 0.9895
+    },
+    "ENCHANTMENT_FEATHER_FALLING_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FEATHER_FALLING_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "MOIL_LOG": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLAST_PROTECTION_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLAST_PROTECTION_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLAST_PROTECTION_6": {
+        "buy_score": 1.0,
+        "sell_score": 0.9929
+    },
+    "ENCHANTMENT_BLAST_PROTECTION_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLAST_PROTECTION_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLAST_PROTECTION_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMELTING_TOUCH_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PISCARY_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "SADAN_BROOCH": {
+        "buy_score": 1.0,
+        "sell_score": 0.9971
+    },
+    "ENCHANTMENT_PISCARY_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PISCARY_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PISCARY_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PISCARY_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TABASCO_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PUNCH_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TABASCO_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_PUNCH_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "DAYSWITCH": {
+        "buy_score": 1.0,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_TITAN_KILLER_6": {
+        "buy_score": 1.0,
+        "sell_score": 0.9794
+    },
+    "ENCHANTMENT_TITAN_KILLER_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TITAN_KILLER_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TITAN_KILLER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TITAN_KILLER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TITAN_KILLER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "FLESHTRAP": {
+        "buy_score": 1.0,
+        "sell_score": 0.9985
+    },
+    "ENCHANTMENT_ANGLER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ANGLER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ANGLER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ANGLER_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ANGLER_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THORNS_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THORNS_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_THORNS_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERTISE_7": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERTISE_6": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERTISE_9": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERTISE_8": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHANCE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHANCE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHANCE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERTISE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERTISE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERTISE_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERTISE_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHAMPION_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHAMPION_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHAMPION_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHAMPION_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHAMPION_7": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHAMPION_6": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHAMPION_9": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_CHAMPION_8": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SNIPE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SNIPE_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SNIPE_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_RESPIRATION_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_ONE_FOR_ALL_0": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_RESPIRATION_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_RESPIRATION_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_BANK_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9814
+    },
+    "ENCHANTMENT_ULTIMATE_BANK_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_REFLECTION_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROSPERITY_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROSPERITY_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_HECATOMB_10": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_PROSPERITY_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9971
+    },
+    "ENCHANTMENT_COUNTER_STRIKE_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_COUNTER_STRIKE_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_INFERNO_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTED_CARROT_STICK": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "NOCTILUME": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "PREMIUM_FLESH": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FLAME_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_FLAME_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "SHELLFRUIT": {
+        "buy_score": 1.0,
+        "sell_score": 0.995
+    },
+    "DIRT_BOTTLE": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TIDAL_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_EFFICIENCY_10": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SYPHON_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SYPHON_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "GLASSCORN": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SYPHON_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SCAVENGER_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SCAVENGER_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SCAVENGER_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_EXPERTISE_10": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SUNDER_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_LUCK_2": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LUCK_3": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LUCK_4": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LUCK_5": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_LUCK_1": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TURBO_POTATO_3": {
+        "buy_score": 1.0,
+        "sell_score": 0.9957
+    },
+    "ENCHANTMENT_TURBO_POTATO_4": {
+        "buy_score": 1.0,
+        "sell_score": 0.9993
+    },
+    "WINTER_WATER_ORB": {
+        "buy_score": 1.0,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TURBO_POTATO_2": {
+        "buy_score": 1.0,
+        "sell_score": 0.995
+    },
+    "ENCHANTMENT_BIG_BRAIN_4": {
+        "buy_score": 0.9993,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_MANA_STEAL_2": {
+        "buy_score": 0.9993,
+        "sell_score": 0.995
+    },
+    "CUP_OF_BLOOD": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9923
+    },
+    "ENCHANTMENT_ULTIMATE_REND_5": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9851
+    },
+    "ENCHANTMENT_ULTIMATE_REND_4": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9993
+    },
+    "SPOOKY_WATER_ORB": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_4": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9895
+    },
+    "ENCHANTMENT_PROJECTILE_PROTECTION_6": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9936
+    },
+    "DAEDALUS_STICK": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9936
+    },
+    "ENCHANTMENT_QUICK_BITE_4": {
+        "buy_score": 0.9993,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_REITERATE_3": {
+        "buy_score": 0.9993,
+        "sell_score": 1.0
+    },
+    "SHARD_FENLORD": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9951
+    },
+    "SHARD_HIDEONSACK": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9992
+    },
+    "SUBZERO_INVERTER": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9916
+    },
+    "BULKY_STONE": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9942
+    },
+    "LUSHLILAC_BONBON": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9957
+    },
+    "ENCHANTMENT_TURBO_CANE_3": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9965
+    },
+    "MIDAS_JEWEL": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9923
+    },
+    "ENCHANTMENT_TURBO_COCO_4": {
+        "buy_score": 0.9993,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TURBO_CACTUS_5": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9978
+    },
+    "ENCHANTMENT_TURBO_CACTUS_3": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9971
+    },
+    "ENCHANTMENT_ULTIMATE_COMBO_4": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9979
+    },
+    "SHARD_HIDEONGEON": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9929
+    },
+    "ONYX": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9957
+    },
+    "ENCHANTMENT_PALEONTOLOGIST_4": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9992
+    },
+    "ENCHANTMENT_OVERLOAD_4": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9979
+    },
+    "MOLTEN_CUBE": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9957
+    },
+    "ENCHANTMENT_STEALTH_1": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9888
+    },
+    "ENCHANTMENT_ULTIMATE_SWARM_3": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9915
+    },
+    "SIMPLE_CARROT_CANDY": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9922
+    },
+    "HORSEMAN_CANDLE": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_REFLECTION_5": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9865
+    },
+    "ENCHANTMENT_ULTIMATE_BANK_3": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9893
+    },
+    "ENCHANTMENT_REFLECTION_2": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_ULTIMATE_INFERNO_3": {
+        "buy_score": 0.9993,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_INFERNO_4": {
+        "buy_score": 0.9993,
+        "sell_score": 1.0
+    },
+    "CHORUS_FRUIT": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_TRANSYLVANIAN_4": {
+        "buy_score": 0.9993,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SUNDER_2": {
+        "buy_score": 0.9993,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_TURBO_ROSE_3": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9858
+    },
+    "ENCHANTMENT_CORRUPTION_5": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9936
+    },
+    "ENCHANTMENT_BIG_BRAIN_3": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9985
+    },
+    "HYPERGOLIC_IONIZED_CERAMICS": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9944
+    },
+    "ENCHANTMENT_TURBO_WARTS_4": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_SMALL_BRAIN_3": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9971
+    },
+    "TURTLELLINI": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9937
+    },
+    "ENCHANTMENT_STRONG_MANA_10": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9942
+    },
+    "SHARK_WATER_ORB": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_4": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9978
+    },
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_3": {
+        "buy_score": 0.9992,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_TURBO_CARROT_2": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_TURBO_CANE_2": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9914
+    },
+    "LUMP_OF_MAGMA": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9894
+    },
+    "ENCHANTMENT_CHARM_4": {
+        "buy_score": 0.9992,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_TURBO_ROSE_2": {
+        "buy_score": 0.9986,
+        "sell_score": 0.987
+    },
+    "FLAMES": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9929
+    },
+    "ENCHANTMENT_TURBO_MOONFLOWER_3": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9929
+    },
+    "SOLAR_PANEL": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9971
+    },
+    "OCEANDY": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9971
+    },
+    "ENCHANTMENT_SCUBA_4": {
+        "buy_score": 0.9986,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_JERRY_1": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9893
+    },
+    "ENCHANTMENT_SMARTY_PANTS_4": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9985
+    },
+    "BAT_FIREWORK": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9923
+    },
+    "ENCHANTMENT_TURBO_WHEAT_3": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9951
+    },
+    "ENCHANTMENT_TURBO_WHEAT_2": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9936
+    },
+    "GENERATOR_UPGRADE_STONE_FISHING_12": {
+        "buy_score": 0.9986,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SMOLDERING_4": {
+        "buy_score": 0.9986,
+        "sell_score": 1.0
+    },
+    "BLAZE_ROD_DISTILLATE": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9957
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_10": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9992
+    },
+    "PET_ITEM_LUCKY_CLOVER_DROP": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9882
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_9": {
+        "buy_score": 0.9986,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GREEN_THUMB_3": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9943
+    },
+    "NETHER_STALK_DISTILLATE": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9951
+    },
+    "ENCHANTMENT_SPIKED_HOOK_6": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9829
+    },
+    "ENCHANTMENT_TURBO_CANE_4": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9977
+    },
+    "CANDY_CORN": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_FORTUNE_4": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9751
+    },
+    "ENCHANTMENT_TURBO_COCO_3": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9965
+    },
+    "ENCHANTMENT_LAPIDARY_3": {
+        "buy_score": 0.9986,
+        "sell_score": 0.993
+    },
+    "ENCHANTMENT_TURBO_MELON_2": {
+        "buy_score": 0.9986,
+        "sell_score": 0.988
+    },
+    "ENCHANTMENT_STRONG_MANA_8": {
+        "buy_score": 0.9986,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_HARDENED_MANA_6": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9978
+    },
+    "OPTICAL_LENS": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9965
+    },
+    "ENTROPY_SUPPRESSOR": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9971
+    },
+    "ENCHANTED_NETHERRACK": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_CHARM_3": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_CHARM_5": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9684
+    },
+    "ENCHANTMENT_PRISTINE_3": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9985
+    },
+    "PITCHIN_KOI": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9605
+    },
+    "ENCHANTMENT_ULTIMATE_INFERNO_1": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9788
+    },
+    "ECCENTRIC_PAINTING": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9921
+    },
+    "ASCENSION_ROPE": {
+        "buy_score": 0.9986,
+        "sell_score": 0.978
+    },
+    "ENCHANTMENT_TIDAL_3": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9958
+    },
+    "ENCHANTMENT_SCAVENGER_4": {
+        "buy_score": 0.9986,
+        "sell_score": 0.9836
+    },
+    "ENCHANTMENT_CORRUPTION_4": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9979
+    },
+    "FIGHTING_BOOSTER": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9823
+    },
+    "ENCHANTMENT_SMARTY_PANTS_2": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_MAGNET_6": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9992
+    },
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_4": {
+        "buy_score": 0.9985,
+        "sell_score": 0.997
+    },
+    "ENCHANTMENT_SMOLDERING_2": {
+        "buy_score": 0.9985,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ICE_COLD_5": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9972
+    },
+    "MAGIC_TOP_HAT": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9971
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_2": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9986
+    },
+    "ENCHANTMENT_TURBO_CARROT_3": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_STRONG_MANA_9": {
+        "buy_score": 0.9985,
+        "sell_score": 1.0
+    },
+    "SALT_CUBE": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_PALEONTOLOGIST_2": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9993
+    },
+    "CANDYCOMB": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9585
+    },
+    "ENCHANTMENT_OVERLOAD_2": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9935
+    },
+    "ENCHANTMENT_FIRE_PROTECTION_7": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9871
+    },
+    "CHAIN_END_TIMES": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9823
+    },
+    "ENCHANTMENT_PRISTINE_4": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9957
+    },
+    "ENCHANTMENT_VICIOUS_3": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9978
+    },
+    "FLAMING_HEART": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9901
+    },
+    "SHARD_MINOTAUR": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9788
+    },
+    "ENCHANTMENT_SUNDER_4": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_SUNDER_5": {
+        "buy_score": 0.9985,
+        "sell_score": 0.9936
+    },
+    "ENCHANTMENT_CAYENNE_5": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9957
+    },
+    "Z": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9901
+    },
+    "SHARD_DODO": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_RESPITE_3": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9683
+    },
+    "ENCHANTMENT_RESPITE_1": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9824
+    },
+    "SHARD_BASILISK": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9971
+    },
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_4": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9957
+    },
+    "OBSIDIAN_TABLET": {
+        "buy_score": 0.9979,
+        "sell_score": 0.995
+    },
+    "ARACHNE_KEEPER_FRAGMENT": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9521
+    },
+    "REVENANT_CATALYST": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9838
+    },
+    "ENCHANTMENT_THUNDERBOLT_7": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9809
+    },
+    "ENCHANTMENT_TURBO_MUSHROOMS_2": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9928
+    },
+    "ENCHANTMENT_TURBO_MUSHROOMS_3": {
+        "buy_score": 0.9979,
+        "sell_score": 0.993
+    },
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_4": {
+        "buy_score": 0.9979,
+        "sell_score": 1.0
+    },
+    "BLOOD_STAINED_COINS": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9985
+    },
+    "GRIFFIN_UPGRADE_STONE_UNCOMMON": {
+        "buy_score": 0.9979,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_7": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9922
+    },
+    "SOULFLOW_ENGINE": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_HARDENED_MANA_4": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9881
+    },
+    "ENCHANTMENT_HARDENED_MANA_8": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9971
+    },
+    "GLOWSTONE_DUST_DISTILLATE": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9986
+    },
+    "INFERNO_APEX": {
+        "buy_score": 0.9979,
+        "sell_score": 0.995
+    },
+    "ENCHANTMENT_QUANTUM_5": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9915
+    },
+    "KUUDRA_MANDIBLE": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9803
+    },
+    "ENCHANTMENT_PRISTINE_2": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9985
+    },
+    "SLEEPY_HOLLOW": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_TURBO_SUNFLOWER_3": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9971
+    },
+    "FULL_JAW_FANGING_KIT": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9971
+    },
+    "DARK_CANDY": {
+        "buy_score": 0.9979,
+        "sell_score": 0.983
+    },
+    "BAYOU_WATER_ORB": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9949
+    },
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_4": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9993
+    },
+    "CHLORONITE": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9951
+    },
+    "SHARK_BAIT": {
+        "buy_score": 0.9979,
+        "sell_score": 0.9909
+    },
+    "DO_NOT_EAT_SHROOM": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9802
+    },
+    "BLASTBERRY": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9908
+    },
+    "ENCHANTMENT_ULTIMATE_REND_2": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9843
+    },
+    "ENCHANTMENT_TURBO_WHEAT_4": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9943
+    },
+    "GENERATOR_UPGRADE_STONE_TARANTULA_12": {
+        "buy_score": 0.9978,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_SUGAR_RUSH_2": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9993
+    },
+    "SPOOKY_BAIT": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9951
+    },
+    "GOLDEN_BOUNTY": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9895
+    },
+    "ENCHANTMENT_FIRST_STRIKE_5": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9767
+    },
+    "DAEDALUS_NOTES": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9972
+    },
+    "SHARD_SOUL_OF_THE_ALPHA": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9612
+    },
+    "CATALYST": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9853
+    },
+    "HORNS_OF_TORMENT": {
+        "buy_score": 0.9978,
+        "sell_score": 0.993
+    },
+    "SHARD_TERRA": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_TURBO_PUMPKIN_2": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9923
+    },
+    "ENCHANTMENT_REFLECTION_4": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9985
+    },
+    "ENCHANTMENT_ULTIMATE_FLOWSTATE_2": {
+        "buy_score": 0.9978,
+        "sell_score": 0.9993
+    },
+    "FUEL_GABAGOOL": {
+        "buy_score": 0.9978,
+        "sell_score": 0.99
+    },
+    "ENCHANTED_BONE_BLOCK": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9894
+    },
+    "ENCHANTMENT_LURE_6": {
+        "buy_score": 0.9972,
+        "sell_score": 0.961
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_6": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9888
+    },
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_3": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9944
+    },
+    "ENCHANTMENT_SMOLDERING_5": {
+        "buy_score": 0.9972,
+        "sell_score": 0.978
+    },
+    "ENCHANTMENT_SMOLDERING_3": {
+        "buy_score": 0.9972,
+        "sell_score": 1.0
+    },
+    "MAGMA_CREAM_DISTILLATE": {
+        "buy_score": 0.9972,
+        "sell_score": 1.0
+    },
+    "PYROCLASTIC_SCALE": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9824
+    },
+    "ENCHANTMENT_ULTIMATE_WISDOM_3": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9922
+    },
+    "ENCHANTMENT_STRONG_MANA_7": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9936
+    },
+    "ENCHANTMENT_HARDENED_MANA_2": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9951
+    },
+    "SMALL_ENCHANTED_CHEST": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9901
+    },
+    "SPECTRE_DUST": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9901
+    },
+    "SHARD_TENEBRIS": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9985
+    },
+    "SHARD_INFERNO_KOI": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9753
+    },
+    "EGG": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9895
+    },
+    "SHARD_SEER": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9761
+    },
+    "GRIFFIN_UPGRADE_STONE_MYTHIC": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9965
+    },
+    "ENCHANTMENT_FEATHER_FALLING_8": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9971
+    },
+    "MIMIC_FRAGMENT": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9732
+    },
+    "FROZEN_BAUBLE": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9695
+    },
+    "DRAGON_SCALE": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9815
+    },
+    "ENCHANTMENT_ULTIMATE_INFERNO_5": {
+        "buy_score": 0.9972,
+        "sell_score": 0.9992
+    },
+    "ENCHANTMENT_THUNDERLORD_6": {
+        "buy_score": 0.9971,
+        "sell_score": 0.964
+    },
+    "ENCHANTMENT_TURBO_WARTS_1": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9422
+    },
+    "MAGIC_MUSHROOM_SOUP": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9915
+    },
+    "ENCHANTMENT_ICE_COLD_3": {
+        "buy_score": 0.9971,
+        "sell_score": 1.0
+    },
+    "METEOR_SHARD": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9978
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_4": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9893
+    },
+    "ENCHANTED_PRISMARINE_CRYSTALS": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9649
+    },
+    "ENCHANTMENT_GREEN_THUMB_5": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9781
+    },
+    "ENCHANTMENT_GREEN_THUMB_2": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9943
+    },
+    "RED_ROSE": {
+        "buy_score": 0.9971,
+        "sell_score": 0.964
+    },
+    "HOTSPOT_BAIT": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9837
+    },
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_2": {
+        "buy_score": 0.9971,
+        "sell_score": 1.0
+    },
+    "HOTSPOT_WATER_ORB": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9993
+    },
+    "ENCHANTED_GLISTERING_MELON": {
+        "buy_score": 0.9971,
+        "sell_score": 0.995
+    },
+    "HORN_OF_TAURUS": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9887
+    },
+    "ENCHANTMENT_STRONG_MANA_6": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9922
+    },
+    "ENCHANTMENT_OVERLOAD_3": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9985
+    },
+    "REFINED_AMBER": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9992
+    },
+    "SHARD_ABYSSAL_LANTERN": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9732
+    },
+    "CHYME": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9908
+    },
+    "SPIKED_BAIT": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9831
+    },
+    "ENCHANTMENT_ULTIMATE_MISSILE_1": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9692
+    },
+    "ENCHANTMENT_ANGLER_6": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9727
+    },
+    "ENCHANTMENT_PROSPERITY_5": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9936
+    },
+    "SHARD_RANA": {
+        "buy_score": 0.9971,
+        "sell_score": 0.9943
+    },
+    "ENCHANTMENT_VICIOUS_4": {
+        "buy_score": 0.9971,
+        "sell_score": 1.0
+    },
+    "MIXED_MITE_GEL": {
+        "buy_score": 0.9971,
+        "sell_score": 0.995
+    },
+    "ENCHANTMENT_DIVINE_GIFT_3": {
+        "buy_score": 0.9971,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_DIVINE_GIFT_2": {
+        "buy_score": 0.9971,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_BLAST_PROTECTION_7": {
+        "buy_score": 0.997,
+        "sell_score": 0.9859
+    },
+    "UNDEAD_CATALYST": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9843
+    },
+    "ENCHANTMENT_MANA_STEAL_3": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9678
+    },
+    "ENCHANTMENT_TURBO_WARTS_5": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9843
+    },
+    "OMEGA_EGG": {
+        "buy_score": 0.9965,
+        "sell_score": 0.988
+    },
+    "CORRUPTED_FRAGMENT": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9832
+    },
+    "MAGIC_JELLYBEAN": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_SCUBA_5": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9908
+    },
+    "ENCHANTMENT_ICE_COLD_2": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9986
+    },
+    "SHARD_WYVERN": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9823
+    },
+    "ENCHANTMENT_LIFE_STEAL_5": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9845
+    },
+    "ENCHANTMENT_TURBO_MUSHROOMS_4": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9972
+    },
+    "ENCHANTMENT_ULTIMATE_FLASH_2": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9964
+    },
+    "HARDENED_WOOD": {
+        "buy_score": 0.9965,
+        "sell_score": 1.0
+    },
+    "BRIMSTONE_HANDLE": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9689
+    },
+    "ENCHANTMENT_HARDENED_MANA_1": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9902
+    },
+    "ENCHANTMENT_HARDENED_MANA_3": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9929
+    },
+    "SHARD_LEATHERBACK": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9866
+    },
+    "SHARD_SUN_FISH": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9916
+    },
+    "DWARVEN_OS_GEMSTONE_GRAHAMS": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9127
+    },
+    "ENCHANTMENT_ULTIMATE_WISE_3": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9824
+    },
+    "BLOOD_SOAKED_COINS": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9993
+    },
+    "SHARD_FUNGLOOM": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9943
+    },
+    "MAGMA_CREAM": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9836
+    },
+    "SPOOKY_SHARD": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9978
+    },
+    "ENCHANTMENT_ULTIMATE_BANK_5": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9825
+    },
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_2": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_3": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9971
+    },
+    "SHARD_KOMODO_DRAGON": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9972
+    },
+    "SHARD_FALCON": {
+        "buy_score": 0.9965,
+        "sell_score": 0.9958
+    },
+    "CORRUPTED_BAIT": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9957
+    },
+    "ENCHANTMENT_BIG_BRAIN_5": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9936
+    },
+    "WATER_ORB": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9921
+    },
+    "ENCHANTMENT_SMARTY_PANTS_5": {
+        "buy_score": 0.9964,
+        "sell_score": 0.939
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_2": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9929
+    },
+    "MINNOW_BAIT": {
+        "buy_score": 0.9964,
+        "sell_score": 0.993
+    },
+    "ENCHANTMENT_ULTIMATE_REITERATE_2": {
+        "buy_score": 0.9964,
+        "sell_score": 1.0
+    },
+    "STUFFED_CHILI_PEPPER": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9929
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_3": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9915
+    },
+    "SHARD_TOAD": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9942
+    },
+    "ENCHANTMENT_GIANT_KILLER_7": {
+        "buy_score": 0.9964,
+        "sell_score": 0.988
+    },
+    "GRIFFIN_UPGRADE_STONE_EPIC": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9957
+    },
+    "SHARD_CONDOR": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9993
+    },
+    "ENCHANTMENT_STRONG_MANA_2": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9951
+    },
+    "GRIFFIN_UPGRADE_STONE_LEGENDARY": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9986
+    },
+    "PRESUMED_GALLON_OF_RED_PAINT": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9985
+    },
+    "HOT_BAIT": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9744
+    },
+    "BLACK_WOOLEN_YARN": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9951
+    },
+    "ENCHANTMENT_TURBO_PUMPKIN_3": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9936
+    },
+    "ENCHANTMENT_TURBO_SUNFLOWER_2": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9915
+    },
+    "ENCHANTMENT_ULTIMATE_LEGION_2": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9844
+    },
+    "SHARD_TOUCAN": {
+        "buy_score": 0.9964,
+        "sell_score": 0.9964
+    },
+    "ENCHANTMENT_ULTIMATE_CHIMERA_2": {
+        "buy_score": 0.9963,
+        "sell_score": 0.9971
+    },
+    "ENCHANTED_BONE_MEAL": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9845
+    },
+    "CINDERSHADE": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9793
+    },
+    "ENCHANTMENT_RESPITE_5": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9838
+    },
+    "SHARD_WARTYBUG": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9901
+    },
+    "SHARD_GECKO": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9102
+    },
+    "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_5": {
+        "buy_score": 0.9958,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_8": {
+        "buy_score": 0.9958,
+        "sell_score": 0.993
+    },
+    "ENCHANTMENT_LAPIDARY_4": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9979
+    },
+    "TROUBLED_BUBBLE": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9847
+    },
+    "SHARD_DRAGONFLY": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9811
+    },
+    "ENCHANTMENT_QUANTUM_3": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9823
+    },
+    "SHARD_ETHERDRAKE": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9815
+    },
+    "SHARD_MOLTHORN": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9891
+    },
+    "ENCHANTMENT_TURBO_SUNFLOWER_5": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9867
+    },
+    "ENCHANTMENT_ULTIMATE_LEGION_3": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9851
+    },
+    "BLAZE_ASHES": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9832
+    },
+    "WOOD_SINGULARITY": {
+        "buy_score": 0.9958,
+        "sell_score": 0.9704
+    },
+    "ENCHANTMENT_TURBO_MOONFLOWER_5": {
+        "buy_score": 0.9957,
+        "sell_score": 0.993
+    },
+    "CAPSAICIN_EYEDROPS_NO_CHARGES": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9972
+    },
+    "SCUTTLER_SHELL": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9894
+    },
+    "SHRIVELED_CORNEA": {
+        "buy_score": 0.9957,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_GREEN_THUMB_4": {
+        "buy_score": 0.9957,
+        "sell_score": 0.995
+    },
+    "ENCHANTMENT_ULTIMATE_FLASH_5": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9665
+    },
+    "ENCHANTMENT_TURBO_CARROT_5": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9836
+    },
+    "BLESSED_BAIT": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9949
+    },
+    "ENCHANTMENT_FRAIL_6": {
+        "buy_score": 0.9957,
+        "sell_score": 0.973
+    },
+    "DWARVEN_OS_ORE_OATS": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9193
+    },
+    "RAW_FISH:3": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9879
+    },
+    "FURBALL": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9105
+    },
+    "SHARD_CUBOA": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9985
+    },
+    "LAVA_WATER_ORB": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9993
+    },
+    "OVERFLOWING_TRASH_CAN": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9733
+    },
+    "THE_ART_OF_PEACE": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9957
+    },
+    "LUSHLILAC": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9745
+    },
+    "ENCHANTMENT_TABASCO_3": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9815
+    },
+    "SHARD_SNOWFIN": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9712
+    },
+    "SHARD_STALAGMIGHT": {
+        "buy_score": 0.9957,
+        "sell_score": 0.9908
+    },
+    "SUSPICIOUS_VIAL": {
+        "buy_score": 0.9957,
+        "sell_score": 0.956
+    },
+    "GENERATOR_UPGRADE_STONE_REVENANT_12": {
+        "buy_score": 0.9956,
+        "sell_score": 0.9992
+    },
+    "ENCHANTMENT_PESTERMINATOR_2": {
+        "buy_score": 0.9956,
+        "sell_score": 0.981
+    },
+    "SHARD_HIDEONBOX": {
+        "buy_score": 0.9956,
+        "sell_score": 0.9794
+    },
+    "ENCHANTMENT_STRONG_MANA_4": {
+        "buy_score": 0.9956,
+        "sell_score": 0.9922
+    },
+    "SHARD_NAGA": {
+        "buy_score": 0.9956,
+        "sell_score": 0.9978
+    },
+    "SHARD_STARBORN": {
+        "buy_score": 0.9955,
+        "sell_score": 0.9958
+    },
+    "ENCHANTMENT_TURBO_MOONFLOWER_4": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9993
+    },
+    "LIGHT_BAIT": {
+        "buy_score": 0.9951,
+        "sell_score": 0.993
+    },
+    "ENCHANTMENT_ULTIMATE_REND_1": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9886
+    },
+    "SNOW_BALL": {
+        "buy_score": 0.9951,
+        "sell_score": 0.995
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_1": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9915
+    },
+    "ENCHANTMENT_BLESSING_6": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9965
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_10": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9669
+    },
+    "INFLATABLE_JERRY": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9788
+    },
+    "ENCHANTMENT_TURBO_CACTUS_1": {
+        "buy_score": 0.9951,
+        "sell_score": 0.938
+    },
+    "ENCHANTMENT_TURBO_MELON_4": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9914
+    },
+    "GRIFFIN_UPGRADE_STONE_RARE": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9964
+    },
+    "LUCKY_DICE": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9979
+    },
+    "AVARICIOUS_CHALICE": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9993
+    },
+    "SOGGYBUD": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9667
+    },
+    "ENCHANTED_POISONOUS_POTATO": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9909
+    },
+    "ENCHANTMENT_TURBO_SUNFLOWER_4": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9986
+    },
+    "PET_ITEM_TIER_BOOST_DROP": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9923
+    },
+    "WEREWOLF_SKIN": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9986
+    },
+    "ENCHANTMENT_TRANSYLVANIAN_5": {
+        "buy_score": 0.9951,
+        "sell_score": 0.9693
+    },
+    "ENCHANTMENT_TURBO_ROSE_4": {
+        "buy_score": 0.995,
+        "sell_score": 0.9992
+    },
+    "SHARD_CARROT_KING": {
+        "buy_score": 0.995,
+        "sell_score": 0.9951
+    },
+    "ENCHANTMENT_THUNDERLORD_7": {
+        "buy_score": 0.995,
+        "sell_score": 0.9775
+    },
+    "AMBER_MATERIAL": {
+        "buy_score": 0.995,
+        "sell_score": 0.9943
+    },
+    "ENCHANTMENT_PESTERMINATOR_3": {
+        "buy_score": 0.995,
+        "sell_score": 0.9845
+    },
+    "ENCHANTED_FIREWORK_ROCKET": {
+        "buy_score": 0.995,
+        "sell_score": 0.9965
+    },
+    "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_3": {
+        "buy_score": 0.995,
+        "sell_score": 0.9867
+    },
+    "SHARD_MORAY_EEL": {
+        "buy_score": 0.995,
+        "sell_score": 0.9922
+    },
+    "SHARD_MOLTENFISH": {
+        "buy_score": 0.995,
+        "sell_score": 0.9627
+    },
+    "SPIRIT_LEAP": {
+        "buy_score": 0.995,
+        "sell_score": 0.9667
+    },
+    "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_5": {
+        "buy_score": 0.995,
+        "sell_score": 0.9887
+    },
+    "ENCHANTMENT_FEATHER_FALLING_9": {
+        "buy_score": 0.995,
+        "sell_score": 0.9937
+    },
+    "SHARD_SYLVAN": {
+        "buy_score": 0.995,
+        "sell_score": 0.9767
+    },
+    "ENCHANTMENT_RESPIRATION_4": {
+        "buy_score": 0.995,
+        "sell_score": 0.9972
+    },
+    "HUGE_MUSHROOM_1": {
+        "buy_score": 0.995,
+        "sell_score": 0.9922
+    },
+    "VITAMIN_DEATH": {
+        "buy_score": 0.995,
+        "sell_score": 0.9444
+    },
+    "ROCK_CANDY": {
+        "buy_score": 0.995,
+        "sell_score": 0.9934
+    },
+    "ENCHANTMENT_LUCK_7": {
+        "buy_score": 0.995,
+        "sell_score": 0.99
+    },
+    "SHARD_HIDEONDRA": {
+        "buy_score": 0.9949,
+        "sell_score": 0.9868
+    },
+    "DWARVEN_TREASURE": {
+        "buy_score": 0.9949,
+        "sell_score": 0.8849
+    },
+    "JALAPENO_BOOK": {
+        "buy_score": 0.9949,
+        "sell_score": 0.9979
+    },
+    "PET_CAKE": {
+        "buy_score": 0.9944,
+        "sell_score": 0.8738
+    },
+    "ENCHANTMENT_SCUBA_1": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9986
+    },
+    "MATCH_STICKS": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9915
+    },
+    "ENCHANTMENT_LUCK_OF_THE_SEA_6": {
+        "buy_score": 0.9944,
+        "sell_score": 0.985
+    },
+    "SHARD_KING_COBRA": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9928
+    },
+    "ENCHANTMENT_SUGAR_RUSH_3": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9656
+    },
+    "GOLD_BOTTLE_CAP": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9921
+    },
+    "ENCHANTMENT_QUICK_BITE_1": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9622
+    },
+    "GOLDEN_POWDER": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9697
+    },
+    "TREASURE_BAIT": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9837
+    },
+    "ENCHANTMENT_LAPIDARY_2": {
+        "buy_score": 0.9944,
+        "sell_score": 0.993
+    },
+    "SUPERB_CARROT_CANDY": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9894
+    },
+    "SHARD_JORMUNG": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9653
+    },
+    "SALMON_OPAL": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9809
+    },
+    "ENCHANTMENT_SYPHON_5": {
+        "buy_score": 0.9944,
+        "sell_score": 0.9937
+    },
+    "ENCHANTMENT_PESTERMINATOR_4": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9894
+    },
+    "WARTY": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9824
+    },
+    "TITANOBOA_SHED": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9923
+    },
+    "SHARK_FIN": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9944
+    },
+    "AUTO_SMELTER": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9726
+    },
+    "XLARGE_ENCHANTED_CHEST": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9979
+    },
+    "ENCHANTMENT_EXECUTE_6": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9731
+    },
+    "ENCHANTMENT_HARDENED_MANA_5": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9487
+    },
+    "ENCHANTMENT_DEDICATION_2": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9936
+    },
+    "JUNGLE_HEART": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9513
+    },
+    "MOOGMA_PELT": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9845
+    },
+    "ENCHANTMENT_ULTIMATE_BANK_1": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9589
+    },
+    "ENCHANTMENT_PROSPERITY_1": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9725
+    },
+    "ENCHANTMENT_COUNTER_STRIKE_4": {
+        "buy_score": 0.9943,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_VICIOUS_5": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9921
+    },
+    "FRIGID_HUSK": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9851
+    },
+    "SHARD_LEVIATHAN": {
+        "buy_score": 0.9943,
+        "sell_score": 0.9923
+    },
+    "FOUL_FLESH": {
+        "buy_score": 0.9942,
+        "sell_score": 0.9241
+    },
+    "HUGE_MUSHROOM_2": {
+        "buy_score": 0.9942,
+        "sell_score": 0.9957
+    },
+    "SCORCHED_BOOKS": {
+        "buy_score": 0.9942,
+        "sell_score": 0.9292
+    },
+    "MUTATED_BLAZE_ASHES": {
+        "buy_score": 0.9937,
+        "sell_score": 0.9895
+    },
+    "SHARD_HERON": {
+        "buy_score": 0.9937,
+        "sell_score": 0.9774
+    },
+    "FEATHER": {
+        "buy_score": 0.9937,
+        "sell_score": 0.9872
+    },
+    "PETRIFIED_STARFALL": {
+        "buy_score": 0.9937,
+        "sell_score": 0.9908
+    },
+    "ENCHANTED_POPPY": {
+        "buy_score": 0.9937,
+        "sell_score": 0.9902
+    },
+    "ENCHANTMENT_FOREST_PLEDGE_3": {
+        "buy_score": 0.9937,
+        "sell_score": 0.9868
+    },
+    "ENCHANTED_PRISMARINE_SHARD": {
+        "buy_score": 0.9937,
+        "sell_score": 0.9548
+    },
+    "ENCHANTMENT_TIDAL_1": {
+        "buy_score": 0.9937,
+        "sell_score": 0.9972
+    },
+    "SHARD_TIAMAT": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9916
+    },
+    "SHARD_PRINCE": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9929
+    },
+    "ENCHANTED_CHARCOAL": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9951
+    },
+    "ENCHANTED_WET_SPONGE": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9775
+    },
+    "NIGHTSWITCH": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9978
+    },
+    "TENTACLE_MEAT": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9407
+    },
+    "ENCHANTMENT_LAPIDARY_5": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9753
+    },
+    "DIAMOND_ATOM": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9831
+    },
+    "SPONGE": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9957
+    },
+    "ENSNARED_SNAIL": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9604
+    },
+    "SHARD_SEAGULL": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9908
+    },
+    "POISONOUS_POTATO": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9894
+    },
+    "ENCHANTMENT_CHANCE_4": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9815
+    },
+    "ENCHANTMENT_SNIPE_4": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9744
+    },
+    "ENCHANTMENT_ULTIMATE_LEGION_4": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9979
+    },
+    "REAPER_PEPPER": {
+        "buy_score": 0.9936,
+        "sell_score": 0.9504
+    },
+    "ENCHANTMENT_SUNDER_6": {
+        "buy_score": 0.9936,
+        "sell_score": 0.8762
+    },
+    "ENCHANTMENT_TURBO_POTATO_5": {
+        "buy_score": 0.9936,
+        "sell_score": 0.987
+    },
+    "MILLENIA_OLD_BLAZE_ASHES": {
+        "buy_score": 0.9935,
+        "sell_score": 0.9978
+    },
+    "SHARD_CRETAN_BULL": {
+        "buy_score": 0.9935,
+        "sell_score": 0.9852
+    },
+    "SUPER_EGG": {
+        "buy_score": 0.9935,
+        "sell_score": 0.9647
+    },
+    "SHARD_BITBUG": {
+        "buy_score": 0.993,
+        "sell_score": 0.988
+    },
+    "SHARD_KING_MINOS": {
+        "buy_score": 0.993,
+        "sell_score": 0.9866
+    },
+    "SHARD_TEMPEST": {
+        "buy_score": 0.993,
+        "sell_score": 0.9866
+    },
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_2": {
+        "buy_score": 0.993,
+        "sell_score": 0.993
+    },
+    "ENCHANTMENT_ULTIMATE_FLASH_3": {
+        "buy_score": 0.993,
+        "sell_score": 1.0
+    },
+    "MOONSTONE": {
+        "buy_score": 0.993,
+        "sell_score": 0.9866
+    },
+    "ENCHANTMENT_CLEAVE_6": {
+        "buy_score": 0.993,
+        "sell_score": 0.9832
+    },
+    "EXALTED_LUSHLILAC_BONBON": {
+        "buy_score": 0.993,
+        "sell_score": 0.9881
+    },
+    "SHARD_CHAMELEON": {
+        "buy_score": 0.993,
+        "sell_score": 0.8895
+    },
+    "SHARD_ANANKE": {
+        "buy_score": 0.993,
+        "sell_score": 0.993
+    },
+    "SHARD_CAIMAN": {
+        "buy_score": 0.993,
+        "sell_score": 0.997
+    },
+    "ENCHANTMENT_HECATOMB_1": {
+        "buy_score": 0.993,
+        "sell_score": 0.9873
+    },
+    "ENCHANTMENT_PROTECTION_7": {
+        "buy_score": 0.993,
+        "sell_score": 0.973
+    },
+    "GLOWING_MUSHROOM": {
+        "buy_score": 0.993,
+        "sell_score": 0.9795
+    },
+    "ENCHANTMENT_ULTIMATE_SWARM_5": {
+        "buy_score": 0.993,
+        "sell_score": 0.8224
+    },
+    "ENCHANTMENT_EXPERIENCE_5": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9993
+    },
+    "RABBIT_HIDE": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9949
+    },
+    "THORNY_VINES": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9943
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_1": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9866
+    },
+    "SHARD_PRAYING_MANTIS": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9448
+    },
+    "ENCHANTMENT_TURBO_COCO_5": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9709
+    },
+    "ENCHANTMENT_ULTIMATE_WISE_4": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9916
+    },
+    "GIANT_BOUNCY_BEACH_BALL": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9725
+    },
+    "SHARD_PANDARAI": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9695
+    },
+    "ENCHANTMENT_PRISTINE_5": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9393
+    },
+    "GREAT_WHITE_TOOTH_MEAL": {
+        "buy_score": 0.9929,
+        "sell_score": 0.9837
+    },
+    "ENCHANTED_COOKED_SALMON": {
+        "buy_score": 0.9928,
+        "sell_score": 0.9514
+    },
+    "ENCHANTMENT_CHARM_1": {
+        "buy_score": 0.9928,
+        "sell_score": 0.934
+    },
+    "ROUGH_OPAL_GEM": {
+        "buy_score": 0.9928,
+        "sell_score": 1.0
+    },
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_4": {
+        "buy_score": 0.9927,
+        "sell_score": 0.9609
+    },
+    "SHARD_MEGALITH": {
+        "buy_score": 0.9923,
+        "sell_score": 0.9907
+    },
+    "ENCHANTMENT_TURBO_MOONFLOWER_2": {
+        "buy_score": 0.9923,
+        "sell_score": 0.993
+    },
+    "DARK_BAIT": {
+        "buy_score": 0.9923,
+        "sell_score": 0.9644
+    },
+    "ENCHANTMENT_ULTIMATE_THE_ONE_4": {
+        "buy_score": 0.9923,
+        "sell_score": 0.9888
+    },
+    "ENCHANTMENT_TURBO_MELON_3": {
+        "buy_score": 0.9923,
+        "sell_score": 0.9915
+    },
+    "SEVERED_PINCER": {
+        "buy_score": 0.9923,
+        "sell_score": 0.9817
+    },
+    "LUMINO_FIBER": {
+        "buy_score": 0.9923,
+        "sell_score": 0.9873
+    },
+    "SHARD_KIWI": {
+        "buy_score": 0.9923,
+        "sell_score": 0.9951
+    },
+    "SPIDER_EYE": {
+        "buy_score": 0.9922,
+        "sell_score": 0.9802
+    },
+    "MOBY_DUCK_COLLECTOR_EDITION": {
+        "buy_score": 0.9922,
+        "sell_score": 0.9851
+    },
+    "ICE_BAIT": {
+        "buy_score": 0.9922,
+        "sell_score": 0.9466
+    },
+    "ENCHANTMENT_POWER_6": {
+        "buy_score": 0.9922,
+        "sell_score": 0.9366
+    },
+    "ENCHANTMENT_TURBO_CANE_5": {
+        "buy_score": 0.9922,
+        "sell_score": 0.9814
+    },
+    "ENCHANTMENT_CUBISM_6": {
+        "buy_score": 0.9922,
+        "sell_score": 0.9801
+    },
+    "LONELILY": {
+        "buy_score": 0.9922,
+        "sell_score": 0.9866
+    },
+    "SULPHUR_ORE": {
+        "buy_score": 0.9922,
+        "sell_score": 0.9797
+    },
+    "ENCHANTED_REDSTONE_LAMP": {
+        "buy_score": 0.9921,
+        "sell_score": 0.9928
+    },
+    "GENERATOR_UPGRADE_STONE_CLAY_12": {
+        "buy_score": 0.9921,
+        "sell_score": 0.9944
+    },
+    "FLINT": {
+        "buy_score": 0.9921,
+        "sell_score": 0.9858
+    },
+    "SEARING_STONE": {
+        "buy_score": 0.9921,
+        "sell_score": 0.9474
+    },
+    "HAZMAT_ENDERMAN": {
+        "buy_score": 0.9921,
+        "sell_score": 0.9325
+    },
+    "CARROT_BAIT": {
+        "buy_score": 0.9921,
+        "sell_score": 0.9604
+    },
+    "DISPLACED_LEECH": {
+        "buy_score": 0.9921,
+        "sell_score": 0.9972
+    },
+    "PRISMARINE_SHARD": {
+        "buy_score": 0.9921,
+        "sell_score": 0.9611
+    },
+    "FLY_SWATTER": {
+        "buy_score": 0.9916,
+        "sell_score": 0.9675
+    },
+    "ENCHANTMENT_SUGAR_RUSH_1": {
+        "buy_score": 0.9916,
+        "sell_score": 0.9958
+    },
+    "ENCHANTMENT_TURBO_MUSHROOMS_5": {
+        "buy_score": 0.9916,
+        "sell_score": 0.9802
+    },
+    "MITE_GEL": {
+        "buy_score": 0.9916,
+        "sell_score": 0.9399
+    },
+    "SHARD_LIZARD_KING": {
+        "buy_score": 0.9916,
+        "sell_score": 0.9929
+    },
+    "SPOTLITE": {
+        "buy_score": 0.9916,
+        "sell_score": 0.9886
+    },
+    "ENCHANTMENT_CASTER_6": {
+        "buy_score": 0.9916,
+        "sell_score": 0.9843
+    },
+    "SHARD_LADYBUG": {
+        "buy_score": 0.9916,
+        "sell_score": 0.9733
+    },
+    "ENCHANTMENT_DIVINE_GIFT_1": {
+        "buy_score": 0.9916,
+        "sell_score": 0.9943
+    },
+    "SHARD_BOREAL_OWL": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9965
+    },
+    "SHARD_TORTOISE": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9985
+    },
+    "WORM_BAIT": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9836
+    },
+    "GOBLIN_EGG_YELLOW": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9583
+    },
+    "ENCHANTMENT_SHARPNESS_7": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9719
+    },
+    "SHARD_SALAMANDER": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9605
+    },
+    "SHARD_SYCOPHANT": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9711
+    },
+    "ENCHANTMENT_PISCARY_6": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9845
+    },
+    "ENCHANTMENT_TURBO_PUMPKIN_4": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9986
+    },
+    "RADIOACTIVE_VIAL": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9732
+    },
+    "SHARD_MAGMA_SLUG": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9506
+    },
+    "GOLDEN_FRAGMENT": {
+        "buy_score": 0.9915,
+        "sell_score": 0.9895
+    },
+    "SUPER_MAGIC_MUSHROOM_SOUP": {
+        "buy_score": 0.9914,
+        "sell_score": 0.9859
+    },
+    "SHARD_ENT": {
+        "buy_score": 0.9914,
+        "sell_score": 0.9802
+    },
+    "SHARD_THYST": {
+        "buy_score": 0.9914,
+        "sell_score": 0.9517
+    },
+    "ICE": {
+        "buy_score": 0.9914,
+        "sell_score": 0.9827
+    },
+    "ROUGH_JASPER_GEM": {
+        "buy_score": 0.9914,
+        "sell_score": 0.995
+    },
+    "IRIDIUM": {
+        "buy_score": 0.9909,
+        "sell_score": 0.9768
+    },
+    "SHARD_TITANOBOA": {
+        "buy_score": 0.9909,
+        "sell_score": 0.9872
+    },
+    "ENCHANTMENT_SCAVENGER_5": {
+        "buy_score": 0.9909,
+        "sell_score": 0.9169
+    },
+    "ENCHANTMENT_LUCK_6": {
+        "buy_score": 0.9909,
+        "sell_score": 0.9873
+    },
+    "KELVIN_INVERTER": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9839
+    },
+    "SHARD_SPHINX": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9815
+    },
+    "LOG:2": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9498
+    },
+    "SHARD_HIDEONCAVE": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9627
+    },
+    "LUXURIOUS_SPOOL": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9465
+    },
+    "ENCHANTMENT_PALEONTOLOGIST_1": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9385
+    },
+    "MOONGLADE_JEWEL": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9802
+    },
+    "SHARD_LAPIS_SKELETON": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9829
+    },
+    "ENCHANTMENT_EXPERTISE_1": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9831
+    },
+    "ENCHANTMENT_FOREST_PLEDGE_4": {
+        "buy_score": 0.9908,
+        "sell_score": 1.0
+    },
+    "SHARD_HIDEONGIFT": {
+        "buy_score": 0.9908,
+        "sell_score": 0.9922
+    },
+    "PERFECT_OPAL_GEM": {
+        "buy_score": 0.9907,
+        "sell_score": 0.9569
+    },
+    "ENCHANTMENT_ULTIMATE_REITERATE_5": {
+        "buy_score": 0.9907,
+        "sell_score": 0.9723
+    },
+    "BURNING_EYE": {
+        "buy_score": 0.9907,
+        "sell_score": 0.9732
+    },
+    "ENCHANTMENT_PALEONTOLOGIST_5": {
+        "buy_score": 0.9907,
+        "sell_score": 0.9901
+    },
+    "ENCHANTMENT_SUNDER_1": {
+        "buy_score": 0.9907,
+        "sell_score": 0.99
+    },
+    "SHARD_TROGLOBYTE": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9392
+    },
+    "SHARD_ALLIGATOR": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9957
+    },
+    "GLACITE_SHARD": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9434
+    },
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_1": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9722
+    },
+    "ENCHANTMENT_ULTIMATE_COMBO_5": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9978
+    },
+    "PET_ITEM_VAMPIRE_FANG": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9992
+    },
+    "YELLOW_FLOWER": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9579
+    },
+    "GAZING_PEARL": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9916
+    },
+    "OCTOPUS_TENDRIL": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9753
+    },
+    "PRIME_LUSHLILAC_BONBON": {
+        "buy_score": 0.9902,
+        "sell_score": 0.9971
+    },
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_2": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9603
+    },
+    "GOLEM_POPPY": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9476
+    },
+    "SHARD_BLIZZARD": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9972
+    },
+    "SHARD_EEL": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9582
+    },
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_5": {
+        "buy_score": 0.9901,
+        "sell_score": 0.8993
+    },
+    "SHARD_HELLWISP": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9951
+    },
+    "HIGHLITE": {
+        "buy_score": 0.9901,
+        "sell_score": 0.988
+    },
+    "ENCHANTMENT_ULTIMATE_WISDOM_4": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9971
+    },
+    "SHARD_CROW": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9566
+    },
+    "LARGE_WALNUT": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9937
+    },
+    "ARACHNE_FRAGMENT": {
+        "buy_score": 0.9901,
+        "sell_score": 0.8582
+    },
+    "ARROW_BUNDLE_MAGMA": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9732
+    },
+    "SOUL_FRAGMENT": {
+        "buy_score": 0.9901,
+        "sell_score": 0.9831
+    },
+    "RABBIT_FOOT": {
+        "buy_score": 0.99,
+        "sell_score": 0.9888
+    },
+    "SHARD_IGUANA": {
+        "buy_score": 0.99,
+        "sell_score": 0.9718
+    },
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_3": {
+        "buy_score": 0.99,
+        "sell_score": 0.9943
+    },
+    "WET_WATER": {
+        "buy_score": 0.99,
+        "sell_score": 0.9965
+    },
+    "SHARD_BRAMBLE": {
+        "buy_score": 0.99,
+        "sell_score": 0.9978
+    },
+    "SHARD_MOSSYBIT": {
+        "buy_score": 0.9899,
+        "sell_score": 0.9706
+    },
+    "ENCHANTMENT_TRIPLE_STRIKE_5": {
+        "buy_score": 0.9895,
+        "sell_score": 0.9893
+    },
+    "GREEN_CANDY": {
+        "buy_score": 0.9895,
+        "sell_score": 0.9087
+    },
+    "WINTER_FRAGMENT": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9965
+    },
+    "LESSER_SOULFLOW_ENGINE": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9836
+    },
+    "SUNSTONE": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9979
+    },
+    "SINGED_POWDER": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9704
+    },
+    "ACACIA_BIRDHOUSE": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9859
+    },
+    "ENCHANTMENT_VAMPIRISM_6": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9584
+    },
+    "SHARD_KADA_KNIGHT": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9542
+    },
+    "HALLOWED_SKULL": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9782
+    },
+    "SHARD_VIPER": {
+        "buy_score": 0.9894,
+        "sell_score": 0.8969
+    },
+    "FLYCATCHER_UPGRADE": {
+        "buy_score": 0.9894,
+        "sell_score": 0.988
+    },
+    "SHARD_STRIDER_SURFER": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9766
+    },
+    "ENCHANTMENT_FEATHER_FALLING_10": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9421
+    },
+    "ENCHANTMENT_TITAN_KILLER_7": {
+        "buy_score": 0.9894,
+        "sell_score": 0.981
+    },
+    "SHARD_BEACONMITE": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9579
+    },
+    "ENCHANTMENT_REFLECTION_1": {
+        "buy_score": 0.9894,
+        "sell_score": 0.9928
+    },
+    "SHARD_MUDWORM": {
+        "buy_score": 0.9893,
+        "sell_score": 0.9277
+    },
+    "BOOKWORM_BOOK": {
+        "buy_score": 0.9893,
+        "sell_score": 0.8985
+    },
+    "WOOL": {
+        "buy_score": 0.9893,
+        "sell_score": 0.9766
+    },
+    "ENCHANTMENT_TURBO_POTATO_1": {
+        "buy_score": 0.9893,
+        "sell_score": 0.904
+    },
+    "FLAWED_CITRINE_GEM": {
+        "buy_score": 0.9892,
+        "sell_score": 0.9922
+    },
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_3": {
+        "buy_score": 0.9891,
+        "sell_score": 0.9775
+    },
+    "DWARVEN_OS_BLOCK_BRAN": {
+        "buy_score": 0.9889,
+        "sell_score": 0.9561
+    },
+    "SHARD_AERO": {
+        "buy_score": 0.9888,
+        "sell_score": 0.9915
+    },
+    "ENCHANTMENT_TOXOPHILITE_1": {
+        "buy_score": 0.9888,
+        "sell_score": 0.9835
+    },
+    "EXPIRED_PUMPKIN": {
+        "buy_score": 0.9888,
+        "sell_score": 0.9873
+    },
+    "CONCENTRATED_STONE": {
+        "buy_score": 0.9888,
+        "sell_score": 0.9544
+    },
+    "SCARF_FRAGMENT": {
+        "buy_score": 0.9888,
+        "sell_score": 0.9579
+    },
+    "WEAK_WOLF_CATALYST": {
+        "buy_score": 0.9888,
+        "sell_score": 0.9804
+    },
+    "CREAMBLOOM": {
+        "buy_score": 0.9887,
+        "sell_score": 0.9647
+    },
+    "ENCHANTMENT_EXPERIENCE_4": {
+        "buy_score": 0.9887,
+        "sell_score": 0.9894
+    },
+    "SHARD_HUMMINGBIRD": {
+        "buy_score": 0.9887,
+        "sell_score": 0.9402
+    },
+    "ENCHANTMENT_LOOTING_5": {
+        "buy_score": 0.9887,
+        "sell_score": 0.9873
+    },
+    "SHARD_CROCODILE": {
+        "buy_score": 0.9887,
+        "sell_score": 0.9001
+    },
+    "SHARD_CRYO": {
+        "buy_score": 0.9887,
+        "sell_score": 0.9936
+    },
+    "BLAZEN_SPHERE": {
+        "buy_score": 0.9887,
+        "sell_score": 0.962
+    },
+    "SHARD_GROVE": {
+        "buy_score": 0.9887,
+        "sell_score": 0.9837
+    },
+    "GIANT_FRAGMENT_BOULDER": {
+        "buy_score": 0.9887,
+        "sell_score": 0.9501
+    },
+    "SHARD_FIRE_EEL": {
+        "buy_score": 0.9886,
+        "sell_score": 0.9431
+    },
+    "GUARDIAN_LUCKY_BLOCK": {
+        "buy_score": 0.9886,
+        "sell_score": 0.9808
+    },
+    "FROZEN_BAIT": {
+        "buy_score": 0.9886,
+        "sell_score": 0.8859
+    },
+    "MELON_BLOCK": {
+        "buy_score": 0.9886,
+        "sell_score": 0.9633
+    },
+    "PERFECT_PLATE": {
+        "buy_score": 0.9886,
+        "sell_score": 0.9802
+    },
+    "HOT_STUFF": {
+        "buy_score": 0.9882,
+        "sell_score": 0.9909
+    },
+    "ENCHANTMENT_TURBO_WHEAT_5": {
+        "buy_score": 0.9881,
+        "sell_score": 0.9846
+    },
+    "ENCHANTED_SPONGE": {
+        "buy_score": 0.9881,
+        "sell_score": 0.9375
+    },
+    "ENCHANTMENT_CHANCE_5": {
+        "buy_score": 0.9881,
+        "sell_score": 0.9909
+    },
+    "ENCHANTED_GRILLED_PORK": {
+        "buy_score": 0.988,
+        "sell_score": 0.9895
+    },
+    "FULL_CHUM_BUCKET": {
+        "buy_score": 0.988,
+        "sell_score": 0.9723
+    },
+    "SHARD_MATCHO": {
+        "buy_score": 0.988,
+        "sell_score": 0.9747
+    },
+    "SPELL_POWDER": {
+        "buy_score": 0.988,
+        "sell_score": 0.9852
+    },
+    "ENCHANTMENT_STRONG_MANA_5": {
+        "buy_score": 0.988,
+        "sell_score": 0.9092
+    },
+    "SHARD_SPARROW": {
+        "buy_score": 0.988,
+        "sell_score": 0.9853
+    },
+    "SHARD_LORD_JAWBUS": {
+        "buy_score": 0.988,
+        "sell_score": 0.9624
+    },
+    "DIAMONITE": {
+        "buy_score": 0.988,
+        "sell_score": 0.9825
+    },
+    "ENCHANTMENT_CRITICAL_6": {
+        "buy_score": 0.9879,
+        "sell_score": 0.9435
+    },
+    "GLOWY_CHUM_BAIT": {
+        "buy_score": 0.9879,
+        "sell_score": 0.9648
+    },
+    "SHARD_CASCADE": {
+        "buy_score": 0.9879,
+        "sell_score": 0.9908
+    },
+    "SHARD_BAMBLOOM": {
+        "buy_score": 0.9879,
+        "sell_score": 0.9824
+    },
+    "SHARD_ARACHNE": {
+        "buy_score": 0.9879,
+        "sell_score": 0.9655
+    },
+    "BLAZE_WAX": {
+        "buy_score": 0.9879,
+        "sell_score": 0.9678
+    },
+    "SHARD_GOLDFIN": {
+        "buy_score": 0.9879,
+        "sell_score": 0.9783
+    },
+    "SHARD_QUAKE": {
+        "buy_score": 0.9879,
+        "sell_score": 0.9782
+    },
+    "MYCEL": {
+        "buy_score": 0.9878,
+        "sell_score": 0.9732
+    },
+    "END_STONE_SHULKER": {
+        "buy_score": 0.9874,
+        "sell_score": 0.9578
+    },
+    "LOG:3": {
+        "buy_score": 0.9874,
+        "sell_score": 0.9787
+    },
+    "ENCHANTMENT_LIFE_STEAL_4": {
+        "buy_score": 0.9874,
+        "sell_score": 0.9404
+    },
+    "ENCHANTMENT_GROWTH_7": {
+        "buy_score": 0.9873,
+        "sell_score": 0.9866
+    },
+    "MANA_DISINTEGRATOR": {
+        "buy_score": 0.9873,
+        "sell_score": 0.8825
+    },
+    "ENCHANTMENT_LETHALITY_6": {
+        "buy_score": 0.9873,
+        "sell_score": 0.913
+    },
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_6": {
+        "buy_score": 0.9873,
+        "sell_score": 0.9751
+    },
+    "BEADY_EYES": {
+        "buy_score": 0.9873,
+        "sell_score": 0.9072
+    },
+    "SHARD_LUNAR_MOTH": {
+        "buy_score": 0.9873,
+        "sell_score": 0.943
+    },
+    "ENCHANTMENT_OVERLOAD_5": {
+        "buy_score": 0.9873,
+        "sell_score": 0.9367
+    },
+    "GOLDEN_BALL": {
+        "buy_score": 0.9873,
+        "sell_score": 0.9887
+    },
+    "SHARD_DROWNED": {
+        "buy_score": 0.9872,
+        "sell_score": 0.9802
+    },
+    "SHARD_MIMIC": {
+        "buy_score": 0.9872,
+        "sell_score": 0.9908
+    },
+    "ENCHANTMENT_INFINITE_QUIVER_6": {
+        "buy_score": 0.9872,
+        "sell_score": 0.8774
+    },
+    "ENCHANTMENT_ULTIMATE_ONE_FOR_ALL_1": {
+        "buy_score": 0.9872,
+        "sell_score": 0.9836
+    },
+    "ENCHANTMENT_ULTIMATE_LEGION_5": {
+        "buy_score": 0.9872,
+        "sell_score": 0.8053
+    },
+    "ENCHANTED_RED_SAND_CUBE": {
+        "buy_score": 0.9872,
+        "sell_score": 0.9929
+    },
+    "STURDY_BONE": {
+        "buy_score": 0.9871,
+        "sell_score": 0.9795
+    },
+    "SHARD_PYTHON": {
+        "buy_score": 0.9867,
+        "sell_score": 0.9412
+    },
+    "FATEFUL_STINGER": {
+        "buy_score": 0.9867,
+        "sell_score": 0.9774
+    },
+    "TERRY_SNOWGLOBE": {
+        "buy_score": 0.9867,
+        "sell_score": 0.9837
+    },
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_5": {
+        "buy_score": 0.9866,
+        "sell_score": 0.8764
+    },
+    "METAPHYSICAL_SERUM": {
+        "buy_score": 0.9866,
+        "sell_score": 0.8947
+    },
+    "ENCHANTMENT_CRITICAL_7": {
+        "buy_score": 0.9866,
+        "sell_score": 0.9839
+    },
+    "GOBLIN_EGG_GREEN": {
+        "buy_score": 0.9866,
+        "sell_score": 0.9344
+    },
+    "EXP_BOTTLE": {
+        "buy_score": 0.9866,
+        "sell_score": 0.9549
+    },
+    "SHARD_LAPIS_CREEPER": {
+        "buy_score": 0.9866,
+        "sell_score": 0.9894
+    },
+    "ENCHANTMENT_REJUVENATE_3": {
+        "buy_score": 0.9866,
+        "sell_score": 0.9323
+    },
+    "ENCHANTED_COOKED_RABBIT": {
+        "buy_score": 0.9865,
+        "sell_score": 0.9739
+    },
+    "WOODEN_BAIT": {
+        "buy_score": 0.9865,
+        "sell_score": 0.9625
+    },
+    "HAMSTER_WHEEL": {
+        "buy_score": 0.9863,
+        "sell_score": 0.9029
+    },
+    "SHARD_MIST": {
+        "buy_score": 0.986,
+        "sell_score": 0.9895
+    },
+    "ENCHANTMENT_LOOTING_4": {
+        "buy_score": 0.986,
+        "sell_score": 0.9703
+    },
+    "ENCHANTMENT_TURBO_MELON_5": {
+        "buy_score": 0.986,
+        "sell_score": 0.9367
+    },
+    "SHARD_TERMITE": {
+        "buy_score": 0.986,
+        "sell_score": 0.9638
+    },
+    "OLD_LEATHER_BOOT": {
+        "buy_score": 0.9859,
+        "sell_score": 0.9943
+    },
+    "SHARD_SEA_SERPENT": {
+        "buy_score": 0.9859,
+        "sell_score": 0.9696
+    },
+    "GHAST_TEAR": {
+        "buy_score": 0.9859,
+        "sell_score": 0.9626
+    },
+    "GOBLIN_EGG_RED": {
+        "buy_score": 0.9859,
+        "sell_score": 0.9443
+    },
+    "CLIPPED_WINGS": {
+        "buy_score": 0.9859,
+        "sell_score": 0.9268
+    },
+    "PERFECT_RUBY_GEM": {
+        "buy_score": 0.9858,
+        "sell_score": 0.9511
+    },
+    "SHARD_QUARTZFANG": {
+        "buy_score": 0.9858,
+        "sell_score": 0.9846
+    },
+    "ENCHANTED_GHAST_TEAR": {
+        "buy_score": 0.9858,
+        "sell_score": 0.9559
+    },
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_5": {
+        "buy_score": 0.9858,
+        "sell_score": 0.9656
+    },
+    "MAGMA_CHUNK": {
+        "buy_score": 0.9858,
+        "sell_score": 0.9703
+    },
+    "CRUDE_GABAGOOL": {
+        "buy_score": 0.9857,
+        "sell_score": 0.9892
+    },
+    "SHARD_BAL": {
+        "buy_score": 0.9853,
+        "sell_score": 0.981
+    },
+    "GLOWSTONE_DUST": {
+        "buy_score": 0.9853,
+        "sell_score": 0.9881
+    },
+    "SHARD_CORALOT": {
+        "buy_score": 0.9853,
+        "sell_score": 0.9579
+    },
+    "SHARD_FLASH": {
+        "buy_score": 0.9852,
+        "sell_score": 0.9936
+    },
+    "BONZO_FRAGMENT": {
+        "buy_score": 0.9852,
+        "sell_score": 0.976
+    },
+    "SHARD_REVENANT": {
+        "buy_score": 0.9852,
+        "sell_score": 0.9547
+    },
+    "GRAVEL": {
+        "buy_score": 0.9852,
+        "sell_score": 0.9715
+    },
+    "ENCHANTMENT_SYPHON_4": {
+        "buy_score": 0.9852,
+        "sell_score": 0.8458
+    },
+    "ENCHANTMENT_FIRE_ASPECT_3": {
+        "buy_score": 0.9851,
+        "sell_score": 0.9409
+    },
+    "HEMOBOMB": {
+        "buy_score": 0.9851,
+        "sell_score": 0.9937
+    },
+    "EMPTY_CHUM_BUCKET": {
+        "buy_score": 0.9851,
+        "sell_score": 0.9909
+    },
+    "CHUM": {
+        "buy_score": 0.9851,
+        "sell_score": 0.9818
+    },
+    "SHARD_HARPY": {
+        "buy_score": 0.985,
+        "sell_score": 0.9746
+    },
+    "THORN_FRAGMENT": {
+        "buy_score": 0.985,
+        "sell_score": 0.9788
+    },
+    "LOG_2:1": {
+        "buy_score": 0.985,
+        "sell_score": 0.9766
+    },
+    "SQUEAKY_TOY": {
+        "buy_score": 0.985,
+        "sell_score": 0.8523
+    },
+    "ENCHANTMENT_ULTIMATE_FLOWSTATE_3": {
+        "buy_score": 0.9846,
+        "sell_score": 0.9609
+    },
+    "GIANT_FRAGMENT_BIGFOOT": {
+        "buy_score": 0.9845,
+        "sell_score": 0.9481
+    },
+    "INFERNO_FUEL_BLOCK": {
+        "buy_score": 0.9845,
+        "sell_score": 0.9886
+    },
+    "KUUDRA_TEETH": {
+        "buy_score": 0.9845,
+        "sell_score": 0.9601
+    },
+    "FORAGING_FORTUNE_BOOSTER": {
+        "buy_score": 0.9845,
+        "sell_score": 0.9752
+    },
+    "SHARD_SHINYFISH": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9575
+    },
+    "SHINY_PRISM": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9893
+    },
+    "RAW_SOULFLOW": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9789
+    },
+    "SHARD_BOLT": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9683
+    },
+    "BRAIN_FOOD": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9683
+    },
+    "SIL_EX": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9571
+    },
+    "REKINDLED_EMBER_FRAGMENT": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9831
+    },
+    "ENCHANTMENT_PRISTINE_1": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9763
+    },
+    "ENCHANTED_RED_SAND": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9595
+    },
+    "FROZEN_SCUTE": {
+        "buy_score": 0.9844,
+        "sell_score": 0.9802
+    },
+    "CAN_OF_WORMS": {
+        "buy_score": 0.9843,
+        "sell_score": 0.9688
+    },
+    "GILL_MEMBRANE": {
+        "buy_score": 0.9843,
+        "sell_score": 0.9838
+    },
+    "ENCHANTMENT_STRONG_MANA_1": {
+        "buy_score": 0.984,
+        "sell_score": 0.9646
+    },
+    "MANGROVE_GEM": {
+        "buy_score": 0.984,
+        "sell_score": 0.9689
+    },
+    "ENCHANTED_WATER_LILY": {
+        "buy_score": 0.9839,
+        "sell_score": 0.9757
+    },
+    "PURPLE_CANDY": {
+        "buy_score": 0.9839,
+        "sell_score": 0.9345
+    },
+    "SHARD_COD": {
+        "buy_score": 0.9839,
+        "sell_score": 0.9473
+    },
+    "POLARVOID_BOOK": {
+        "buy_score": 0.9839,
+        "sell_score": 0.9745
+    },
+    "WITHER_SOUL": {
+        "buy_score": 0.9839,
+        "sell_score": 0.9633
+    },
+    "ENCHANTED_SPRUCE_LOG": {
+        "buy_score": 0.9839,
+        "sell_score": 0.9867
+    },
+    "SHARD_HIDEONRING": {
+        "buy_score": 0.9839,
+        "sell_score": 0.9816
+    },
+    "SHARD_DREADWING": {
+        "buy_score": 0.9838,
+        "sell_score": 0.9413
+    },
+    "ENCHANTMENT_REJUVENATE_4": {
+        "buy_score": 0.9838,
+        "sell_score": 0.9584
+    },
+    "ENDERMAN_CORTEX_REWRITER": {
+        "buy_score": 0.9837,
+        "sell_score": 0.9837
+    },
+    "SHARD_CINDER_BAT": {
+        "buy_score": 0.9837,
+        "sell_score": 0.966
+    },
+    "SHARD_PHANFLARE": {
+        "buy_score": 0.9837,
+        "sell_score": 0.9451
+    },
+    "GLEAMING_CRYSTAL": {
+        "buy_score": 0.9837,
+        "sell_score": 0.9754
+    },
+    "ENCHANTED_SPIDER_EYE": {
+        "buy_score": 0.9837,
+        "sell_score": 0.9381
+    },
+    "REFINED_BOTTLE_OF_JYRRE": {
+        "buy_score": 0.9837,
+        "sell_score": 0.9586
+    },
+    "GIANT_TOOTH": {
+        "buy_score": 0.9836,
+        "sell_score": 0.9674
+    },
+    "MAGMA_CORE": {
+        "buy_score": 0.9836,
+        "sell_score": 0.9801
+    },
+    "WITHERBLOOM": {
+        "buy_score": 0.9836,
+        "sell_score": 0.9251
+    },
+    "YOGGIE": {
+        "buy_score": 0.9835,
+        "sell_score": 0.9669
+    },
+    "ENCHANTMENT_ABSORB_1": {
+        "buy_score": 0.9832,
+        "sell_score": 0.9795
+    },
+    "PUMPKIN_GUTS": {
+        "buy_score": 0.9832,
+        "sell_score": 0.9801
+    },
+    "ENCHANTED_RAW_SALMON": {
+        "buy_score": 0.9832,
+        "sell_score": 0.9443
+    },
+    "HYPER_CATALYST": {
+        "buy_score": 0.9832,
+        "sell_score": 0.9413
+    },
+    "FRESHLY_MINTED_COINS": {
+        "buy_score": 0.9831,
+        "sell_score": 0.9901
+    },
+    "CLAY_BALL": {
+        "buy_score": 0.9831,
+        "sell_score": 0.9783
+    },
+    "SEVERED_HAND": {
+        "buy_score": 0.9831,
+        "sell_score": 0.9652
+    },
+    "DIGESTED_MUSHROOMS": {
+        "buy_score": 0.9831,
+        "sell_score": 0.966
+    },
+    "ENCHANTED_COOKED_MUTTON": {
+        "buy_score": 0.9831,
+        "sell_score": 0.9747
+    },
+    "ENCHANTMENT_TURBO_MUSHROOMS_1": {
+        "buy_score": 0.9831,
+        "sell_score": 0.9014
+    },
+    "SHARD_XYZ": {
+        "buy_score": 0.9831,
+        "sell_score": 0.9725
+    },
+    "ENDSTONE_IDOL": {
+        "buy_score": 0.983,
+        "sell_score": 0.9837
+    },
+    "BUDGET_HOPPER": {
+        "buy_score": 0.983,
+        "sell_score": 0.964
+    },
+    "FESTERING_MAGGOT": {
+        "buy_score": 0.983,
+        "sell_score": 0.9711
+    },
+    "ENCHANTMENT_ULTIMATE_COMBO_1": {
+        "buy_score": 0.983,
+        "sell_score": 0.9517
+    },
+    "QUARTZ": {
+        "buy_score": 0.983,
+        "sell_score": 0.9859
+    },
+    "PLOT_ERASER": {
+        "buy_score": 0.983,
+        "sell_score": 0.9879
+    },
+    "EXPORTABLE_CARROTS": {
+        "buy_score": 0.9829,
+        "sell_score": 0.9483
+    },
+    "FLOWERING_BOUQUET": {
+        "buy_score": 0.9829,
+        "sell_score": 0.7763
+    },
+    "ENCHANTMENT_POWER_7": {
+        "buy_score": 0.9829,
+        "sell_score": 0.968
+    },
+    "DUSKBLOOM": {
+        "buy_score": 0.9829,
+        "sell_score": 0.9809
+    },
+    "ENDER_STONE": {
+        "buy_score": 0.9829,
+        "sell_score": 0.9716
+    },
+    "SHARD_WITHER_SPECTER": {
+        "buy_score": 0.9825,
+        "sell_score": 0.9635
+    },
+    "CHOCOLATE_CHIP": {
+        "buy_score": 0.9825,
+        "sell_score": 0.9689
+    },
+    "ENCHANTMENT_MANA_VAMPIRE_5": {
+        "buy_score": 0.9825,
+        "sell_score": 0.9495
+    },
+    "SHARD_DAEMON": {
+        "buy_score": 0.9825,
+        "sell_score": 0.957
+    },
+    "ENCHANTMENT_CHAMPION_1": {
+        "buy_score": 0.9825,
+        "sell_score": 0.9501
+    },
+    "ENCHANTMENT_DRAGON_HUNTER_6": {
+        "buy_score": 0.9824,
+        "sell_score": 0.9965
+    },
+    "FARMING_FOR_DUMMIES": {
+        "buy_score": 0.9824,
+        "sell_score": 0.9653
+    },
+    "BEZOS": {
+        "buy_score": 0.9824,
+        "sell_score": 0.9739
+    },
+    "ENCHANTED_DANDELION": {
+        "buy_score": 0.9824,
+        "sell_score": 0.9289
+    },
+    "SHARD_TADGANG": {
+        "buy_score": 0.9824,
+        "sell_score": 0.9774
+    },
+    "ENCHANTMENT_PROSECUTE_6": {
+        "buy_score": 0.9823,
+        "sell_score": 0.9524
+    },
+    "RAW_BEEF": {
+        "buy_score": 0.9823,
+        "sell_score": 0.9717
+    },
+    "TARANTULA_CATALYST": {
+        "buy_score": 0.9823,
+        "sell_score": 0.9796
+    },
+    "FLAWED_JASPER_GEM": {
+        "buy_score": 0.9822,
+        "sell_score": 0.9844
+    },
+    "SWEEP_BOOSTER": {
+        "buy_score": 0.9822,
+        "sell_score": 0.9125
+    },
+    "SHARD_JOYDIVE": {
+        "buy_score": 0.9822,
+        "sell_score": 0.9472
+    },
+    "CHILI_PEPPER": {
+        "buy_score": 0.9821,
+        "sell_score": 0.9653
+    },
+    "PET_ITEM_EXP_SHARE_DROP": {
+        "buy_score": 0.9821,
+        "sell_score": 0.9663
+    },
+    "ENCHANTMENT_TURBO_PUMPKIN_5": {
+        "buy_score": 0.9819,
+        "sell_score": 0.9937
+    },
+    "ENCHANTMENT_VENOMOUS_6": {
+        "buy_score": 0.9818,
+        "sell_score": 0.8482
+    },
+    "SCORCHED_CRAB_STICK": {
+        "buy_score": 0.9817,
+        "sell_score": 0.9633
+    },
+    "SHARD_PIRANHA": {
+        "buy_score": 0.9817,
+        "sell_score": 0.9611
+    },
+    "TUNGSTEN": {
+        "buy_score": 0.9816,
+        "sell_score": 0.9985
+    },
+    "ENCHANTMENT_TURBO_COCO_1": {
+        "buy_score": 0.9816,
+        "sell_score": 0.9313
+    },
+    "SHARD_YOG": {
+        "buy_score": 0.9816,
+        "sell_score": 0.9795
+    },
+    "PERFECT_AQUAMARINE_GEM": {
+        "buy_score": 0.9816,
+        "sell_score": 0.9033
+    },
+    "FORAGING_WISDOM_BOOSTER": {
+        "buy_score": 0.9816,
+        "sell_score": 0.9251
+    },
+    "MANDRAA": {
+        "buy_score": 0.9816,
+        "sell_score": 0.9431
+    },
+    "PURE_MITHRIL": {
+        "buy_score": 0.9816,
+        "sell_score": 0.9929
+    },
+    "ENCHANTED_RAW_CHICKEN": {
+        "buy_score": 0.9813,
+        "sell_score": 0.9515
+    },
+    "DWARVEN_OS_METALLIC_MINIS": {
+        "buy_score": 0.9812,
+        "sell_score": 0.9299
+    },
+    "MUTTON": {
+        "buy_score": 0.9811,
+        "sell_score": 0.9671
+    },
+    "TORN_CLOTH": {
+        "buy_score": 0.981,
+        "sell_score": 0.964
+    },
+    "SHARD_NEWT": {
+        "buy_score": 0.981,
+        "sell_score": 0.9794
+    },
+    "THE_ART_OF_WAR": {
+        "buy_score": 0.981,
+        "sell_score": 0.9871
+    },
+    "SHARD_TIDE": {
+        "buy_score": 0.9809,
+        "sell_score": 0.995
+    },
+    "WATER_LILY": {
+        "buy_score": 0.9809,
+        "sell_score": 0.9815
+    },
+    "ENCHANTMENT_GIANT_KILLER_6": {
+        "buy_score": 0.9809,
+        "sell_score": 0.8566
+    },
+    "SPIDER_CATALYST": {
+        "buy_score": 0.9809,
+        "sell_score": 0.9859
+    },
+    "ENCHANTED_VINESAP": {
+        "buy_score": 0.9808,
+        "sell_score": 0.9641
+    },
+    "LUSH_BERBERIS": {
+        "buy_score": 0.9803,
+        "sell_score": 0.9718
+    },
+    "SHARD_VORACIOUS_SPIDER": {
+        "buy_score": 0.9803,
+        "sell_score": 0.9586
+    },
+    "ENCHANTMENT_FOREST_PLEDGE_5": {
+        "buy_score": 0.9803,
+        "sell_score": 0.9628
+    },
+    "WISHING_COMPASS": {
+        "buy_score": 0.9802,
+        "sell_score": 0.9673
+    },
+    "ENCHANTED_MYCELIUM_CUBE": {
+        "buy_score": 0.9802,
+        "sell_score": 0.9901
+    },
+    "TRANSMISSION_TUNER": {
+        "buy_score": 0.9802,
+        "sell_score": 0.8929
+    },
+    "HEMOVIBE": {
+        "buy_score": 0.9801,
+        "sell_score": 0.9676
+    },
+    "LOG_2": {
+        "buy_score": 0.9801,
+        "sell_score": 0.9604
+    },
+    "JERRY_BOX_BLUE": {
+        "buy_score": 0.9801,
+        "sell_score": 0.8126
+    },
+    "ENCHANTMENT_ENDER_SLAYER_6": {
+        "buy_score": 0.9796,
+        "sell_score": 0.8994
+    },
+    "SHARD_VERDANT": {
+        "buy_score": 0.9796,
+        "sell_score": 0.9139
+    },
+    "NECROMANCER_BROOCH": {
+        "buy_score": 0.9795,
+        "sell_score": 0.8718
+    },
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_5": {
+        "buy_score": 0.9794,
+        "sell_score": 0.954
+    },
+    "FLAWED_ONYX_GEM": {
+        "buy_score": 0.9794,
+        "sell_score": 0.9978
+    },
+    "PRICKLY_KISS": {
+        "buy_score": 0.9791,
+        "sell_score": 0.9817
+    },
+    "SHARD_OBSIDIAN_DEFENDER": {
+        "buy_score": 0.979,
+        "sell_score": 0.9681
+    },
+    "LOG:1": {
+        "buy_score": 0.979,
+        "sell_score": 0.9592
+    },
+    "SHARD_LAVA_FLAME": {
+        "buy_score": 0.9789,
+        "sell_score": 0.9435
+    },
+    "SHARD_WITHER": {
+        "buy_score": 0.9789,
+        "sell_score": 0.9852
+    },
+    "DEAD_PLANT": {
+        "buy_score": 0.9788,
+        "sell_score": 0.9374
+    },
+    "SHARD_MOCHIBEAR": {
+        "buy_score": 0.9788,
+        "sell_score": 0.9866
+    },
+    "ENCHANTMENT_TURBO_CARROT_1": {
+        "buy_score": 0.9788,
+        "sell_score": 0.9088
+    },
+    "BOBBIN_SCRIPTURES": {
+        "buy_score": 0.9788,
+        "sell_score": 0.9717
+    },
+    "SHARD_RAIN_SLIME": {
+        "buy_score": 0.9787,
+        "sell_score": 0.9837
+    },
+    "SHARD_GALAXY_FISH": {
+        "buy_score": 0.9786,
+        "sell_score": 0.9893
+    },
+    "SHADEVINE": {
+        "buy_score": 0.9783,
+        "sell_score": 0.915
+    },
+    "MAGMA_FISH_DIAMOND": {
+        "buy_score": 0.9782,
+        "sell_score": 0.9795
+    },
+    "LAVA_SHELL": {
+        "buy_score": 0.9782,
+        "sell_score": 0.9846
+    },
+    "ENCHANTMENT_TRUE_PROTECTION_1": {
+        "buy_score": 0.978,
+        "sell_score": 0.9747
+    },
+    "ARACHNE_FANG": {
+        "buy_score": 0.978,
+        "sell_score": 0.9534
+    },
+    "MANGCORE": {
+        "buy_score": 0.9779,
+        "sell_score": 0.9705
+    },
+    "STOCK_OF_STONKS": {
+        "buy_score": 0.9779,
+        "sell_score": 0.9608
+    },
+    "SHARD_SPIKE": {
+        "buy_score": 0.9779,
+        "sell_score": 0.9519
+    },
+    "DUSTGRAIN": {
+        "buy_score": 0.9779,
+        "sell_score": 0.9381
+    },
+    "PACKED_ICE": {
+        "buy_score": 0.9778,
+        "sell_score": 0.9317
+    },
+    "MINION_EXPANDER": {
+        "buy_score": 0.9776,
+        "sell_score": 0.9485
+    },
+    "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_4": {
+        "buy_score": 0.9776,
+        "sell_score": 0.9768
+    },
+    "ENCHANTED_RABBIT_FOOT": {
+        "buy_score": 0.9775,
+        "sell_score": 0.9544
+    },
+    "ENCHANTMENT_MANA_STEAL_1": {
+        "buy_score": 0.9774,
+        "sell_score": 0.9387
+    },
+    "ENCHANTMENT_FEROCIOUS_MANA_5": {
+        "buy_score": 0.9774,
+        "sell_score": 0.9258
+    },
+    "THORNSHADE": {
+        "buy_score": 0.9774,
+        "sell_score": 0.9637
+    },
+    "SHARD_WATER_HYDRA": {
+        "buy_score": 0.9774,
+        "sell_score": 0.9278
+    },
+    "BEJEWELED_HANDLE": {
+        "buy_score": 0.9773,
+        "sell_score": 0.9256
+    },
+    "BRONZE_BOWL": {
+        "buy_score": 0.9773,
+        "sell_score": 0.9783
+    },
+    "SHARD_TAURUS": {
+        "buy_score": 0.9773,
+        "sell_score": 0.9598
+    },
+    "ENCHANTED_MAGMA_CREAM": {
+        "buy_score": 0.9772,
+        "sell_score": 0.9592
+    },
+    "CALCIFIED_HEART": {
+        "buy_score": 0.9772,
+        "sell_score": 0.9501
+    },
+    "SHARD_CAVERNSHADE": {
+        "buy_score": 0.9772,
+        "sell_score": 0.9463
+    },
+    "VIAL_OF_VENOM": {
+        "buy_score": 0.9769,
+        "sell_score": 0.9444
+    },
+    "SHARD_SHELLWISE": {
+        "buy_score": 0.9768,
+        "sell_score": 0.9346
+    },
+    "ENDER_MONOCLE": {
+        "buy_score": 0.9767,
+        "sell_score": 0.9163
+    },
+    "SHARD_FLARE": {
+        "buy_score": 0.9767,
+        "sell_score": 0.9881
+    },
+    "LEATHER_CLOTH": {
+        "buy_score": 0.9767,
+        "sell_score": 0.9697
+    },
+    "ENCHANTED_WOOL": {
+        "buy_score": 0.9767,
+        "sell_score": 0.9664
+    },
+    "ECTOPLASM": {
+        "buy_score": 0.9767,
+        "sell_score": 0.9808
+    },
+    "FLAWED_AQUAMARINE_GEM": {
+        "buy_score": 0.9767,
+        "sell_score": 0.9958
+    },
+    "SHARD_DRACONIC": {
+        "buy_score": 0.9766,
+        "sell_score": 0.9254
+    },
+    "SULPHUR": {
+        "buy_score": 0.9766,
+        "sell_score": 0.9463
+    },
+    "FLAWED_OPAL_GEM": {
+        "buy_score": 0.9765,
+        "sell_score": 0.995
+    },
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_5": {
+        "buy_score": 0.9764,
+        "sell_score": 0.8647
+    },
+    "SHARD_BEZAL": {
+        "buy_score": 0.9762,
+        "sell_score": 0.9541
+    },
+    "SHARD_SKELETOR": {
+        "buy_score": 0.9761,
+        "sell_score": 0.9759
+    },
+    "SAND:1": {
+        "buy_score": 0.9761,
+        "sell_score": 0.9986
+    },
+    "ENCHANTMENT_SMOLDERING_1": {
+        "buy_score": 0.976,
+        "sell_score": 0.9043
+    },
+    "COALROOT": {
+        "buy_score": 0.976,
+        "sell_score": 0.9477
+    },
+    "BOOK_OF_STATS": {
+        "buy_score": 0.9759,
+        "sell_score": 0.9958
+    },
+    "WET_BOOK": {
+        "buy_score": 0.9759,
+        "sell_score": 0.964
+    },
+    "ENCHANTMENT_SMITE_6": {
+        "buy_score": 0.9758,
+        "sell_score": 0.9555
+    },
+    "ENCHANTED_ANCIENT_CLAW": {
+        "buy_score": 0.9756,
+        "sell_score": 0.988
+    },
+    "ROUGH_AQUAMARINE_GEM": {
+        "buy_score": 0.9755,
+        "sell_score": 0.9972
+    },
+    "AOTE_STONE": {
+        "buy_score": 0.9754,
+        "sell_score": 0.9667
+    },
+    "KADA_LEAD": {
+        "buy_score": 0.9753,
+        "sell_score": 0.9415
+    },
+    "ENCHANTMENT_ULTIMATE_WISDOM_2": {
+        "buy_score": 0.9753,
+        "sell_score": 0.9241
+    },
+    "NULL_EDGE": {
+        "buy_score": 0.9753,
+        "sell_score": 0.9872
+    },
+    "REFINED_DARK_CACAO_TRUFFLE": {
+        "buy_score": 0.9752,
+        "sell_score": 0.9123
+    },
+    "ENCHANTED_LUSH_BERBERIS": {
+        "buy_score": 0.9752,
+        "sell_score": 0.953
+    },
+    "ENCHANTMENT_TURBO_PUMPKIN_1": {
+        "buy_score": 0.9752,
+        "sell_score": 0.9307
+    },
+    "ENCHANTMENT_COMPACT_1": {
+        "buy_score": 0.9751,
+        "sell_score": 0.9521
+    },
+    "SUPREME_CHOCOLATE_BAR": {
+        "buy_score": 0.9751,
+        "sell_score": 0.9035
+    },
+    "ENCHANTMENT_ULTIMATE_FLOWSTATE_1": {
+        "buy_score": 0.9751,
+        "sell_score": 0.9209
+    },
+    "PORK": {
+        "buy_score": 0.975,
+        "sell_score": 0.9378
+    },
+    "SHARD_FIREFLY": {
+        "buy_score": 0.9748,
+        "sell_score": 0.9629
+    },
+    "ENCHANTED_CLOWNFISH": {
+        "buy_score": 0.9747,
+        "sell_score": 0.9634
+    },
+    "TITANIUM_TESSERACT": {
+        "buy_score": 0.9746,
+        "sell_score": 0.964
+    },
+    "DARK_ORB": {
+        "buy_score": 0.9746,
+        "sell_score": 0.907
+    },
+    "FUEL_TANK": {
+        "buy_score": 0.9746,
+        "sell_score": 0.9542
+    },
+    "RITUAL_RESIDUE": {
+        "buy_score": 0.9745,
+        "sell_score": 0.9648
+    },
+    "NURSE_SHARK_TOOTH": {
+        "buy_score": 0.9745,
+        "sell_score": 0.9718
+    },
+    "THUNDER_SHARDS": {
+        "buy_score": 0.9743,
+        "sell_score": 0.9625
+    },
+    "TESSELLATED_ENDER_PEARL": {
+        "buy_score": 0.9743,
+        "sell_score": 0.9611
+    },
+    "ENCHANTED_RABBIT_HIDE": {
+        "buy_score": 0.974,
+        "sell_score": 0.9565
+    },
+    "FLAWLESS_CITRINE_GEM": {
+        "buy_score": 0.974,
+        "sell_score": 0.9406
+    },
+    "STARLYN_PRIZE": {
+        "buy_score": 0.974,
+        "sell_score": 0.9603
+    },
+    "HYPERGOLIC_GABAGOOL": {
+        "buy_score": 0.974,
+        "sell_score": 0.9706
+    },
+    "TWILIGHT_ARROW_POISON": {
+        "buy_score": 0.9739,
+        "sell_score": 0.8713
+    },
+    "SHARD_SEA_EMPEROR": {
+        "buy_score": 0.9739,
+        "sell_score": 0.9499
+    },
+    "CRUDE_GABAGOOL_DISTILLATE": {
+        "buy_score": 0.9739,
+        "sell_score": 0.8761
+    },
+    "SHARD_LUMISQUID": {
+        "buy_score": 0.9738,
+        "sell_score": 0.9843
+    },
+    "RAW_CHICKEN": {
+        "buy_score": 0.9738,
+        "sell_score": 0.9745
+    },
+    "SHARD_SILENTDEPTH": {
+        "buy_score": 0.9738,
+        "sell_score": 0.974
+    },
+    "BLUE_ICE_HUNK": {
+        "buy_score": 0.9738,
+        "sell_score": 0.9551
+    },
+    "ROUGH_AMETHYST_GEM": {
+        "buy_score": 0.9736,
+        "sell_score": 0.9909
+    },
+    "SHARD_CROPEETLE": {
+        "buy_score": 0.9735,
+        "sell_score": 0.9687
+    },
+    "ENCHANTED_GUNPOWDER": {
+        "buy_score": 0.9734,
+        "sell_score": 0.9557
+    },
+    "PRECIOUS_PEARL": {
+        "buy_score": 0.9732,
+        "sell_score": 0.9531
+    },
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_2": {
+        "buy_score": 0.973,
+        "sell_score": 0.893
+    },
+    "SHARD_SALMON": {
+        "buy_score": 0.9727,
+        "sell_score": 0.9478
+    },
+    "BLUE_SHARK_TOOTH": {
+        "buy_score": 0.9726,
+        "sell_score": 0.967
+    },
+    "ENCHANTED_FEATHER": {
+        "buy_score": 0.9726,
+        "sell_score": 0.9741
+    },
+    "ENCHANTMENT_TURBO_CANE_1": {
+        "buy_score": 0.9725,
+        "sell_score": 0.8896
+    },
+    "ENCHANTED_PAPER": {
+        "buy_score": 0.9724,
+        "sell_score": 0.9585
+    },
+    "ENCHANTMENT_ULTIMATE_WISE_5": {
+        "buy_score": 0.9723,
+        "sell_score": 0.7324
+    },
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_1": {
+        "buy_score": 0.9723,
+        "sell_score": 0.9644
+    },
+    "ENCHANTED_INK_SACK": {
+        "buy_score": 0.9721,
+        "sell_score": 0.9726
+    },
+    "JERRY_BOX_PURPLE": {
+        "buy_score": 0.9721,
+        "sell_score": 0.7168
+    },
+    "ROUGH_AMBER_GEM": {
+        "buy_score": 0.972,
+        "sell_score": 0.9958
+    },
+    "SHARD_GOLDEN_GHOUL": {
+        "buy_score": 0.9719,
+        "sell_score": 0.9437
+    },
+    "FAKE_SHURIKEN": {
+        "buy_score": 0.9718,
+        "sell_score": 0.9205
+    },
+    "BLAZE_ROD": {
+        "buy_score": 0.9718,
+        "sell_score": 0.976
+    },
+    "FINE_OPAL_GEM": {
+        "buy_score": 0.9714,
+        "sell_score": 0.9716
+    },
+    "SHARD_NIGHT_SQUID": {
+        "buy_score": 0.9712,
+        "sell_score": 0.9583
+    },
+    "PERFECT_JASPER_GEM": {
+        "buy_score": 0.971,
+        "sell_score": 0.9286
+    },
+    "SHARD_FLAMING_SPIDER": {
+        "buy_score": 0.971,
+        "sell_score": 0.9583
+    },
+    "STRONG_FRAGMENT": {
+        "buy_score": 0.9709,
+        "sell_score": 0.9255
+    },
+    "VEILSHROOM": {
+        "buy_score": 0.9706,
+        "sell_score": 0.9057
+    },
+    "SAND": {
+        "buy_score": 0.9702,
+        "sell_score": 0.9512
+    },
+    "SHARD_TANK_ZOMBIE": {
+        "buy_score": 0.9702,
+        "sell_score": 0.9401
+    },
+    "ENCHANTED_TENDER_WOOD": {
+        "buy_score": 0.9699,
+        "sell_score": 0.9769
+    },
+    "ESSENCE_SPIDER": {
+        "buy_score": 0.9698,
+        "sell_score": 0.9225
+    },
+    "ENCHANTED_ICE": {
+        "buy_score": 0.9697,
+        "sell_score": 0.9349
+    },
+    "ARCHITECT_FIRST_DRAFT": {
+        "buy_score": 0.9696,
+        "sell_score": 0.9381
+    },
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_1": {
+        "buy_score": 0.9696,
+        "sell_score": 0.902
+    },
+    "PERFECT_ONYX_GEM": {
+        "buy_score": 0.9696,
+        "sell_score": 0.9349
+    },
+    "POISON_SAMPLE": {
+        "buy_score": 0.9696,
+        "sell_score": 0.9154
+    },
+    "ICE_HUNK": {
+        "buy_score": 0.9695,
+        "sell_score": 0.9809
+    },
+    "MANGROVE_LOG": {
+        "buy_score": 0.9692,
+        "sell_score": 0.9691
+    },
+    "WITHER_BLOOD": {
+        "buy_score": 0.9692,
+        "sell_score": 0.937
+    },
+    "BEATING_HEART": {
+        "buy_score": 0.9692,
+        "sell_score": 0.8504
+    },
+    "SILVER_FANG": {
+        "buy_score": 0.9691,
+        "sell_score": 0.9526
+    },
+    "ROCK_GEMSTONE": {
+        "buy_score": 0.969,
+        "sell_score": 0.9825
+    },
+    "STRING": {
+        "buy_score": 0.969,
+        "sell_score": 0.9535
+    },
+    "SHARD_ZEALOT": {
+        "buy_score": 0.9689,
+        "sell_score": 0.924
+    },
+    "RAW_FISH:2": {
+        "buy_score": 0.9685,
+        "sell_score": 0.9915
+    },
+    "ENCHANTMENT_ULTIMATE_FLASH_1": {
+        "buy_score": 0.9684,
+        "sell_score": 0.9011
+    },
+    "SHARD_BIRRIES": {
+        "buy_score": 0.9684,
+        "sell_score": 0.9158
+    },
+    "FLAWED_AMETHYST_GEM": {
+        "buy_score": 0.9682,
+        "sell_score": 0.9853
+    },
+    "ROUGH_ONYX_GEM": {
+        "buy_score": 0.9679,
+        "sell_score": 0.9971
+    },
+    "CHOCOBERRY": {
+        "buy_score": 0.9677,
+        "sell_score": 0.93
+    },
+    "FREE_WILL": {
+        "buy_score": 0.9677,
+        "sell_score": 0.9006
+    },
+    "ENCHANTMENT_DELICATE_5": {
+        "buy_score": 0.9676,
+        "sell_score": 0.945
+    },
+    "HALF_EATEN_MUSHROOM": {
+        "buy_score": 0.9676,
+        "sell_score": 0.8755
+    },
+    "MAGMA_BUCKET": {
+        "buy_score": 0.9676,
+        "sell_score": 0.9573
+    },
+    "ROUGH_TOPAZ_GEM": {
+        "buy_score": 0.9675,
+        "sell_score": 0.9845
+    },
+    "PESTHUNTING_GUIDE": {
+        "buy_score": 0.9674,
+        "sell_score": 0.9198
+    },
+    "ENCHANTMENT_TURBO_MOONFLOWER_1": {
+        "buy_score": 0.9673,
+        "sell_score": 0.8669
+    },
+    "PARTY_GIFT": {
+        "buy_score": 0.9673,
+        "sell_score": 0.9909
+    },
+    "SHARD_THORN": {
+        "buy_score": 0.967,
+        "sell_score": 0.9526
+    },
+    "BROKEN_RADAR": {
+        "buy_score": 0.9669,
+        "sell_score": 0.9392
+    },
+    "BONE": {
+        "buy_score": 0.9669,
+        "sell_score": 0.9801
+    },
+    "XXLARGE_ENCHANTED_CHEST": {
+        "buy_score": 0.9669,
+        "sell_score": 0.9858
+    },
+    "CACTUS": {
+        "buy_score": 0.9668,
+        "sell_score": 0.9817
+    },
+    "ENCHANTMENT_LAPIDARY_1": {
+        "buy_score": 0.9667,
+        "sell_score": 0.9239
+    },
+    "COMPACT_OOZE": {
+        "buy_score": 0.9666,
+        "sell_score": 0.9838
+    },
+    "SHARD_SCARF": {
+        "buy_score": 0.9666,
+        "sell_score": 0.931
+    },
+    "MEDIUM_ENCHANTED_CHEST": {
+        "buy_score": 0.9664,
+        "sell_score": 0.9663
+    },
+    "LOG": {
+        "buy_score": 0.9663,
+        "sell_score": 0.9485
+    },
+    "VOLCANIC_ROCK": {
+        "buy_score": 0.9662,
+        "sell_score": 0.9888
+    },
+    "ORB_OF_ENERGY": {
+        "buy_score": 0.9662,
+        "sell_score": 0.9535
+    },
+    "NULL_BLADE": {
+        "buy_score": 0.9662,
+        "sell_score": 0.9515
+    },
+    "POWER_CRYSTAL": {
+        "buy_score": 0.9661,
+        "sell_score": 0.9424
+    },
+    "SPIRIT_BONE": {
+        "buy_score": 0.966,
+        "sell_score": 0.9157
+    },
+    "SPIRIT_DECOY": {
+        "buy_score": 0.9655,
+        "sell_score": 0.944
+    },
+    "SCOURROOT": {
+        "buy_score": 0.9654,
+        "sell_score": 0.9334
+    },
+    "DRAGON_CLAW": {
+        "buy_score": 0.9653,
+        "sell_score": 0.9342
+    },
+    "WISE_FRAGMENT": {
+        "buy_score": 0.9653,
+        "sell_score": 0.9359
+    },
+    "REFINED_TUNGSTEN": {
+        "buy_score": 0.9648,
+        "sell_score": 0.8986
+    },
+    "SHARD_BARBARIAN_DUKE_X": {
+        "buy_score": 0.9646,
+        "sell_score": 0.9048
+    },
+    "UMBER": {
+        "buy_score": 0.9646,
+        "sell_score": 0.9871
+    },
+    "SEA_LUMIES": {
+        "buy_score": 0.9644,
+        "sell_score": 0.9751
+    },
+    "POCKET_ICEBERG": {
+        "buy_score": 0.9643,
+        "sell_score": 0.9324
+    },
+    "MAGMA_LORD_FRAGMENT": {
+        "buy_score": 0.9642,
+        "sell_score": 0.7503
+    },
+    "ENCHANTMENT_ULTIMATE_WISDOM_5": {
+        "buy_score": 0.9641,
+        "sell_score": 0.8266
+    },
+    "CORRUPT_SOIL": {
+        "buy_score": 0.964,
+        "sell_score": 0.9522
+    },
+    "ENCHANTMENT_DEDICATION_3": {
+        "buy_score": 0.964,
+        "sell_score": 0.8869
+    },
+    "ENCHANTMENT_GREEN_THUMB_1": {
+        "buy_score": 0.9639,
+        "sell_score": 0.8317
+    },
+    "PET_ITEM_PURE_MITHRIL_GEM": {
+        "buy_score": 0.9639,
+        "sell_score": 0.9395
+    },
+    "GOLDEN_BAIT": {
+        "buy_score": 0.9639,
+        "sell_score": 0.9951
+    },
+    "RABBIT": {
+        "buy_score": 0.9636,
+        "sell_score": 0.9517
+    },
+    "ROUGH_CITRINE_GEM": {
+        "buy_score": 0.9635,
+        "sell_score": 0.9965
+    },
+    "PERFECT_CITRINE_GEM": {
+        "buy_score": 0.9634,
+        "sell_score": 0.9606
+    },
+    "COMPACTOR": {
+        "buy_score": 0.9634,
+        "sell_score": 0.9627
+    },
+    "ENCHANTMENT_REJUVENATE_5": {
+        "buy_score": 0.9632,
+        "sell_score": 0.6823
+    },
+    "REHEATED_GUMMY_POLAR_BEAR": {
+        "buy_score": 0.9631,
+        "sell_score": 0.9777
+    },
+    "MAGMA_FISH_SILVER": {
+        "buy_score": 0.9631,
+        "sell_score": 0.9262
+    },
+    "SKYMART_BROCHURE": {
+        "buy_score": 0.9631,
+        "sell_score": 0.9206
+    },
+    "SHARD_PHANPYRE": {
+        "buy_score": 0.963,
+        "sell_score": 0.9164
+    },
+    "COLOSSAL_EXP_BOTTLE": {
+        "buy_score": 0.9629,
+        "sell_score": 0.9672
+    },
+    "BUBBA_BLISTER": {
+        "buy_score": 0.9628,
+        "sell_score": 0.9645
+    },
+    "ENCHANTED_SULPHUR_CUBE": {
+        "buy_score": 0.9628,
+        "sell_score": 0.9669
+    },
+    "SPIRIT_WING": {
+        "buy_score": 0.9628,
+        "sell_score": 0.9118
+    },
+    "MANTID_CLAW": {
+        "buy_score": 0.9627,
+        "sell_score": 0.8606
+    },
+    "SHARD_LAPIS_ZOMBIE": {
+        "buy_score": 0.9627,
+        "sell_score": 0.9528
+    },
+    "ESSENCE_UNDEAD": {
+        "buy_score": 0.9627,
+        "sell_score": 0.8887
+    },
+    "DUNGEON_CHEST_KEY": {
+        "buy_score": 0.9627,
+        "sell_score": 0.9246
+    },
+    "FISH_BAIT": {
+        "buy_score": 0.9625,
+        "sell_score": 0.9208
+    },
+    "ESSENCE_FOREST": {
+        "buy_score": 0.9624,
+        "sell_score": 0.9197
+    },
+    "GREAT_CARROT_CANDY": {
+        "buy_score": 0.9623,
+        "sell_score": 0.9717
+    },
+    "ENCHANTED_MANGROVE_LOG": {
+        "buy_score": 0.9621,
+        "sell_score": 0.9067
+    },
+    "LARGE_ENCHANTED_CHEST": {
+        "buy_score": 0.962,
+        "sell_score": 0.927
+    },
+    "GREEN_GIFT": {
+        "buy_score": 0.962,
+        "sell_score": 0.8853
+    },
+    "FEL_PEARL": {
+        "buy_score": 0.9619,
+        "sell_score": 0.9268
+    },
+    "FLAWED_PERIDOT_GEM": {
+        "buy_score": 0.9619,
+        "sell_score": 0.9951
+    },
+    "WHALE_BAIT": {
+        "buy_score": 0.9617,
+        "sell_score": 0.8684
+    },
+    "OLD_FRAGMENT": {
+        "buy_score": 0.9616,
+        "sell_score": 0.9452
+    },
+    "ENCHANTMENT_TURBO_WHEAT_1": {
+        "buy_score": 0.9616,
+        "sell_score": 0.9359
+    },
+    "ALLIGATOR_SKIN": {
+        "buy_score": 0.9614,
+        "sell_score": 0.9459
+    },
+    "MOLTEN_POWDER": {
+        "buy_score": 0.9613,
+        "sell_score": 0.942
+    },
+    "FLAWLESS_ONYX_GEM": {
+        "buy_score": 0.9612,
+        "sell_score": 0.9325
+    },
+    "ENCHANTED_PUFFERFISH": {
+        "buy_score": 0.9612,
+        "sell_score": 0.9394
+    },
+    "SHARD_AZURE": {
+        "buy_score": 0.9611,
+        "sell_score": 0.8996
+    },
+    "GLACITE_AMALGAMATION": {
+        "buy_score": 0.9608,
+        "sell_score": 0.8823
+    },
+    "FINE_TOPAZ_GEM": {
+        "buy_score": 0.9607,
+        "sell_score": 0.9367
+    },
+    "TIGER_SHARK_TOOTH": {
+        "buy_score": 0.9606,
+        "sell_score": 0.9647
+    },
+    "HEAVY_GABAGOOL": {
+        "buy_score": 0.9604,
+        "sell_score": 0.981
+    },
+    "SUPERIOR_FRAGMENT": {
+        "buy_score": 0.9603,
+        "sell_score": 0.9026
+    },
+    "HEAVY_PEARL": {
+        "buy_score": 0.9603,
+        "sell_score": 0.8489
+    },
+    "SHARD_STAR_SENTRY": {
+        "buy_score": 0.9602,
+        "sell_score": 0.9464
+    },
+    "ENCHANTED_GLOWSTONE_DUST": {
+        "buy_score": 0.96,
+        "sell_score": 0.9548
+    },
+    "FLAWLESS_AMETHYST_GEM": {
+        "buy_score": 0.9599,
+        "sell_score": 0.9433
+    },
+    "ENCHANTMENT_SMARTY_PANTS_1": {
+        "buy_score": 0.9598,
+        "sell_score": 0.929
+    },
+    "BERBERIS_FUEL_INJECTOR": {
+        "buy_score": 0.9598,
+        "sell_score": 0.947
+    },
+    "ROUGH_PERIDOT_GEM": {
+        "buy_score": 0.9593,
+        "sell_score": 0.9964
+    },
+    "FLAWLESS_OPAL_GEM": {
+        "buy_score": 0.9592,
+        "sell_score": 0.9685
+    },
+    "FIRE_IN_A_BOTTLE": {
+        "buy_score": 0.9592,
+        "sell_score": 0.8865
+    },
+    "SHARD_SEA_ARCHER": {
+        "buy_score": 0.9592,
+        "sell_score": 0.9606
+    },
+    "FRIED_FEATHER": {
+        "buy_score": 0.9591,
+        "sell_score": 0.9099
+    },
+    "ENCHANTED_CLAY_BALL": {
+        "buy_score": 0.9591,
+        "sell_score": 0.8612
+    },
+    "MAGMA_URCHIN": {
+        "buy_score": 0.9591,
+        "sell_score": 0.8575
+    },
+    "PLASMA_BUCKET": {
+        "buy_score": 0.9588,
+        "sell_score": 0.9219
+    },
+    "ENCHANTED_BONE": {
+        "buy_score": 0.9586,
+        "sell_score": 0.8744
+    },
+    "SHARD_BAMBULEAF": {
+        "buy_score": 0.9585,
+        "sell_score": 0.965
+    },
+    "AMALGAMATED_CRIMSONITE_NEW": {
+        "buy_score": 0.9583,
+        "sell_score": 0.9866
+    },
+    "ENCHANTED_SHARK_FIN": {
+        "buy_score": 0.9578,
+        "sell_score": 0.9731
+    },
+    "HEMOGLASS": {
+        "buy_score": 0.9578,
+        "sell_score": 0.9558
+    },
+    "ENCHANTED_BIRCH_LOG": {
+        "buy_score": 0.9577,
+        "sell_score": 0.9479
+    },
+    "SHARD_ZOMBIE_SOLDIER": {
+        "buy_score": 0.9577,
+        "sell_score": 0.8005
+    },
+    "WHITE_GIFT": {
+        "buy_score": 0.9577,
+        "sell_score": 0.8562
+    },
+    "SHARD_HIDEONLEAF": {
+        "buy_score": 0.9573,
+        "sell_score": 0.9121
+    },
+    "INK_SACK:3": {
+        "buy_score": 0.9573,
+        "sell_score": 0.971
+    },
+    "WRIGGLING_LARVA": {
+        "buy_score": 0.9571,
+        "sell_score": 0.9161
+    },
+    "GOBLIN_EGG": {
+        "buy_score": 0.9571,
+        "sell_score": 0.8361
+    },
+    "ENCHANTED_EYE_OF_ENDER": {
+        "buy_score": 0.957,
+        "sell_score": 0.9444
+    },
+    "GLOOMGOURD": {
+        "buy_score": 0.9569,
+        "sell_score": 0.8014
+    },
+    "FLAWED_AMBER_GEM": {
+        "buy_score": 0.9565,
+        "sell_score": 0.9957
+    },
+    "ENCHANTMENT_PESTERMINATOR_5": {
+        "buy_score": 0.9563,
+        "sell_score": 0.8227
+    },
+    "FLAWLESS_AQUAMARINE_GEM": {
+        "buy_score": 0.9562,
+        "sell_score": 0.9098
+    },
+    "WHIPPED_MAGMA_CREAM": {
+        "buy_score": 0.956,
+        "sell_score": 0.9824
+    },
+    "PERFECT_AMETHYST_GEM": {
+        "buy_score": 0.9558,
+        "sell_score": 0.9513
+    },
+    "STARFALL": {
+        "buy_score": 0.9558,
+        "sell_score": 0.9259
+    },
+    "ENCHANTMENT_GROWTH_6": {
+        "buy_score": 0.9557,
+        "sell_score": 0.8019
+    },
+    "SHARD_BRUISER": {
+        "buy_score": 0.9557,
+        "sell_score": 0.8848
+    },
+    "ROUGH_RUBY_GEM": {
+        "buy_score": 0.9556,
+        "sell_score": 0.9822
+    },
+    "HEALING_TISSUE": {
+        "buy_score": 0.9552,
+        "sell_score": 0.9726
+    },
+    "ENCHANTMENT_SHARPNESS_6": {
+        "buy_score": 0.955,
+        "sell_score": 0.8194
+    },
+    "TENDER_WOOD": {
+        "buy_score": 0.955,
+        "sell_score": 0.9498
+    },
+    "FILLED_ROSEWATER_FLASK": {
+        "buy_score": 0.9548,
+        "sell_score": 0.9526
+    },
+    "DIVAN_POWDER_COATING": {
+        "buy_score": 0.9545,
+        "sell_score": 0.9492
+    },
+    "ENCHANTMENT_FEATHER_FALLING_6": {
+        "buy_score": 0.9545,
+        "sell_score": 0.8504
+    },
+    "DRAGON_HORN": {
+        "buy_score": 0.9542,
+        "sell_score": 0.8675
+    },
+    "ULTIMATE_CARROT_CANDY": {
+        "buy_score": 0.954,
+        "sell_score": 0.949
+    },
+    "BLESSED_FRUIT": {
+        "buy_score": 0.9538,
+        "sell_score": 0.9773
+    },
+    "SHARD_BURNINGSOUL": {
+        "buy_score": 0.9538,
+        "sell_score": 0.8405
+    },
+    "DWARVEN_COMPACTOR": {
+        "buy_score": 0.9537,
+        "sell_score": 0.962
+    },
+    "DEEP_SEA_ORB": {
+        "buy_score": 0.9535,
+        "sell_score": 0.9879
+    },
+    "SNOW_BLOCK": {
+        "buy_score": 0.9534,
+        "sell_score": 0.9403
+    },
+    "MECHAMIND_GARDEN_CHIP": {
+        "buy_score": 0.9532,
+        "sell_score": 0.9331
+    },
+    "ENCHANTED_COAL_BLOCK": {
+        "buy_score": 0.9531,
+        "sell_score": 0.9411
+    },
+    "ENCHANTED_SULPHUR": {
+        "buy_score": 0.9529,
+        "sell_score": 0.9485
+    },
+    "DERELICT_ASHE": {
+        "buy_score": 0.9528,
+        "sell_score": 0.9566
+    },
+    "AGARIMOO_TONGUE": {
+        "buy_score": 0.9527,
+        "sell_score": 0.9759
+    },
+    "CONDENSED_HELIANTHUS": {
+        "buy_score": 0.9525,
+        "sell_score": 0.7749
+    },
+    "SULPHURIC_COAL": {
+        "buy_score": 0.9524,
+        "sell_score": 0.9852
+    },
+    "ENCHANTED_ENDSTONE": {
+        "buy_score": 0.9524,
+        "sell_score": 0.9223
+    },
+    "ESSENCE_DIAMOND": {
+        "buy_score": 0.9523,
+        "sell_score": 0.9308
+    },
+    "BLUE_RING": {
+        "buy_score": 0.9522,
+        "sell_score": 0.9372
+    },
+    "FLAWED_SAPPHIRE_GEM": {
+        "buy_score": 0.9521,
+        "sell_score": 0.9887
+    },
+    "MITHRIL_INFUSION": {
+        "buy_score": 0.9519,
+        "sell_score": 0.9734
+    },
+    "ENCHANTED_BREAD": {
+        "buy_score": 0.9519,
+        "sell_score": 0.7578
+    },
+    "GOLDEN_TOOTH": {
+        "buy_score": 0.9513,
+        "sell_score": 0.9032
+    },
+    "FINE_ONYX_GEM": {
+        "buy_score": 0.9513,
+        "sell_score": 0.9178
+    },
+    "FLAWED_RUBY_GEM": {
+        "buy_score": 0.9512,
+        "sell_score": 0.9773
+    },
+    "LIVID_FRAGMENT": {
+        "buy_score": 0.9506,
+        "sell_score": 0.9196
+    },
+    "TOXIC_ARROW_POISON": {
+        "buy_score": 0.9506,
+        "sell_score": 0.7653
+    },
+    "FLAWED_JADE_GEM": {
+        "buy_score": 0.9505,
+        "sell_score": 0.9915
+    },
+    "ENCHANTED_EMERALD": {
+        "buy_score": 0.9503,
+        "sell_score": 0.9112
+    },
+    "NULL_ATOM": {
+        "buy_score": 0.9502,
+        "sell_score": 0.9756
+    },
+    "SHARD_ENDSTONE_PROTECTOR": {
+        "buy_score": 0.9501,
+        "sell_score": 0.8656
+    },
+    "VOLTA": {
+        "buy_score": 0.9499,
+        "sell_score": 0.9669
+    },
+    "RUSTY_COIN": {
+        "buy_score": 0.9499,
+        "sell_score": 0.9725
+    },
+    "ENCHANTMENT_ICE_COLD_1": {
+        "buy_score": 0.9494,
+        "sell_score": 0.8495
+    },
+    "ENCHANTED_RAW_BEEF": {
+        "buy_score": 0.9493,
+        "sell_score": 0.9167
+    },
+    "UNSTABLE_FRAGMENT": {
+        "buy_score": 0.949,
+        "sell_score": 0.8215
+    },
+    "ENCHANTMENT_HARVESTING_6": {
+        "buy_score": 0.9486,
+        "sell_score": 0.9836
+    },
+    "NETHER_STALK": {
+        "buy_score": 0.9485,
+        "sell_score": 0.9725
+    },
+    "ENCHANTED_FERMENTED_SPIDER_EYE": {
+        "buy_score": 0.9485,
+        "sell_score": 0.9751
+    },
+    "DIVER_FRAGMENT": {
+        "buy_score": 0.9485,
+        "sell_score": 0.9518
+    },
+    "ENCHANTED_SEA_LUMIES": {
+        "buy_score": 0.9484,
+        "sell_score": 0.9664
+    },
+    "SUSPICIOUS_SCRAP": {
+        "buy_score": 0.9483,
+        "sell_score": 0.8072
+    },
+    "SOUL_STRING": {
+        "buy_score": 0.948,
+        "sell_score": 0.9215
+    },
+    "CROPIE": {
+        "buy_score": 0.9479,
+        "sell_score": 0.8341
+    },
+    "EMERALD": {
+        "buy_score": 0.9479,
+        "sell_score": 0.9723
+    },
+    "ENCHANTMENT_TURBO_MELON_1": {
+        "buy_score": 0.9479,
+        "sell_score": 0.8694
+    },
+    "ASHWREATH": {
+        "buy_score": 0.9473,
+        "sell_score": 0.8941
+    },
+    "AGATHA_COUPON": {
+        "buy_score": 0.9472,
+        "sell_score": 0.8278
+    },
+    "INFERNO_VERTEX": {
+        "buy_score": 0.9472,
+        "sell_score": 0.9126
+    },
+    "ENCHANTMENT_REJUVENATE_2": {
+        "buy_score": 0.947,
+        "sell_score": 0.873
+    },
+    "RAW_FISH:1": {
+        "buy_score": 0.9469,
+        "sell_score": 0.9808
+    },
+    "GLACIAL_FRAGMENT": {
+        "buy_score": 0.9468,
+        "sell_score": 0.9296
+    },
+    "SOWLEDGE_GARDEN_CHIP": {
+        "buy_score": 0.9464,
+        "sell_score": 0.8687
+    },
+    "BOB_OMB": {
+        "buy_score": 0.9463,
+        "sell_score": 0.8643
+    },
+    "UMBER_KEY": {
+        "buy_score": 0.9461,
+        "sell_score": 0.8695
+    },
+    "ROTTEN_FLESH": {
+        "buy_score": 0.9457,
+        "sell_score": 0.9113
+    },
+    "INK_SACK:4": {
+        "buy_score": 0.9457,
+        "sell_score": 0.9759
+    },
+    "ENCHANTMENT_PROTECTION_6": {
+        "buy_score": 0.9456,
+        "sell_score": 0.824
+    },
+    "DIAMOND_SPREADING": {
+        "buy_score": 0.9456,
+        "sell_score": 0.9327
+    },
+    "SUPERLITE_MOTOR": {
+        "buy_score": 0.9452,
+        "sell_score": 0.9319
+    },
+    "IRON_INGOT": {
+        "buy_score": 0.9452,
+        "sell_score": 0.9746
+    },
+    "SUPERBOOM_TNT": {
+        "buy_score": 0.9447,
+        "sell_score": 0.9287
+    },
+    "SOULFLOW": {
+        "buy_score": 0.9446,
+        "sell_score": 0.9415
+    },
+    "ENCHANTED_JUNGLE_LOG": {
+        "buy_score": 0.9445,
+        "sell_score": 0.9194
+    },
+    "GREAT_WHITE_SHARK_TOOTH": {
+        "buy_score": 0.9444,
+        "sell_score": 0.9227
+    },
+    "ENCHANTED_BLAZE_POWDER": {
+        "buy_score": 0.9444,
+        "sell_score": 0.9213
+    },
+    "ENCHANTED_FIG_LOG": {
+        "buy_score": 0.9439,
+        "sell_score": 0.8946
+    },
+    "FTX_3070": {
+        "buy_score": 0.9433,
+        "sell_score": 0.9431
+    },
+    "YOUNG_FRAGMENT": {
+        "buy_score": 0.9426,
+        "sell_score": 0.7835
+    },
+    "FLAWLESS_TOPAZ_GEM": {
+        "buy_score": 0.9424,
+        "sell_score": 0.9264
+    },
+    "ENCHANTED_BLAZE_ROD": {
+        "buy_score": 0.9423,
+        "sell_score": 0.9418
+    },
+    "ENCHANTED_COAL": {
+        "buy_score": 0.9423,
+        "sell_score": 0.8287
+    },
+    "RED_SCARF": {
+        "buy_score": 0.9422,
+        "sell_score": 0.9044
+    },
+    "SHARD_APEX_DRAGON": {
+        "buy_score": 0.9414,
+        "sell_score": 0.912
+    },
+    "UMBER_PLATE": {
+        "buy_score": 0.9412,
+        "sell_score": 0.9214
+    },
+    "GRIFFIN_FEATHER": {
+        "buy_score": 0.9411,
+        "sell_score": 0.9307
+    },
+    "ROUGH_SAPPHIRE_GEM": {
+        "buy_score": 0.9411,
+        "sell_score": 0.9871
+    },
+    "FLAWLESS_AMBER_GEM": {
+        "buy_score": 0.9411,
+        "sell_score": 0.9262
+    },
+    "ENCHANTED_GLACITE": {
+        "buy_score": 0.9409,
+        "sell_score": 0.9744
+    },
+    "TOOL_EXP_CAPSULE": {
+        "buy_score": 0.9409,
+        "sell_score": 0.8013
+    },
+    "REFINED_UMBER": {
+        "buy_score": 0.9406,
+        "sell_score": 0.8803
+    },
+    "GOLDEN_PLATE": {
+        "buy_score": 0.9405,
+        "sell_score": 0.8961
+    },
+    "COBBLESTONE": {
+        "buy_score": 0.9404,
+        "sell_score": 0.9104
+    },
+    "ENCHANTED_EMERALD_BLOCK": {
+        "buy_score": 0.9401,
+        "sell_score": 0.957
+    },
+    "OBSIDIAN": {
+        "buy_score": 0.9399,
+        "sell_score": 0.9732
+    },
+    "ENCHANTED_LAPIS_LAZULI": {
+        "buy_score": 0.9399,
+        "sell_score": 0.9248
+    },
+    "SHARD_POWER_DRAGON": {
+        "buy_score": 0.9397,
+        "sell_score": 0.8952
+    },
+    "SHARD_GHOST": {
+        "buy_score": 0.9395,
+        "sell_score": 0.8689
+    },
+    "ENCHANTED_MYCELIUM": {
+        "buy_score": 0.9393,
+        "sell_score": 0.8358
+    },
+    "ANCIENT_CLAW": {
+        "buy_score": 0.9389,
+        "sell_score": 0.9838
+    },
+    "ENCHANTED_EGG": {
+        "buy_score": 0.9389,
+        "sell_score": 0.9507
+    },
+    "ROUGH_JADE_GEM": {
+        "buy_score": 0.9388,
+        "sell_score": 0.9886
+    },
+    "FINE_AQUAMARINE_GEM": {
+        "buy_score": 0.9385,
+        "sell_score": 0.9379
+    },
+    "FLAWED_TOPAZ_GEM": {
+        "buy_score": 0.9384,
+        "sell_score": 0.993
+    },
+    "ESSENCE_DRAGON": {
+        "buy_score": 0.9382,
+        "sell_score": 0.8534
+    },
+    "ENCHANTED_CAKE": {
+        "buy_score": 0.9379,
+        "sell_score": 0.9044
+    },
+    "BUSTED_BELT_BUCKLE": {
+        "buy_score": 0.9378,
+        "sell_score": 0.9661
+    },
+    "ESSENCE_ICE": {
+        "buy_score": 0.9374,
+        "sell_score": 0.8926
+    },
+    "NULL_OVOID": {
+        "buy_score": 0.9369,
+        "sell_score": 0.9131
+    },
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_1": {
+        "buy_score": 0.9368,
+        "sell_score": 0.8971
+    },
+    "BURROWING_SPORES": {
+        "buy_score": 0.9357,
+        "sell_score": 0.8597
+    },
+    "FIFTH_MASTER_STAR": {
+        "buy_score": 0.9354,
+        "sell_score": 0.9267
+    },
+    "PLASMA": {
+        "buy_score": 0.9352,
+        "sell_score": 0.9275
+    },
+    "ENDER_PEARL": {
+        "buy_score": 0.9351,
+        "sell_score": 0.9128
+    },
+    "VINESAP": {
+        "buy_score": 0.9349,
+        "sell_score": 0.8705
+    },
+    "SHARD_CHILL": {
+        "buy_score": 0.9347,
+        "sell_score": 0.9611
+    },
+    "PRISMARINE_CRYSTALS": {
+        "buy_score": 0.9345,
+        "sell_score": 0.9661
+    },
+    "ENCHANTED_RABBIT": {
+        "buy_score": 0.9343,
+        "sell_score": 0.8762
+    },
+    "SYNTHETIC_HEART": {
+        "buy_score": 0.934,
+        "sell_score": 0.9067
+    },
+    "ENCHANTED_COBBLESTONE": {
+        "buy_score": 0.9334,
+        "sell_score": 0.8976
+    },
+    "ENCHANTED_QUARTZ": {
+        "buy_score": 0.9333,
+        "sell_score": 0.9296
+    },
+    "POTATO_ITEM": {
+        "buy_score": 0.9332,
+        "sell_score": 0.9549
+    },
+    "DOUBLE_PLANT": {
+        "buy_score": 0.933,
+        "sell_score": 0.9484
+    },
+    "DUNG": {
+        "buy_score": 0.932,
+        "sell_score": 0.8376
+    },
+    "HOLY_FRAGMENT": {
+        "buy_score": 0.9316,
+        "sell_score": 0.7551
+    },
+    "TUNGSTEN_KEY": {
+        "buy_score": 0.9316,
+        "sell_score": 0.872
+    },
+    "DRILL_ENGINE": {
+        "buy_score": 0.9315,
+        "sell_score": 0.9391
+    },
+    "ENCHANTMENT_REPLENISH_1": {
+        "buy_score": 0.9314,
+        "sell_score": 0.8089
+    },
+    "ENCHANTMENT_TURBO_ROSE_1": {
+        "buy_score": 0.9313,
+        "sell_score": 0.7353
+    },
+    "MAGMA_FISH_GOLD": {
+        "buy_score": 0.9311,
+        "sell_score": 0.8921
+    },
+    "FOURTH_MASTER_STAR": {
+        "buy_score": 0.931,
+        "sell_score": 0.9091
+    },
+    "SHARD_MINER_ZOMBIE": {
+        "buy_score": 0.931,
+        "sell_score": 0.8821
+    },
+    "PERFECT_SAPPHIRE_GEM": {
+        "buy_score": 0.931,
+        "sell_score": 0.9264
+    },
+    "SLIME_BALL": {
+        "buy_score": 0.9308,
+        "sell_score": 0.855
+    },
+    "PROTECTOR_FRAGMENT": {
+        "buy_score": 0.9306,
+        "sell_score": 0.9515
+    },
+    "ENCHANTMENT_TURBO_SUNFLOWER_1": {
+        "buy_score": 0.9306,
+        "sell_score": 0.8033
+    },
+    "BRAIDED_GRIFFIN_FEATHER": {
+        "buy_score": 0.9304,
+        "sell_score": 0.9796
+    },
+    "SKELETON_KEY": {
+        "buy_score": 0.9299,
+        "sell_score": 0.8658
+    },
+    "FLEXBONE": {
+        "buy_score": 0.9295,
+        "sell_score": 0.9319
+    },
+    "SEEDS": {
+        "buy_score": 0.9282,
+        "sell_score": 0.944
+    },
+    "DIVAN_FRAGMENT": {
+        "buy_score": 0.9273,
+        "sell_score": 0.8746
+    },
+    "ENCHANTED_UMBER": {
+        "buy_score": 0.9272,
+        "sell_score": 0.5615
+    },
+    "GOLD_INGOT": {
+        "buy_score": 0.9271,
+        "sell_score": 0.9428
+    },
+    "LEATHER": {
+        "buy_score": 0.9268,
+        "sell_score": 0.9367
+    },
+    "ENCHANTMENT_DEDICATION_4": {
+        "buy_score": 0.9263,
+        "sell_score": 0.7341
+    },
+    "SQUASH": {
+        "buy_score": 0.9262,
+        "sell_score": 0.8478
+    },
+    "FIGSTONE": {
+        "buy_score": 0.9261,
+        "sell_score": 0.9291
+    },
+    "JUNGLE_KEY": {
+        "buy_score": 0.926,
+        "sell_score": 0.8348
+    },
+    "ENCHANTED_MUTTON": {
+        "buy_score": 0.9257,
+        "sell_score": 0.8789
+    },
+    "ENCHANTED_OAK_LOG": {
+        "buy_score": 0.9255,
+        "sell_score": 0.9039
+    },
+    "CONTROL_SWITCH": {
+        "buy_score": 0.9254,
+        "sell_score": 0.912
+    },
+    "FIG_LOG": {
+        "buy_score": 0.9252,
+        "sell_score": 0.9483
+    },
+    "REVENANT_FLESH": {
+        "buy_score": 0.9247,
+        "sell_score": 0.8728
+    },
+    "WILD_ROSE": {
+        "buy_score": 0.9244,
+        "sell_score": 0.9725
+    },
+    "ENCHANTMENT_ULTIMATE_WISE_2": {
+        "buy_score": 0.9235,
+        "sell_score": 0.9113
+    },
+    "ENCHANTMENT_ULTIMATE_REITERATE_1": {
+        "buy_score": 0.9226,
+        "sell_score": 0.9111
+    },
+    "SORROW": {
+        "buy_score": 0.9222,
+        "sell_score": 0.9108
+    },
+    "SCORCHED_POWER_CRYSTAL": {
+        "buy_score": 0.9221,
+        "sell_score": 0.8064
+    },
+    "ROBOTRON_REFLECTOR": {
+        "buy_score": 0.922,
+        "sell_score": 0.9002
+    },
+    "ENCHANTED_SLIME_BLOCK": {
+        "buy_score": 0.9216,
+        "sell_score": 0.9086
+    },
+    "JERRY_BOX_GOLDEN": {
+        "buy_score": 0.9209,
+        "sell_score": 0.7343
+    },
+    "FINE_RUBY_GEM": {
+        "buy_score": 0.9205,
+        "sell_score": 0.9286
+    },
+    "ENCHANTED_REDSTONE_BLOCK": {
+        "buy_score": 0.9204,
+        "sell_score": 0.91
+    },
+    "RAW_FISH": {
+        "buy_score": 0.9193,
+        "sell_score": 0.9505
+    },
+    "WORM_MEMBRANE": {
+        "buy_score": 0.9191,
+        "sell_score": 0.9409
+    },
+    "HONEY_JAR": {
+        "buy_score": 0.919,
+        "sell_score": 0.7983
+    },
+    "IMPLOSION_SCROLL": {
+        "buy_score": 0.9187,
+        "sell_score": 0.9451
+    },
+    "GLACITE": {
+        "buy_score": 0.9184,
+        "sell_score": 0.9734
+    },
+    "FINE_FLOUR": {
+        "buy_score": 0.9184,
+        "sell_score": 0.5469
+    },
+    "ENCHANTMENT_ULTIMATE_CHIMERA_1": {
+        "buy_score": 0.9182,
+        "sell_score": 0.9428
+    },
+    "ENCHANTED_TUNGSTEN": {
+        "buy_score": 0.9176,
+        "sell_score": 0.8296
+    },
+    "TITANIUM_ORE": {
+        "buy_score": 0.9169,
+        "sell_score": 0.9564
+    },
+    "SECOND_MASTER_STAR": {
+        "buy_score": 0.9167,
+        "sell_score": 0.8873
+    },
+    "ELECTRON_TRANSMITTER": {
+        "buy_score": 0.9164,
+        "sell_score": 0.9241
+    },
+    "ENCHANTED_PACKED_ICE": {
+        "buy_score": 0.9156,
+        "sell_score": 0.9105
+    },
+    "PERFECT_TOPAZ_GEM": {
+        "buy_score": 0.9145,
+        "sell_score": 0.8974
+    },
+    "ENCHANTED_COMPOST": {
+        "buy_score": 0.9145,
+        "sell_score": 0.7562
+    },
+    "PLANT_MATTER": {
+        "buy_score": 0.9143,
+        "sell_score": 0.7786
+    },
+    "ENCHANTED_HARD_STONE": {
+        "buy_score": 0.914,
+        "sell_score": 0.8925
+    },
+    "SHARD_KRAKEN": {
+        "buy_score": 0.9128,
+        "sell_score": 0.7872
+    },
+    "ENCHANTED_RAW_FISH": {
+        "buy_score": 0.9125,
+        "sell_score": 0.8988
+    },
+    "ENCHANTED_PORK": {
+        "buy_score": 0.9108,
+        "sell_score": 0.8526
+    },
+    "THIRD_MASTER_STAR": {
+        "buy_score": 0.9108,
+        "sell_score": 0.8274
+    },
+    "DIAMOND": {
+        "buy_score": 0.9102,
+        "sell_score": 0.9635
+    },
+    "FLAWLESS_SAPPHIRE_GEM": {
+        "buy_score": 0.9099,
+        "sell_score": 0.8659
+    },
+    "INK_SACK": {
+        "buy_score": 0.9093,
+        "sell_score": 0.9566
+    },
+    "REVENANT_VISCERA": {
+        "buy_score": 0.9091,
+        "sell_score": 0.829
+    },
+    "ESSENCE_GOLD": {
+        "buy_score": 0.9089,
+        "sell_score": 0.8977
+    },
+    "MOONFLOWER": {
+        "buy_score": 0.9089,
+        "sell_score": 0.9667
+    },
+    "ENCHANTED_SAND": {
+        "buy_score": 0.9087,
+        "sell_score": 0.9095
+    },
+    "OIL_BARREL": {
+        "buy_score": 0.9086,
+        "sell_score": 0.9555
+    },
+    "ENCHANTED_LEATHER": {
+        "buy_score": 0.9069,
+        "sell_score": 0.9065
+    },
+    "OVERGROWN_GRASS": {
+        "buy_score": 0.9065,
+        "sell_score": 0.8332
+    },
+    "WITHER_SHIELD_SCROLL": {
+        "buy_score": 0.9062,
+        "sell_score": 0.9162
+    },
+    "MELON": {
+        "buy_score": 0.9057,
+        "sell_score": 0.9253
+    },
+    "TARANTULA_SILK": {
+        "buy_score": 0.9038,
+        "sell_score": 0.7968
+    },
+    "OVERDRIVE_GARDEN_CHIP": {
+        "buy_score": 0.9032,
+        "sell_score": 0.9418
+    },
+    "SHARD_PEST": {
+        "buy_score": 0.9029,
+        "sell_score": 0.8065
+    },
+    "TUNGSTEN_PLATE": {
+        "buy_score": 0.9027,
+        "sell_score": 0.9004
+    },
+    "ENCHANTED_SEEDS": {
+        "buy_score": 0.9023,
+        "sell_score": 0.9384
+    },
+    "FINE_JASPER_GEM": {
+        "buy_score": 0.9019,
+        "sell_score": 0.8593
+    },
+    "CRYSTAL_FRAGMENT": {
+        "buy_score": 0.9013,
+        "sell_score": 0.8607
+    },
+    "QUICKDRAW_GARDEN_CHIP": {
+        "buy_score": 0.901,
+        "sell_score": 0.4897
+    },
+    "TREASURITE": {
+        "buy_score": 0.8998,
+        "sell_score": 0.894
+    },
+    "ENCHANTED_HOPPER": {
+        "buy_score": 0.8991,
+        "sell_score": 0.899
+    },
+    "ENCHANTED_LAVA_BUCKET": {
+        "buy_score": 0.8988,
+        "sell_score": 0.8558
+    },
+    "CARROT_ITEM": {
+        "buy_score": 0.8977,
+        "sell_score": 0.9407
+    },
+    "PUMPKIN": {
+        "buy_score": 0.8973,
+        "sell_score": 0.9361
+    },
+    "JADERALD": {
+        "buy_score": 0.8967,
+        "sell_score": 0.8561
+    },
+    "FIRST_MASTER_STAR": {
+        "buy_score": 0.896,
+        "sell_score": 0.771
+    },
+    "CORLEONITE": {
+        "buy_score": 0.896,
+        "sell_score": 0.8956
+    },
+    "SHADOW_WARP_SCROLL": {
+        "buy_score": 0.8959,
+        "sell_score": 0.9267
+    },
+    "FINE_CITRINE_GEM": {
+        "buy_score": 0.894,
+        "sell_score": 0.8211
+    },
+    "MITHRIL_PLATE": {
+        "buy_score": 0.8937,
+        "sell_score": 0.8994
+    },
+    "PERFECT_PERIDOT_GEM": {
+        "buy_score": 0.8935,
+        "sell_score": 0.8635
+    },
+    "SYNTHESIS_GARDEN_CHIP": {
+        "buy_score": 0.8933,
+        "sell_score": 0.7929
+    },
+    "GEMSTONE_MIXTURE": {
+        "buy_score": 0.8931,
+        "sell_score": 0.8117
+    },
+    "ENCHANTED_GOLD_BLOCK": {
+        "buy_score": 0.8925,
+        "sell_score": 0.8658
+    },
+    "DEEP_ROOT": {
+        "buy_score": 0.8921,
+        "sell_score": 0.8778
+    },
+    "ENCHANTED_SLIME_BALL": {
+        "buy_score": 0.8914,
+        "sell_score": 0.7396
+    },
+    "FLAWLESS_JADE_GEM": {
+        "buy_score": 0.8912,
+        "sell_score": 0.8371
+    },
+    "SUGAR_CANE": {
+        "buy_score": 0.891,
+        "sell_score": 0.9276
+    },
+    "PERFECT_AMBER_GEM": {
+        "buy_score": 0.8899,
+        "sell_score": 0.9035
+    },
+    "MAGMA_FISH": {
+        "buy_score": 0.8892,
+        "sell_score": 0.9033
+    },
+    "WITHER_CATALYST": {
+        "buy_score": 0.8888,
+        "sell_score": 0.7588
+    },
+    "COMPACTED_SUNFLOWER": {
+        "buy_score": 0.8862,
+        "sell_score": 0.8065
+    },
+    "SUPER_COMPACTOR_3000": {
+        "buy_score": 0.886,
+        "sell_score": 0.8459
+    },
+    "GIANT_FRAGMENT_LASER": {
+        "buy_score": 0.8842,
+        "sell_score": 0.8115
+    },
+    "FLAWLESS_JASPER_GEM": {
+        "buy_score": 0.8826,
+        "sell_score": 0.7748
+    },
+    "WOLF_TOOTH": {
+        "buy_score": 0.8818,
+        "sell_score": 0.9176
+    },
+    "ENCHANTED_RED_MUSHROOM": {
+        "buy_score": 0.8811,
+        "sell_score": 0.8146
+    },
+    "PRECURSOR_GEAR": {
+        "buy_score": 0.8807,
+        "sell_score": 0.8088
+    },
+    "SHARD_GLACITE_WALKER": {
+        "buy_score": 0.8796,
+        "sell_score": 0.8668
+    },
+    "BROWN_MUSHROOM": {
+        "buy_score": 0.879,
+        "sell_score": 0.9591
+    },
+    "ENCHANTMENT_ULTIMATE_SWARM_1": {
+        "buy_score": 0.879,
+        "sell_score": 0.7977
+    },
+    "REFINED_TITANIUM": {
+        "buy_score": 0.8788,
+        "sell_score": 0.7791
+    },
+    "REFINED_MITHRIL": {
+        "buy_score": 0.8786,
+        "sell_score": 0.65
+    },
+    "GLACITE_JEWEL": {
+        "buy_score": 0.8785,
+        "sell_score": 0.8225
+    },
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_1": {
+        "buy_score": 0.8764,
+        "sell_score": 0.866
+    },
+    "FERMENTO": {
+        "buy_score": 0.8759,
+        "sell_score": 0.6259
+    },
+    "ENCHANTED_IRON": {
+        "buy_score": 0.8752,
+        "sell_score": 0.8307
+    },
+    "ABSOLUTE_ENDER_PEARL": {
+        "buy_score": 0.8741,
+        "sell_score": 0.8666
+    },
+    "NULL_SPHERE": {
+        "buy_score": 0.8736,
+        "sell_score": 0.893
+    },
+    "ENCHANTED_HUGE_MUSHROOM_2": {
+        "buy_score": 0.873,
+        "sell_score": 0.8186
+    },
+    "FINE_AMETHYST_GEM": {
+        "buy_score": 0.873,
+        "sell_score": 0.9236
+    },
+    "ENCHANTED_BROWN_MUSHROOM": {
+        "buy_score": 0.8728,
+        "sell_score": 0.7126
+    },
+    "HOT_POTATO_BOOK": {
+        "buy_score": 0.8728,
+        "sell_score": 0.5435
+    },
+    "ENCHANTED_HUGE_MUSHROOM_1": {
+        "buy_score": 0.8715,
+        "sell_score": 0.8412
+    },
+    "ENCHANTED_HAY_BALE": {
+        "buy_score": 0.8709,
+        "sell_score": 0.8462
+    },
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_1": {
+        "buy_score": 0.8707,
+        "sell_score": 0.8821
+    },
+    "TARANTULA_WEB": {
+        "buy_score": 0.8706,
+        "sell_score": 0.789
+    },
+    "ENCHANTED_ACACIA_LOG": {
+        "buy_score": 0.8706,
+        "sell_score": 0.8566
+    },
+    "ENCHANTED_FLINT": {
+        "buy_score": 0.8701,
+        "sell_score": 0.9312
+    },
+    "BOX_OF_SEEDS": {
+        "buy_score": 0.8697,
+        "sell_score": 0.8776
+    },
+    "FLAWLESS_PERIDOT_GEM": {
+        "buy_score": 0.8693,
+        "sell_score": 0.7336
+    },
+    "REFINED_DIAMOND": {
+        "buy_score": 0.8678,
+        "sell_score": 0.7594
+    },
+    "ENCHANTED_WILD_ROSE": {
+        "buy_score": 0.867,
+        "sell_score": 0.8846
+    },
+    "ENCHANTED_DIAMOND": {
+        "buy_score": 0.8662,
+        "sell_score": 0.7388
+    },
+    "SHARD_INVISIBUG": {
+        "buy_score": 0.8645,
+        "sell_score": 0.7934
+    },
+    "VERY_CRUDE_GABAGOOL": {
+        "buy_score": 0.8631,
+        "sell_score": 0.9112
+    },
+    "ENCHANTED_MELON": {
+        "buy_score": 0.8625,
+        "sell_score": 0.8344
+    },
+    "REDSTONE": {
+        "buy_score": 0.8623,
+        "sell_score": 0.938
+    },
+    "ENCHANTMENT_ULTIMATE_LEGION_1": {
+        "buy_score": 0.8584,
+        "sell_score": 0.7183
+    },
+    "FLAWLESS_RUBY_GEM": {
+        "buy_score": 0.8563,
+        "sell_score": 0.9059
+    },
+    "JERRY_BOX_GREEN": {
+        "buy_score": 0.8559,
+        "sell_score": 0.6723
+    },
+    "FINE_AMBER_GEM": {
+        "buy_score": 0.8555,
+        "sell_score": 0.9361
+    },
+    "GIANT_FRAGMENT_DIAMOND": {
+        "buy_score": 0.8552,
+        "sell_score": 0.706
+    },
+    "HARD_STONE": {
+        "buy_score": 0.8548,
+        "sell_score": 0.84
+    },
+    "ENCHANTED_LAPIS_LAZULI_BLOCK": {
+        "buy_score": 0.8517,
+        "sell_score": 0.9358
+    },
+    "POLISHED_PUMPKIN": {
+        "buy_score": 0.8513,
+        "sell_score": 0.8304
+    },
+    "ENCHANTED_GOLD": {
+        "buy_score": 0.8513,
+        "sell_score": 0.8097
+    },
+    "FINE_JADE_GEM": {
+        "buy_score": 0.8507,
+        "sell_score": 0.9266
+    },
+    "MUTANT_NETHER_STALK": {
+        "buy_score": 0.8498,
+        "sell_score": 0.793
+    },
+    "COMPACTED_MOONFLOWER": {
+        "buy_score": 0.8452,
+        "sell_score": 0.7237
+    },
+    "RED_GIFT": {
+        "buy_score": 0.8443,
+        "sell_score": 0.753
+    },
+    "ENCHANTED_ENDER_PEARL": {
+        "buy_score": 0.8427,
+        "sell_score": 0.7896
+    },
+    "FINE_SAPPHIRE_GEM": {
+        "buy_score": 0.8414,
+        "sell_score": 0.9383
+    },
+    "ENCHANTED_TITANIUM": {
+        "buy_score": 0.8406,
+        "sell_score": 0.86
+    },
+    "ENCHANTED_STRING": {
+        "buy_score": 0.8403,
+        "sell_score": 0.8461
+    },
+    "GLOSSY_GEMSTONE": {
+        "buy_score": 0.8401,
+        "sell_score": 0.8419
+    },
+    "ENCHANTMENT_ULTIMATE_WISDOM_1": {
+        "buy_score": 0.8377,
+        "sell_score": 0.6902
+    },
+    "MYTHOS_FRAGMENT": {
+        "buy_score": 0.8375,
+        "sell_score": 0.5236
+    },
+    "CHOCONUT": {
+        "buy_score": 0.8371,
+        "sell_score": 0.7681
+    },
+    "SUMMONING_EYE": {
+        "buy_score": 0.837,
+        "sell_score": 0.5112
+    },
+    "RED_MUSHROOM": {
+        "buy_score": 0.8368,
+        "sell_score": 0.9543
+    },
+    "ENCHANTED_ROTTEN_FLESH": {
+        "buy_score": 0.834,
+        "sell_score": 0.7766
+    },
+    "ENCHANTED_SNOW_BLOCK": {
+        "buy_score": 0.8338,
+        "sell_score": 0.7916
+    },
+    "KUUDRA_TENTACLE": {
+        "buy_score": 0.8336,
+        "sell_score": 0.6165
+    },
+    "OVERCLOCKER_3000": {
+        "buy_score": 0.8316,
+        "sell_score": 0.476
+    },
+    "EVERGREEN_GARDEN_CHIP": {
+        "buy_score": 0.8306,
+        "sell_score": 0.7432
+    },
+    "ENCHANTED_DARK_OAK_LOG": {
+        "buy_score": 0.8292,
+        "sell_score": 0.8715
+    },
+    "CONDENSED_FERMENTO": {
+        "buy_score": 0.8285,
+        "sell_score": 0.8401
+    },
+    "ENCHANTED_SUNFLOWER": {
+        "buy_score": 0.8271,
+        "sell_score": 0.8452
+    },
+    "ENCHANTED_OBSIDIAN": {
+        "buy_score": 0.8192,
+        "sell_score": 0.7364
+    },
+    "ENCHANTMENT_ULTIMATE_WISE_1": {
+        "buy_score": 0.8115,
+        "sell_score": 0.7235
+    },
+    "ENCHANTMENT_CULTIVATING_1": {
+        "buy_score": 0.8105,
+        "sell_score": 0.8636
+    },
+    "HYPERCHARGE_GARDEN_CHIP": {
+        "buy_score": 0.8059,
+        "sell_score": 0.4128
+    },
+    "ESSENCE_CRIMSON": {
+        "buy_score": 0.8034,
+        "sell_score": 0.7821
+    },
+    "KISMET_FEATHER": {
+        "buy_score": 0.8017,
+        "sell_score": 0.6862
+    },
+    "PRECURSOR_APPARATUS": {
+        "buy_score": 0.8009,
+        "sell_score": 0.8842
+    },
+    "WHEAT": {
+        "buy_score": 0.7985,
+        "sell_score": 0.9365
+    },
+    "ENCHANTED_CACTUS_GREEN": {
+        "buy_score": 0.7944,
+        "sell_score": 0.6573
+    },
+    "GOBLIN_EGG_BLUE": {
+        "buy_score": 0.7907,
+        "sell_score": 0.7218
+    },
+    "ENCHANTED_CLAY_BLOCK": {
+        "buy_score": 0.7905,
+        "sell_score": 0.9287
+    },
+    "ENCHANTMENT_DEDICATION_1": {
+        "buy_score": 0.7885,
+        "sell_score": 0.7999
+    },
+    "SLUDGE_JUICE": {
+        "buy_score": 0.787,
+        "sell_score": 0.6468
+    },
+    "ENCHANTMENT_OVERLOAD_1": {
+        "buy_score": 0.7865,
+        "sell_score": 0.8315
+    },
+    "COAL": {
+        "buy_score": 0.7863,
+        "sell_score": 0.9254
+    },
+    "ENCHANTED_MOONFLOWER": {
+        "buy_score": 0.7858,
+        "sell_score": 0.8526
+    },
+    "ENCHANTED_IRON_BLOCK": {
+        "buy_score": 0.785,
+        "sell_score": 0.6535
+    },
+    "ENCHANTED_PUMPKIN": {
+        "buy_score": 0.7847,
+        "sell_score": 0.7095
+    },
+    "ENCHANTED_QUARTZ_BLOCK": {
+        "buy_score": 0.7825,
+        "sell_score": 0.6822
+    },
+    "ENCHANTMENT_REJUVENATE_1": {
+        "buy_score": 0.7771,
+        "sell_score": 0.6594
+    },
+    "ENCHANTED_MITHRIL": {
+        "buy_score": 0.7762,
+        "sell_score": 0.7542
+    },
+    "REFINED_MINERAL": {
+        "buy_score": 0.7734,
+        "sell_score": 0.7203
+    },
+    "CORRUPTED_NETHER_STAR": {
+        "buy_score": 0.7734,
+        "sell_score": 0.6158
+    },
+    "BOUNCY_BEACH_BALL": {
+        "buy_score": 0.7724,
+        "sell_score": 0.7195
+    },
+    "ENCHANTED_CARROT": {
+        "buy_score": 0.7671,
+        "sell_score": 0.7219
+    },
+    "ENCHANTMENT_PESTERMINATOR_1": {
+        "buy_score": 0.7651,
+        "sell_score": 0.4944
+    },
+    "TITANIC_EXP_BOTTLE": {
+        "buy_score": 0.7634,
+        "sell_score": 0.7356
+    },
+    "FUMING_POTATO_BOOK": {
+        "buy_score": 0.7622,
+        "sell_score": 0.534
+    },
+    "ENCHANTED_REDSTONE": {
+        "buy_score": 0.759,
+        "sell_score": 0.5723
+    },
+    "ENCHANTED_CACTUS": {
+        "buy_score": 0.7589,
+        "sell_score": 0.7792
+    },
+    "JELLY": {
+        "buy_score": 0.7582,
+        "sell_score": 0.4879
+    },
+    "GRAND_EXP_BOTTLE": {
+        "buy_score": 0.7581,
+        "sell_score": 0.7119
+    },
+    "ENCHANTED_COOKED_FISH": {
+        "buy_score": 0.7546,
+        "sell_score": 0.4967
+    },
+    "ENCHANTED_COOKIE": {
+        "buy_score": 0.7545,
+        "sell_score": 0.6908
+    },
+    "ENCHANTED_DIAMOND_BLOCK": {
+        "buy_score": 0.7452,
+        "sell_score": 0.7585
+    },
+    "ENCHANTED_WHEAT": {
+        "buy_score": 0.7441,
+        "sell_score": 0.7495
+    },
+    "ETHEREAL_VINE": {
+        "buy_score": 0.7441,
+        "sell_score": 0.4312
+    },
+    "VERMIN_VAPORIZER_GARDEN_CHIP": {
+        "buy_score": 0.7436,
+        "sell_score": 0.5832
+    },
+    "ENCHANTED_POTATO": {
+        "buy_score": 0.7401,
+        "sell_score": 0.6891
+    },
+    "MITHRIL_ORE": {
+        "buy_score": 0.7358,
+        "sell_score": 0.9268
+    },
+    "COMPACTED_WILD_ROSE": {
+        "buy_score": 0.7224,
+        "sell_score": 0.6558
+    },
+    "PERFECT_JADE_GEM": {
+        "buy_score": 0.7041,
+        "sell_score": 0.8087
+    },
+    "CHEESE_FUEL": {
+        "buy_score": 0.6979,
+        "sell_score": 0.5583
+    },
+    "ENCHANTED_SUGAR": {
+        "buy_score": 0.6964,
+        "sell_score": 0.5945
+    },
+    "ENCHANTED_NETHER_STALK": {
+        "buy_score": 0.6891,
+        "sell_score": 0.7971
+    },
+    "ENCHANTED_SUGAR_CANE": {
+        "buy_score": 0.6839,
+        "sell_score": 0.6613
+    },
+    "FINE_PERIDOT_GEM": {
+        "buy_score": 0.6835,
+        "sell_score": 0.6228
+    },
+    "ENCHANTED_GOLDEN_CARROT": {
+        "buy_score": 0.681,
+        "sell_score": 0.7415
+    },
+    "ESSENCE_WITHER": {
+        "buy_score": 0.6632,
+        "sell_score": 0.652
+    },
+    "RECOMBOBULATOR_3000": {
+        "buy_score": 0.6544,
+        "sell_score": 0.4001
+    },
+    "HELIANTHUS": {
+        "buy_score": 0.6467,
+        "sell_score": 0.4266
+    },
+    "ENCHANTED_BAKED_POTATO": {
+        "buy_score": 0.645,
+        "sell_score": 0.6687
+    },
+    "ENCHANTED_COCOA": {
+        "buy_score": 0.6348,
+        "sell_score": 0.6241
+    },
+    "CROPSHOT_GARDEN_CHIP": {
+        "buy_score": 0.6226,
+        "sell_score": 0.7269
+    },
+    "ENCHANTED_MELON_BLOCK": {
+        "buy_score": 0.5906,
+        "sell_score": 0.715
+    },
+    "COMPOST": {
+        "buy_score": 0.5827,
+        "sell_score": 0.6143
+    },
+    "JACOBS_TICKET": {
+        "buy_score": 0.5544,
+        "sell_score": 0.4333
+    },
+    "RAREFINDER_GARDEN_CHIP": {
+        "buy_score": 0.5335,
+        "sell_score": 0.4208
+    },
+    "ENCHANTED_GLOWSTONE": {
+        "buy_score": 0.4745,
+        "sell_score": 0.6206
+    },
+    "BOOSTER_COOKIE": {
+        "buy_score": 0.3905,
+        "sell_score": 0.4619
+    }
+}

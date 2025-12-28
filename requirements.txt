@@ -1,0 +1,5 @@
+keyboard==0.13.5
+matplotlib==3.10.8
+numpy==2.3.5
+PyautoGUI==0.9.54
+requests==2.32.5

@@ -1,3 +1,0 @@
-# Lines starting with "#" are ignored.
-
-python="C:\Users\fiona\AppData\Roaming\.minecraft\minescript\env\Scripts\python.exe"

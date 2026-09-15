@@ -26,6 +26,14 @@ The key features are:
 
 ---
 
+## Demo
+
+<p align="center">
+  <img src="assets/demo.gif" alt="Hypixel Bazaar Bot Demo" width="700">
+</p>
+
+---
+
 ## Architecture & Project Structure
 
 ```mermaid

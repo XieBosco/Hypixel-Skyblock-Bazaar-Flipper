@@ -43,49 +43,33 @@ The key features are:
 ## Architecture & Project Structure
 
 ```mermaid
-flowchart TD
-    subgraph Data["Market Data & Configurations"]
-        API["Hypixel Bazaar API"]
-        BS["bazaar_scores.json<br/>(Competition Scores)"]
-        BC["bazaarConversions.json<br/>(ID & Name Maps)"]
-        PL["product_list.json<br/>(Target Whitelist)"]
-        CF["constants.py<br/>(Slots & Thresholds)"]
+flowchart LR
+    subgraph Data["1. Data Sources"]
+        direction TB
+        API["Hypixel API"]
+        CFG["Config & Scores<br/>(JSON files)"]
     end
 
-    subgraph Analytics["Market Scanner"]
-        SCAN["get_best_product.py<br/>(ProductFinder)"]
-        API --> SCAN
-        BS --> SCAN
-        BC --> SCAN
+    subgraph Core["2. Bot Core (bzz.py)"]
+        direction TB
+        SCAN["Market Scanner<br/>(get_best_product.py)"]
+        STATE["Order Evaluator<br/>(GameState)"]
+        AUTO["Automation<br/>(randomizer.py)"]
+        SCAN --> STATE --> AUTO
     end
 
-    subgraph BotCore["Core Engine (bzz.py)"]
-        PT["ProductTracker<br/>(Portfolio Manager)"]
-        GS["GameState<br/>(Order Evaluator)"]
-        AUTO["Automation<br/>(Action Dispatcher)"]
-        RAND["randomizer.py<br/>(HumanDelay Engine)"]
-        UTIL["utilities.py<br/>(NBT Parser & API Client)"]
-        DS["data_structures.py<br/>(Order Models)"]
-
-        SCAN --> PT
-        PL --> PT
-        PT --> GS
-        API --> UTIL --> GS
-        GS --> AUTO
-        RAND --> AUTO
-        CF -.-> AUTO
-        CF -.-> GS
-        DS -.-> GS
-    end
-
-    subgraph Minecraft["Game Interface"]
-        MS["Minescript & utils.minescript_plus"]
-        GUI["In-Game Bazaar GUI"]
-
-        AUTO --> MS
+    subgraph Game["3. Minecraft Client"]
+        direction TB
+        MS["Minescript"]
+        GUI["Bazaar GUI"]
         MS <--> GUI
-        GUI -. Tooltip Lore .-> UTIL
     end
+
+    API --> SCAN
+    CFG --> SCAN
+    CFG --> STATE
+    AUTO --> MS
+    GUI -. Tooltip NBT .-> STATE
 ```
 
 | Component | Role |
@@ -107,7 +91,6 @@ flowchart TD
 * **Minecraft Java Edition**
 * **Minescript Mod** ([minescript.net](https://minescript.net))
 * **Python 3.10+**
-* **utils.minescript_plus** ([minescript-scripts](https://github.com/R4z0rX/minescript-scripts))
 
 ---
 

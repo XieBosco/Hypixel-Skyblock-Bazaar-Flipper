@@ -4,20 +4,6 @@
 <p align="center">
     <em>Order book market making bot for the Hypixel Skyblock Bazaar, built with Minescript and Python.</em>
 </p>
-<p align="center">
-<a href="https://github.com/python/cpython">
-    <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Supported Python Versions">
-</a>
-<a href="https://minescript.net">
-    <img src="https://img.shields.io/badge/Platform-Minescript-orange?logo=minecraft&logoColor=white" alt="Minescript">
-</a>
-<a href="https://api.hypixel.net/">
-    <img src="https://img.shields.io/badge/API-Hypixel%20v2-yellow" alt="Hypixel API v2">
-</a>
-<a href="#license">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-</a>
-</p>
 
 ---
 

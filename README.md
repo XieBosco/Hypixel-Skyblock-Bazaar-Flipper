@@ -1,68 +1,208 @@
-# Hypixel Skyblock Bazaar Flipper
+<p align="center">
+  <h1 align="center">Hypixel Skyblock Bazaar Market Maker</h1>
+</p>
+<p align="center">
+    <em>Order book market making bot for the Hypixel Skyblock Bazaar, built with Minescript and Python.</em>
+</p>
+<p align="center">
+<a href="https://github.com/python/cpython">
+    <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Supported Python Versions">
+</a>
+<a href="https://minescript.net">
+    <img src="https://img.shields.io/badge/Platform-Minescript-orange?logo=minecraft&logoColor=white" alt="Minescript">
+</a>
+<a href="https://api.hypixel.net/">
+    <img src="https://img.shields.io/badge/API-Hypixel%20v2-yellow" alt="Hypixel API v2">
+</a>
+<a href="#license">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+</a>
+</p>
 
-A sophisticated, automated trading bot designed for the Hypixel Skyblock Bazaar. Built on the **Minescript** framework, this tool leverages real-time API data to identify high-margin flips, manage orders autonomously, and execute trades with human-like behavioral patterns to maximize profit while minimizing detection risk.
+---
 
-## 🚀 Features
+**Source Code**: [https://github.com/your-username/bazaar-market-maker](https://github.com/your-username/bazaar-market-maker)
 
-### 🧠 Intelligent Market Analysis
-- **Algorithmic Product Selection**: Uses `get_best_product.py` to analyze the entire bazaar instantly.
-- **Profit Calculation**: Ranks items based on spread, weekly/hourly volume, and estimated market share.
-- **Dynamic Filtering**: Automatically filters out low-volume items or those exceeding bazaar limits.
+---
 
-### ⚡ Automated Order Management
-- **Real-time Monitoring**: Continuously checks the status of your orders against the Hypixel API.
-- **Smart Undercutting**: Detects when your orders are "OUTDATED" (undercut) and automatically cancels and reposts them at the competitive price.
-- **Order Lifecycle**: Handles the entire loop: `Buy Order` -> `Claim` -> `Sell Offer` -> `Claim Profit`.
+**Bazaar Market Maker** is a Python bot for the Hypixel Skyblock Bazaar. It automates order management through **Minescript** and uses Hypixel API data to quote buy and sell orders, capturing the bid-ask spread.
 
-### 🛡️ Human-Like Behavior (Anti-Detection)
-- **Advanced Randomization**: The `HumanDelay` class (`randomizer.py`) uses log-normal distributions and momentum algorithms to simulate realistic reaction times.
-- **Variable WPM**: Simulates typing delays based on variable words-per-minute.
+The key features are:
 
-### ⚙️ Robust Error Handling
-- **Server Safety**: Detects server reboots and pauses execution.
-- **Limbo Detection**: Handles being sent to limbo.
-- **Limit Protection**: Monitors daily bazaar limits to prevent API errors.
+* **Market Making**: Quotes top buy orders and sell offers simultaneously to profit from the spread.
+* **Order Pegging**: Updates orders when undercut or matched, adjusting prices by `±0.1` coins.
+* **Product Scoring**: Ranks products by volume, spread, and market share with [get_best_product.py](get_best_product.py).
+* **Human Delays**: Simulates human input using log-normal click delays, momentum, and typing delays via [randomizer.py](randomizer.py).
+* **Order Lifecycle**: Manages the trading loop: `Buy Order` → `Claim Items` → `Sell Offer` → `Claim Coins`.
+* **Safety Stops**: Exits on daily Bazaar limits, Limbo detection, or server reboot messages.
+* **Auto-Recovery**: Handles screen timeouts and missed clicks with retries.
+* **Hotkeys**: Press <kbd>x</kbd> to exit immediately or <kbd>c</kbd> to print current orders to chat.
 
-## 📂 Project Structure
+---
 
-- **`bzz.py`**: The main entry point. Orchestrates the bot's lifecycle, state management, and automation loops.
-- **`get_best_product.py`**: The "brain" of the operation. Fetches API data and calculates the most profitable items to flip.
-- **`utilities.py`**: Helper functions for NBT parsing, API requests, and logging.
-- **`randomizer.py`**: Contains the `HumanDelay` logic for realistic timing.
-- **`data_structures.py`**: Defines core classes like `Order`, `OrderType`, and `Product`.
-- **`constants.py`**: Configuration for API endpoints, GUI slot IDs, and timing thresholds.
-- **`config.txt` / `product_list.json`**: Configuration files for tracked items and settings.
+## Architecture & Project Structure
 
-## 🛠️ Prerequisites
+```mermaid
+flowchart TD
+    subgraph Data["Market Data & Configurations"]
+        API["Hypixel Bazaar API"]
+        BS["bazaar_scores.json<br/>(Competition Scores)"]
+        BC["bazaarConversions.json<br/>(ID & Name Maps)"]
+        PL["product_list.json<br/>(Target Whitelist)"]
+        CF["constants.py<br/>(Slots & Thresholds)"]
+    end
 
-1.  **Minecraft Java Edition** (Compatible version for Minescript).
-2.  **Minescript Mod**: Must be installed in your `.minecraft/mods` folder.
-3.  **Python 3.x**: Installed and configured within the Minescript environment.
+    subgraph Analytics["Market Scanner"]
+        SCAN["get_best_product.py<br/>(ProductFinder)"]
+        API --> SCAN
+        BS --> SCAN
+        BC --> SCAN
+    end
 
-## 📦 Installation
+    subgraph BotCore["Core Engine (bzz.py)"]
+        PT["ProductTracker<br/>(Portfolio Manager)"]
+        GS["GameState<br/>(Order Evaluator)"]
+        AUTO["Automation<br/>(Action Dispatcher)"]
+        RAND["randomizer.py<br/>(HumanDelay Engine)"]
+        UTIL["utilities.py<br/>(NBT Parser & API Client)"]
+        DS["data_structures.py<br/>(Order Models)"]
 
-1.  **Clone the Repository**:
-    Place the project files into your Minescript scripts folder (usually `%appdata%/.minecraft/minescript`).
+        SCAN --> PT
+        PL --> PT
+        PT --> GS
+        API --> UTIL --> GS
+        GS --> AUTO
+        RAND --> AUTO
+        CF -.-> AUTO
+        CF -.-> GS
+        DS -.-> GS
+    end
 
-2.  **Install Dependencies**:
-    Ensure the required Python packages in requirements.txt are installed in your Minescript Python environment:
+    subgraph Minecraft["Game Interface"]
+        MS["Minescript & utils.minescript_plus"]
+        GUI["In-Game Bazaar GUI"]
 
-    *(Note: Minescript usually handles standard library imports, but external requests are needed for the API).*
+        AUTO --> MS
+        MS <--> GUI
+        GUI -. Tooltip Lore .-> UTIL
+    end
+```
 
-3.  **Configuration**:
-    - Edit `constants.py` to adjust `MAX_BUY_COST` or `HUMAN_WPM` if necessary.
-    - Ensure `bazaarConversions.json` and `bazaar_scores.json` are present for ID mapping and market scoring.
+| Component | Role |
+| :--- | :--- |
+| [bzz.py](bzz.py) | Main bot orchestrator, state machine, and automation loops. |
+| [get_best_product.py](get_best_product.py) | Market scanner; ranks items by profit, volume, and Bazaar limit. |
+| [randomizer.py](randomizer.py) | Generates log-normal human delays, typing speed, and momentum. |
+| [utilities.py](utilities.py) | NBT tooltip regex parsing, in-game logging, and Hypixel API client. |
+| [data_structures.py](data_structures.py) | Data classes for `Order`, `OrderType`, and `ProductTrackerObj`. |
+| [constants.py](constants.py) | GUI slot indexes, timeouts, tax rates, and thresholds. |
+| [bazaarConversions.json](bazaarConversions.json) | Maps Hypixel API product IDs to in-game display names. |
+| [bazaar_scores.json](bazaar_scores.json) | Market share coefficients for competitor renewal speeds. |
+| [product_list.json](product_list.json) | Whitelist of active commodities to trade. |
 
-## ▶️ Usage
+---
 
-1.  Launch Minecraft with Minescript.
-2.  Open the Minescript console or chat.
-3.  Run the script:
-    ```
-    /bzz
-    ```
-4.  The bot will begin fetching API data, analyzing the market, and managing your orders.
+## Requirements
 
-## ⚠️ Disclaimer
+* **Minecraft Java Edition**
+* **Minescript Mod** ([minescript.net](https://minescript.net))
+* **Python 3.10+**
+* **utils.minescript_plus** ([minescript-scripts](https://github.com/R4z0rX/minescript-scripts))
 
-**Use at your own risk.** Automated trading bots may violate the Hypixel Skyblock Terms of Service. This software is provided for educational purposes only. The authors are not responsible for any bans, punishments, or lost in-game currency resulting from the use of this tool.
+---
+
+## Installation
+
+### 1. Clone the repository
+
+Copy files to your Minescript directory (`%appdata%/.minecraft/minescript`):
+
+```console
+$ cd %appdata%/.minecraft/minescript
+$ git clone https://github.com/your-username/bazaar-market-maker.git .
+```
+
+### 2. Configure Python path
+
+Create your config file from the template:
+
+```console
+$ copy config.example.txt config.txt
+```
+
+Set your Python interpreter path in [config.txt](config.txt):
+
+```properties
+python="C:\Users\<your_username>\AppData\Roaming\.minecraft\minescript\env\Scripts\python.exe"
+```
+
+### 3. Install dependencies
+
+```console
+$ pip install -r requirements.txt
+```
+
+---
+
+## Configuration
+
+### Target Products ([product_list.json](product_list.json))
+
+List items to trade:
+
+```json
+{
+  "SELL": [
+    "MAGMA_URCHIN",
+    "FLYCATCHER_UPGRADE",
+    "FIFTH_MASTER_STAR",
+    "ENDSTONE_IDOL"
+  ],
+  "BUY": [
+    "MAGMA_URCHIN",
+    "FLYCATCHER_UPGRADE",
+    "FIFTH_MASTER_STAR",
+    "ENDSTONE_IDOL"
+  ]
+}
+```
+
+### Settings ([constants.py](constants.py))
+
+| Setting | Default | Description |
+| :--- | :--- | :--- |
+| `CHECK_INTERVAL` | `10` | Seconds between API updates. |
+| `MAX_BUY_COST` | `50,000,000` | Max coins per buy order. |
+| `HUMAN_WPM` | `180` | Typing speed for `/bz` commands. |
+| `TAX_RATE` | `0.02` | Bazaar tax rate (2%). |
+| `DAILY_BZ_LIMIT` | `15,000,000,000` | Daily Bazaar cap for safety stop. |
+
+---
+
+## Usage
+
+1. Launch Minecraft with Minescript.
+2. Join Hypixel Skyblock.
+3. Run in chat or console:
+   ```
+   /bzz
+   ```
+
+### Hotkeys
+
+| Key | Action |
+| :--- | :--- |
+| <kbd>x</kbd> | Stop the bot immediately (`os._exit(0)`). |
+| <kbd>c</kbd> | Print active tracked orders to chat. |
+
+---
+
+## Disclaimer
+
+Automated trading bots violate the Hypixel Network Rules (macro policy). This project is for educational purposes. Use at your own risk.
+
+---
+
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE).

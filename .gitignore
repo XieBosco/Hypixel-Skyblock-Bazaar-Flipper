@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and local machine configs (contains personal paths)
+config.txt
+.env
+.venv/
+env/
+venv/
+
+# Scratch, testing, and development helpers
+test.py
+test.txt
+other.py
+get_mp.py
+notes.txt
+notes2.txt
+
+# Raw simulation data and logs
+bazaar_market_share_results.txt
+*.log
+
+# Editor and OS artifacts
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -166,12 +166,6 @@ List items to trade:
 
 ---
 
-## Disclaimer
-
-Automated trading bots violate the Hypixel Network Rules (macro policy). This project is for educational purposes. Use at your own risk.
-
----
-
 ## License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
